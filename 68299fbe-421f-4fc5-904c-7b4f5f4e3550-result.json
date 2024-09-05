@@ -1,0 +1,468 @@
+{
+	"uuid": "68299fbe-421f-4fc5-904c-7b4f5f4e3550",
+	"historyId": "Дымовые тесты - Справочники - Копирование.Копирование элемента справочника \"Контрагенты\" (Контрагенты)",
+	"name": "Копирование элемента справочника \"Контрагенты\" (Контрагенты)",
+	"fullName": "014_справочники_копирование.feature_копирование элемента справочника \"контрагенты\" (контрагенты)",
+	"testCaseId": "dcbf2503aa77e59688830047eec79467",
+	"start": 1725494681956,
+	"stop": 1725494682536,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Ищем ссылку на существующий элемент",
+			"start": 1725494682366,
+			"stop": 1725494682453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я выполняю код встроенного языка на сервере",
+					"start": 1725494682366,
+					"stop": 1725494682453,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере = НЕОПРЕДЕЛЕНО;\nЗапрос = Новый Запрос(\n\"ВЫБРАТЬ ПЕРВЫЕ 1\n|\u0009ТекДанныеИсточник.Ссылка КАК Ссылка\n|ИЗ\n|\u0009Справочник.Контрагенты КАК ТекДанныеИсточник\n|ГДЕ\n|\u0009НЕ ТекДанныеИсточник.ПометкаУдаления\n|\u0009И НЕ ТекДанныеИсточник.Предопределенный\");\nВыборкаЗапроса = Запрос.Выполнить().Выбрать();\nЕсли ВыборкаЗапроса.Следующий() Тогда\nОбъект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);\nКонецЕсли;"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я запоминаю значение выражения 'Объект.ЗначениеНаСервере' в переменную 'НавигационнаяСсылка'",
+					"start": 1725494682453,
+					"stop": 1725494682453,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере"
+						},
+						{
+							"name": "Парам2",
+							"value": "НавигационнаяСсылка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если 'ЗначениеЗаполнено(e1cib/data/Справочник.Контрагенты?ref=bae1e848b8c8200011edd05141b14fe3)' Тогда",
+			"start": 1725494682453,
+			"stop": 1725494682536,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗначениеЗаполнено(e1cib/data/Справочник.Контрагенты?ref=bae1e848b8c8200011edd05141b14fe3)"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "* Отрываем форму существующего элемента",
+					"start": 1725494682454,
+					"stop": 1725494682476,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я открываю навигационную ссылку 'e1cib/data/Справочник.Контрагенты?ref=bae1e848b8c8200011edd05141b14fe3'",
+							"start": 1725494682454,
+							"stop": 1725494682455,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "e1cib/data/Справочник.Контрагенты?ref=bae1e848b8c8200011edd05141b14fe3"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если появилось предупреждение Тогда",
+							"start": 1725494682455,
+							"stop": 1725494682474,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+							"start": 1725494682474,
+							"stop": 1725494682475,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ErrorWindow"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+							"start": 1725494682475,
+							"stop": 1725494682476,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ЗаголовокФормы"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "* Создаем новый элемент копированием",
+					"start": 1725494682476,
+					"stop": 1725494682506,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'ООО Астра (Контрагенты)'",
+							"start": 1725494682476,
+							"stop": 1725494682478,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ООО Астра (Контрагенты)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаСкопировать' присутствует на форме Тогда",
+							"start": 1725494682478,
+							"stop": 1725494682506,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаСкопировать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаСкопировать'",
+									"start": 1725494682479,
+									"stop": 1725494682482,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаСкопировать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494682482,
+									"stop": 1725494682503,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494682503,
+									"stop": 1725494682504,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+									"start": 1725494682505,
+									"stop": 1725494682506,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ЗаголовокФормы"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Записываем новый элемент",
+					"start": 1725494682507,
+					"stop": 1725494682536,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Контрагенты (создание)'",
+							"start": 1725494682507,
+							"stop": 1725494682508,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Контрагенты (создание)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписать' присутствует на форме Тогда",
+							"start": 1725494682509,
+							"stop": 1725494682536,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1725494682510,
+									"stop": 1725494682514,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494682514,
+									"stop": 1725494682534,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494682534,
+									"stop": 1725494682536,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Копирование элемента справочника \"Контрагенты\" (Контрагенты)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Справочники - Копирование"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Справочники - Копирование"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

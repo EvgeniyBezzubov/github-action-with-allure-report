@@ -1,0 +1,1090 @@
+{
+	"uuid": "d6accec2-ea65-4a51-8547-3960eea0c22a",
+	"historyId": "Дымовые тесты - Документы - Запись.Запись элемента документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"name": "Запись элемента документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"fullName": "023_документы_запись.feature_запись элемента документа \"установка цен номенклатуры\" (установкаценноменклатуры)",
+	"testCaseId": "61d7a3297b116664e9555435c78be1a6",
+	"start": 1725494695367,
+	"stop": 1725494697092,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Ищем ссылку на существующий элемент",
+			"start": 1725494695761,
+			"stop": 1725494695858,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я выполняю код встроенного языка на сервере",
+					"start": 1725494695761,
+					"stop": 1725494695858,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере = НЕОПРЕДЕЛЕНО;\nЗапрос = Новый Запрос(\n\"ВЫБРАТЬ ПЕРВЫЕ 1\n|\u0009ТекДанныеИсточник.Ссылка КАК Ссылка\n|ИЗ\n|\u0009Документ.УстановкаЦенНоменклатуры КАК ТекДанныеИсточник\n|ГДЕ\n|\u0009НЕ ТекДанныеИсточник.ПометкаУдаления\n|\u0009И ТекДанныеИсточник.Проведен\");\nВыборкаЗапроса = Запрос.Выполнить().Выбрать();\nЕсли ВыборкаЗапроса.Следующий() Тогда\nОбъект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);\nКонецЕсли;"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я запоминаю значение выражения 'Объект.ЗначениеНаСервере' в переменную 'НавигационнаяСсылка'",
+					"start": 1725494695858,
+					"stop": 1725494695858,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере"
+						},
+						{
+							"name": "Парам2",
+							"value": "НавигационнаяСсылка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если 'ЗначениеЗаполнено(e1cib/data/Документ.УстановкаЦенНоменклатуры?ref=bae2e848b8c8200011edd3b17b4ef86e)' Тогда",
+			"start": 1725494695859,
+			"stop": 1725494697092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗначениеЗаполнено(e1cib/data/Документ.УстановкаЦенНоменклатуры?ref=bae2e848b8c8200011edd3b17b4ef86e)"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "* Отрываем форму существующего элемента",
+					"start": 1725494695859,
+					"stop": 1725494695895,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я открываю навигационную ссылку 'e1cib/data/Документ.УстановкаЦенНоменклатуры?ref=bae2e848b8c8200011edd3b17b4ef86e'",
+							"start": 1725494695859,
+							"stop": 1725494695860,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "e1cib/data/Документ.УстановкаЦенНоменклатуры?ref=bae2e848b8c8200011edd3b17b4ef86e"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если появилось предупреждение Тогда",
+							"start": 1725494695860,
+							"stop": 1725494695893,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+							"start": 1725494695893,
+							"stop": 1725494695894,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ErrorWindow"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+							"start": 1725494695894,
+							"stop": 1725494695895,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ЗаголовокФормы"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "* Записываем существующий элемент",
+					"start": 1725494695895,
+					"stop": 1725494695930,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494695895,
+							"stop": 1725494695896,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписать' присутствует на форме Тогда",
+							"start": 1725494695896,
+							"stop": 1725494695930,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1725494695897,
+									"stop": 1725494695901,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494695901,
+									"stop": 1725494695929,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494695929,
+									"stop": 1725494695930,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Пересчитаем существующий элемент",
+					"start": 1725494695931,
+					"stop": 1725494695947,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494695931,
+							"stop": 1725494695932,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПеречитать' присутствует на форме Тогда",
+							"start": 1725494695932,
+							"stop": 1725494695947,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПеречитать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПеречитать'",
+									"start": 1725494695933,
+									"stop": 1725494695936,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПеречитать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494695936,
+									"stop": 1725494695946,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494695946,
+									"stop": 1725494695947,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Помечаем на удаление существующий элемент",
+					"start": 1725494695947,
+					"stop": 1725494696000,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494695947,
+							"stop": 1725494695949,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494695949,
+							"stop": 1725494696000,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494695950,
+									"stop": 1725494695952,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494695953,
+									"stop": 1725494695973,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494695969,
+											"stop": 1725494695973,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494695973,
+									"stop": 1725494695999,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494695999,
+									"stop": 1725494696000,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Снимаем пометку на удаление с существующего элемента",
+					"start": 1725494696000,
+					"stop": 1725494696053,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494696000,
+							"stop": 1725494696002,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494696002,
+							"stop": 1725494696053,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494696003,
+									"stop": 1725494696006,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494696006,
+									"stop": 1725494696027,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494696024,
+											"stop": 1725494696027,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494696027,
+									"stop": 1725494696052,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494696052,
+									"stop": 1725494696053,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Проведем документ",
+					"start": 1725494696054,
+					"stop": 1725494696088,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494696054,
+							"stop": 1725494696055,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПровести' присутствует на форме Тогда",
+							"start": 1725494696055,
+							"stop": 1725494696088,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПровести"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+									"start": 1725494696057,
+									"stop": 1725494696059,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПровести"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494696059,
+									"stop": 1725494696086,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494696086,
+									"stop": 1725494696088,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Отменим проведение документа",
+					"start": 1725494696088,
+					"stop": 1725494696380,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494696088,
+							"stop": 1725494696090,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаОтменаПроведения' присутствует на форме Тогда",
+							"start": 1725494696090,
+							"stop": 1725494696380,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаОтменаПроведения"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаОтменаПроведения'",
+									"start": 1725494696092,
+									"stop": 1725494696097,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаОтменаПроведения"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494696097,
+									"stop": 1725494696121,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494696377,
+									"stop": 1725494696380,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Проведем и закроем документ",
+					"start": 1725494696381,
+					"stop": 1725494697092,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55'",
+							"start": 1725494696381,
+							"stop": 1725494696385,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Установка цен номенклатуры 000000001 от 05.04.2023 22:57:55"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПровестиИЗакрыть' присутствует на форме Тогда",
+							"start": 1725494696385,
+							"stop": 1725494697092,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПровестиИЗакрыть"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+									"start": 1725494696388,
+									"stop": 1725494696392,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПровестиИЗакрыть"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494696392,
+									"stop": 1725494696423,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось окно с заголовком \"ErrorWindow\" Тогда",
+									"start": 1725494696423,
+									"stop": 1725494697092,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запись элемента документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - Запись"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - Запись"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

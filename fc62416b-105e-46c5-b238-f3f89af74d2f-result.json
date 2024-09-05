@@ -1,0 +1,122 @@
+{
+	"uuid": "fc62416b-105e-46c5-b238-f3f89af74d2f",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Заполнение справочника затраты\" (ЗаполнениеСправочникаЗатраты)",
+	"name": "Открытие формы обработки \"Заполнение справочника затраты\" (ЗаполнениеСправочникаЗатраты)",
+	"fullName": "082_обработки_формаобъекта.feature_открытие формы обработки \"заполнение справочника затраты\" (заполнениесправочниказатраты)",
+	"testCaseId": "392633dbacb8d52d6d41feae94154142",
+	"start": 1725494725040,
+	"stop": 1725494725489,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"ЗаполнениеСправочникаЗатраты\"",
+			"start": 1725494725453,
+			"stop": 1725494725456,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗаполнениеСправочникаЗатраты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494725457,
+			"stop": 1725494725486,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494725487,
+			"stop": 1725494725488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494725488,
+			"stop": 1725494725489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Заполнение справочника затраты\" (ЗаполнениеСправочникаЗатраты)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

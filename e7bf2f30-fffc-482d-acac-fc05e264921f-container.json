@@ -1,0 +1,42 @@
+{
+	"uuid": "d00148cf-c38a-4878-b5b3-3813326b071e",
+	"name": "Контекст_Открытие формы обработки \"Производственный календарь\" (ПроизводственныйКалендарь)",
+	"description": "",
+	"children": [
+		"e7bf2f30-fffc-482d-acac-fc05e264921f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494731175,
+			"stop": 1725494731185,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494731185,
+			"stop": 1725494731383,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

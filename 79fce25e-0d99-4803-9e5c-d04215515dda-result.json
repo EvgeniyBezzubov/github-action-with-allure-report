@@ -1,0 +1,122 @@
+{
+	"uuid": "79fce25e-0d99-4803-9e5c-d04215515dda",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Генерация тестовой номенклатуры\" (ГенерацияТестовойНоменклатуры)",
+	"name": "Открытие формы обработки \"Генерация тестовой номенклатуры\" (ГенерацияТестовойНоменклатуры)",
+	"fullName": "082_обработки_формаобъекта.feature_открытие формы обработки \"генерация тестовой номенклатуры\" (генерациятестовойноменклатуры)",
+	"testCaseId": "a371c7f37dd1079dcc37d27e3b326edf",
+	"start": 1725494726888,
+	"stop": 1725494727333,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"ГенерацияТестовойНоменклатуры\"",
+			"start": 1725494727300,
+			"stop": 1725494727303,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГенерацияТестовойНоменклатуры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494727303,
+			"stop": 1725494727331,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494727331,
+			"stop": 1725494727332,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494727332,
+			"stop": 1725494727333,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Генерация тестовой номенклатуры\" (ГенерацияТестовойНоменклатуры)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

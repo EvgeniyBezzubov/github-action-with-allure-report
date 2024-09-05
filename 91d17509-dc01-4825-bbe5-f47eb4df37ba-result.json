@@ -1,0 +1,866 @@
+{
+	"uuid": "91d17509-dc01-4825-bbe5-f47eb4df37ba",
+	"historyId": "Дымовые тесты - Справочники - Запись.Запись элемента справочника \"Склады\" (Склады)",
+	"name": "Запись элемента справочника \"Склады\" (Склады)",
+	"fullName": "013_справочники_запись.feature_запись элемента справочника \"склады\" (склады)",
+	"testCaseId": "0f699cedb9eee5bba247ea636beec688",
+	"start": 1725494656134,
+	"stop": 1725494657084,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Ищем ссылку на существующий элемент",
+			"start": 1725494656544,
+			"stop": 1725494656636,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я выполняю код встроенного языка на сервере",
+					"start": 1725494656544,
+					"stop": 1725494656635,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере = НЕОПРЕДЕЛЕНО;\nЗапрос = Новый Запрос(\n\"ВЫБРАТЬ ПЕРВЫЕ 1\n|\u0009ТекДанныеИсточник.Ссылка КАК Ссылка\n|ИЗ\n|\u0009Справочник.Склады КАК ТекДанныеИсточник\n|ГДЕ\n|\u0009НЕ ТекДанныеИсточник.ПометкаУдаления\n|\u0009И НЕ ТекДанныеИсточник.Предопределенный\");\nВыборкаЗапроса = Запрос.Выполнить().Выбрать();\nЕсли ВыборкаЗапроса.Следующий() Тогда\nОбъект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);\nКонецЕсли;"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я запоминаю значение выражения 'Объект.ЗначениеНаСервере' в переменную 'НавигационнаяСсылка'",
+					"start": 1725494656635,
+					"stop": 1725494656636,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере"
+						},
+						{
+							"name": "Парам2",
+							"value": "НавигационнаяСсылка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если 'ЗначениеЗаполнено(e1cib/data/Справочник.Склады?ref=bae1e848b8c8200011edd02c51ffcca2)' Тогда",
+			"start": 1725494656636,
+			"stop": 1725494657084,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗначениеЗаполнено(e1cib/data/Справочник.Склады?ref=bae1e848b8c8200011edd02c51ffcca2)"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "* Отрываем форму существующего элемента",
+					"start": 1725494656636,
+					"stop": 1725494656674,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я открываю навигационную ссылку 'e1cib/data/Справочник.Склады?ref=bae1e848b8c8200011edd02c51ffcca2'",
+							"start": 1725494656636,
+							"stop": 1725494656638,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "e1cib/data/Справочник.Склады?ref=bae1e848b8c8200011edd02c51ffcca2"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если появилось предупреждение Тогда",
+							"start": 1725494656638,
+							"stop": 1725494656671,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+							"start": 1725494656671,
+							"stop": 1725494656673,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ErrorWindow"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+							"start": 1725494656673,
+							"stop": 1725494656674,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ЗаголовокФормы"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "* Записываем существующий элемент",
+					"start": 1725494656674,
+					"stop": 1725494656702,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток Гоголя (основной) (Склады)'",
+							"start": 1725494656674,
+							"stop": 1725494656675,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток Гоголя (основной) (Склады)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписать' присутствует на форме Тогда",
+							"start": 1725494656676,
+							"stop": 1725494656702,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1725494656677,
+									"stop": 1725494656680,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494656680,
+									"stop": 1725494656701,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494656701,
+									"stop": 1725494656702,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Пересчитаем существующий элемент",
+					"start": 1725494656702,
+					"stop": 1725494656718,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток Гоголя (основной) (Склады)'",
+							"start": 1725494656702,
+							"stop": 1725494656704,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток Гоголя (основной) (Склады)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПеречитать' присутствует на форме Тогда",
+							"start": 1725494656704,
+							"stop": 1725494656718,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПеречитать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПеречитать'",
+									"start": 1725494656706,
+									"stop": 1725494656708,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПеречитать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494656708,
+									"stop": 1725494656716,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494656716,
+									"stop": 1725494656718,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Помечаем на удаление существующий элемент",
+					"start": 1725494656718,
+					"stop": 1725494656773,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток Гоголя (основной) (Склады)'",
+							"start": 1725494656718,
+							"stop": 1725494656719,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток Гоголя (основной) (Склады)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494656719,
+							"stop": 1725494656773,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494656720,
+									"stop": 1725494656724,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494656724,
+									"stop": 1725494656746,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494656743,
+											"stop": 1725494656746,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494656746,
+									"stop": 1725494656771,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494656771,
+									"stop": 1725494656773,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Снимаем пометку на удаление с существующего элемента",
+					"start": 1725494656773,
+					"stop": 1725494656832,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток Гоголя (основной) (Склады)'",
+							"start": 1725494656773,
+							"stop": 1725494656775,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток Гоголя (основной) (Склады)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494656775,
+							"stop": 1725494656832,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494656776,
+									"stop": 1725494656779,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494656779,
+									"stop": 1725494656807,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494656802,
+											"stop": 1725494656807,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494656807,
+									"stop": 1725494656831,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494656831,
+									"stop": 1725494656832,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Запишем и закроем существующий элемент",
+					"start": 1725494656832,
+					"stop": 1725494657084,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток Гоголя (основной) (Склады)'",
+							"start": 1725494656832,
+							"stop": 1725494656833,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток Гоголя (основной) (Склады)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписатьИЗакрыть' присутствует на форме Тогда",
+							"start": 1725494656833,
+							"stop": 1725494657084,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписатьИЗакрыть"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+									"start": 1725494656835,
+									"stop": 1725494656837,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписатьИЗакрыть"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494656837,
+									"stop": 1725494656866,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось окно с заголовком \"ErrorWindow\" Тогда",
+									"start": 1725494656867,
+									"stop": 1725494657084,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запись элемента справочника \"Склады\" (Склады)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Справочники - Запись"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Справочники - Запись"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

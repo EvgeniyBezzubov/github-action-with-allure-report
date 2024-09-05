@@ -1,0 +1,42 @@
+{
+	"uuid": "fcfe9386-277b-4527-b854-0268d2bfce50",
+	"name": "Контекст_Открытие формы обработки \"Указание минимального остатка\" (УказаниеМинимальногоОстатка)",
+	"description": "",
+	"children": [
+		"7c0a4ac3-ecd0-4773-a76e-037712fe1e5f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494748048,
+			"stop": 1725494748058,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494748058,
+			"stop": 1725494748257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

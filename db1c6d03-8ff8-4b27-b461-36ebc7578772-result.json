@@ -1,0 +1,122 @@
+{
+	"uuid": "db1c6d03-8ff8-4b27-b461-36ebc7578772",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Создание номенклатуры\" (СозданиеНоменклатуры)",
+	"name": "Открытие формы обработки \"Создание номенклатуры\" (СозданиеНоменклатуры)",
+	"fullName": "082_обработки_формаобъекта.feature_открытие формы обработки \"создание номенклатуры\" (созданиеноменклатуры)",
+	"testCaseId": "059552a8f05192c2782a22b19c933bdb",
+	"start": 1725494725658,
+	"stop": 1725494726101,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"СозданиеНоменклатуры\"",
+			"start": 1725494726068,
+			"stop": 1725494726070,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СозданиеНоменклатуры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494726070,
+			"stop": 1725494726098,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494726098,
+			"stop": 1725494726099,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494726100,
+			"stop": 1725494726100,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Создание номенклатуры\" (СозданиеНоменклатуры)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

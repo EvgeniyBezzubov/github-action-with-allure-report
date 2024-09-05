@@ -1,0 +1,514 @@
+{
+	"uuid": "d6ff0f44-2655-4393-a837-fa85924fb58f",
+	"historyId": "Дымовые тесты - Справочники - Копирование.Копирование элемента справочника \"Города\" (Города)",
+	"name": "Копирование элемента справочника \"Города\" (Города)",
+	"fullName": "014_справочники_копирование.feature_копирование элемента справочника \"города\" (города)",
+	"testCaseId": "1da7702e706268ee1f53abad45788d01",
+	"start": 1725494670171,
+	"stop": 1725494674187,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не удалось записать новый элемент справочника Города",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие.Форма(263)}: Не удалось записать новый элемент справочника Города\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Дымовые тесты - Справочники - Копирование\n        ИмяСценария: Копирование элемента справочника \"Города\" (Города)\n        НомерСтрокиДерева: 834\n        НомерСтрокиФичи: 61\n        ПолныйПутьКФиче: C:\\VA_Test\\Tests\\014_Справочники_Копирование.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: DESKTOP-3ELRAH3\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\User\\Documents\\infobase\";\n        ДопПараметрыПодключения: /N\"Администратор\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.25.1336\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 05.09.2024 10:04:34\nТекст модального окна:\n    Значение \"9\" поля \"Код\" не уникально"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Ищем ссылку на существующий элемент",
+			"start": 1725494670582,
+			"stop": 1725494670675,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я выполняю код встроенного языка на сервере",
+					"start": 1725494670582,
+					"stop": 1725494670675,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере = НЕОПРЕДЕЛЕНО;\nЗапрос = Новый Запрос(\n\"ВЫБРАТЬ ПЕРВЫЕ 1\n|\u0009ТекДанныеИсточник.Ссылка КАК Ссылка\n|ИЗ\n|\u0009Справочник.Города КАК ТекДанныеИсточник\n|ГДЕ\n|\u0009НЕ ТекДанныеИсточник.ПометкаУдаления\n|\u0009И НЕ ТекДанныеИсточник.Предопределенный\");\nВыборкаЗапроса = Запрос.Выполнить().Выбрать();\nЕсли ВыборкаЗапроса.Следующий() Тогда\nОбъект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);\nКонецЕсли;"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я запоминаю значение выражения 'Объект.ЗначениеНаСервере' в переменную 'НавигационнаяСсылка'",
+					"start": 1725494670675,
+					"stop": 1725494670675,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере"
+						},
+						{
+							"name": "Парам2",
+							"value": "НавигационнаяСсылка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если 'ЗначениеЗаполнено(e1cib/data/Справочник.Города?ref=bae1e848b8c8200011edcacf5bb0210b)' Тогда",
+			"start": 1725494670675,
+			"stop": 1725494674187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗначениеЗаполнено(e1cib/data/Справочник.Города?ref=bae1e848b8c8200011edcacf5bb0210b)"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "* Отрываем форму существующего элемента",
+					"start": 1725494670676,
+					"stop": 1725494670699,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я открываю навигационную ссылку 'e1cib/data/Справочник.Города?ref=bae1e848b8c8200011edcacf5bb0210b'",
+							"start": 1725494670676,
+							"stop": 1725494670677,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "e1cib/data/Справочник.Города?ref=bae1e848b8c8200011edcacf5bb0210b"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если появилось предупреждение Тогда",
+							"start": 1725494670677,
+							"stop": 1725494670697,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+							"start": 1725494670697,
+							"stop": 1725494670698,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ErrorWindow"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+							"start": 1725494670698,
+							"stop": 1725494670699,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ЗаголовокФормы"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "* Создаем новый элемент копированием",
+					"start": 1725494670700,
+					"stop": 1725494670733,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Владивосток (Города)'",
+							"start": 1725494670700,
+							"stop": 1725494670701,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Владивосток (Города)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаСкопировать' присутствует на форме Тогда",
+							"start": 1725494670701,
+							"stop": 1725494670733,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаСкопировать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаСкопировать'",
+									"start": 1725494670703,
+									"stop": 1725494670707,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаСкопировать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494670707,
+									"stop": 1725494670730,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494670730,
+									"stop": 1725494670731,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+									"start": 1725494670731,
+									"stop": 1725494670733,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ЗаголовокФормы"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Записываем новый элемент",
+					"start": 1725494670733,
+					"stop": 1725494674187,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Города (создание)'",
+							"start": 1725494670733,
+							"stop": 1725494670735,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Города (создание)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписать' присутствует на форме Тогда",
+							"start": 1725494670735,
+							"stop": 1725494674187,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1725494670737,
+									"stop": 1725494670741,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494670741,
+									"stop": 1725494674187,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "Тогда я вызываю исключение \"Не удалось записать новый элемент справочника Города\"",
+											"start": 1725494672000,
+											"stop": 1725494674187,
+											"status": "failed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false,
+												"message": "Не удалось записать новый элемент справочника Города",
+												"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие.Форма(263)}: Не удалось записать новый элемент справочника Города\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Дымовые тесты - Справочники - Копирование\n        ИмяСценария: Копирование элемента справочника \"Города\" (Города)\n        НомерСтрокиДерева: 834\n        НомерСтрокиФичи: 61\n        ПолныйПутьКФиче: C:\\VA_Test\\Tests\\014_Справочники_Копирование.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: DESKTOP-3ELRAH3\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\User\\Documents\\infobase\";\n        ДопПараметрыПодключения: /N\"Администратор\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.25.1336\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 05.09.2024 10:04:34\nТекст модального окна:\n    Значение \"9\" поля \"Код\" не уникально"
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Не удалось записать новый элемент справочника Города"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494674187,
+									"stop": 1725494674187,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "Тогда я вызываю исключение \"Не удалось записать новый элемент справочника Города\"",
+											"start": 1725494674187,
+											"stop": 1725494674187,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Не удалось записать новый элемент справочника Города"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Копирование элемента справочника \"Города\" (Города)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Справочники - Копирование"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Справочники - Копирование"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

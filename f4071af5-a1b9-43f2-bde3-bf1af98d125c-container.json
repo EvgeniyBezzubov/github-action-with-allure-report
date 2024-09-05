@@ -1,0 +1,42 @@
+{
+	"uuid": "5698ee7c-2395-462a-9671-054e2eaad950",
+	"name": "Контекст_Копирование элемента документа \"Снятие с заказа\" (СнятиеСЗаказа)",
+	"description": "",
+	"children": [
+		"f4071af5-a1b9-43f2-bde3-bf1af98d125c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494712848,
+			"stop": 1725494712896,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494712896,
+			"stop": 1725494713052,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

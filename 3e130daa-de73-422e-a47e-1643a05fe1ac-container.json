@@ -1,0 +1,42 @@
+{
+	"uuid": "880c3ef3-e82a-4b3b-a706-f7195568da91",
+	"name": "Контекст_Открытие формы отчета \"Отчет по продажам по городу и филиалу\" (ОтчетПоПродажамПоГородуИФилиалу)",
+	"description": "",
+	"children": [
+		"3e130daa-de73-422e-a47e-1643a05fe1ac"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494719953,
+			"stop": 1725494719963,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494719963,
+			"stop": 1725494720160,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

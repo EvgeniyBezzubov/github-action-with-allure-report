@@ -1,0 +1,42 @@
+{
+	"uuid": "3478d1bb-c1f3-4c3f-bcbc-724a5c0f14fb",
+	"name": "Контекст_Копирование элемента справочника \"Юридические лица\" (ЮридическиеЛица)",
+	"description": "",
+	"children": [
+		"cf339fd6-87b5-44ba-b1a7-4c6f69738b44"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494683586,
+			"stop": 1725494683643,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494683643,
+			"stop": 1725494683778,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,122 @@
+{
+	"uuid": "621e2081-251f-4d1a-a5b6-993e6667d86e",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Создание города\" (СозданиеГорода)",
+	"name": "Открытие формы обработки \"Создание города\" (СозданиеГорода)",
+	"fullName": "082_обработки_формаобъекта.feature_открытие формы обработки \"создание города\" (созданиегорода)",
+	"testCaseId": "58a843dd56514ea471834a1f1727ced4",
+	"start": 1725494723824,
+	"stop": 1725494724275,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"СозданиеГорода\"",
+			"start": 1725494724236,
+			"stop": 1725494724239,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СозданиеГорода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494724239,
+			"stop": 1725494724272,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494724272,
+			"stop": 1725494724273,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494724273,
+			"stop": 1725494724274,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Создание города\" (СозданиеГорода)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

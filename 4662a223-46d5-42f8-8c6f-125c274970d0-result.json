@@ -1,0 +1,122 @@
+{
+	"uuid": "4662a223-46d5-42f8-8c6f-125c274970d0",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Приходная накладная\" (ПриходнаяНакладная)",
+	"name": "Открытие формы документа \"Приходная накладная\" (ПриходнаяНакладная)",
+	"fullName": "022_документы_формаобъекта.feature_открытие формы документа \"приходная накладная\" (приходнаянакладная)",
+	"testCaseId": "430ca64224aa5486d7f5a41fc34d6e42",
+	"start": 1725494686830,
+	"stop": 1725494687303,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"ПриходнаяНакладная\"",
+			"start": 1725494687227,
+			"stop": 1725494687230,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПриходнаяНакладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494687230,
+			"stop": 1725494687301,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494687301,
+			"stop": 1725494687302,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494687302,
+			"stop": 1725494687303,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Приходная накладная\" (ПриходнаяНакладная)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

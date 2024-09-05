@@ -1,0 +1,42 @@
+{
+	"uuid": "4c6de8e2-d0bb-4f9d-adcc-f0c26026b5a9",
+	"name": "Контекст_Запись элемента справочника \"Склады\" (Склады)",
+	"description": "",
+	"children": [
+		"91d17509-dc01-4825-bbe5-f47eb4df37ba"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494656134,
+			"stop": 1725494656150,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494656150,
+			"stop": 1725494656343,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

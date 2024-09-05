@@ -1,0 +1,42 @@
+{
+	"uuid": "1379092a-36f7-42c7-8cb3-0a7ef1b093f8",
+	"name": "Контекст_Открытие формы обработки \"Установка класса номенклатуры\" (УстановкаКлассаНоменклатуры)",
+	"description": "",
+	"children": [
+		"08240ef8-b8a5-44b9-b3a0-108e7eb17d00"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494748651,
+			"stop": 1725494748661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494748661,
+			"stop": 1725494748858,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

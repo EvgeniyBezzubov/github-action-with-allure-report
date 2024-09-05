@@ -1,0 +1,42 @@
+{
+	"uuid": "d17fa0b5-e446-4c10-ac03-e0f60469a8cf",
+	"name": "Контекст_Открытие формы обработки \"Работа с менеджером временных таблиц\" (РаботаСМенеджеромВременныхТаблиц)",
+	"description": "",
+	"children": [
+		"04f0de42-9df1-4288-b4e0-908df11055c3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494739925,
+			"stop": 1725494739943,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494739943,
+			"stop": 1725494740134,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

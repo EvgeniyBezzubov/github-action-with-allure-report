@@ -1,0 +1,1090 @@
+{
+	"uuid": "b9e6d400-4eb1-4b00-be60-509459cf90dd",
+	"historyId": "Дымовые тесты - Документы - Запись.Запись элемента документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"name": "Запись элемента документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"fullName": "023_документы_запись.feature_запись элемента документа \"расходная накладная\" (расходнаянакладная)",
+	"testCaseId": "734ee42271377cbc43523ddce80c83b2",
+	"start": 1725494699218,
+	"stop": 1725494701099,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Ищем ссылку на существующий элемент",
+			"start": 1725494699629,
+			"stop": 1725494699725,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я выполняю код встроенного языка на сервере",
+					"start": 1725494699629,
+					"stop": 1725494699725,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере = НЕОПРЕДЕЛЕНО;\nЗапрос = Новый Запрос(\n\"ВЫБРАТЬ ПЕРВЫЕ 1\n|\u0009ТекДанныеИсточник.Ссылка КАК Ссылка\n|ИЗ\n|\u0009Документ.РасходнаяНакладная КАК ТекДанныеИсточник\n|ГДЕ\n|\u0009НЕ ТекДанныеИсточник.ПометкаУдаления\n|\u0009И ТекДанныеИсточник.Проведен\");\nВыборкаЗапроса = Запрос.Выполнить().Выбрать();\nЕсли ВыборкаЗапроса.Следующий() Тогда\nОбъект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);\nКонецЕсли;"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я запоминаю значение выражения 'Объект.ЗначениеНаСервере' в переменную 'НавигационнаяСсылка'",
+					"start": 1725494699725,
+					"stop": 1725494699725,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Объект.ЗначениеНаСервере"
+						},
+						{
+							"name": "Парам2",
+							"value": "НавигационнаяСсылка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если 'ЗначениеЗаполнено(e1cib/data/Документ.РасходнаяНакладная?ref=bae5e848b8c8200011ede18100ff7404)' Тогда",
+			"start": 1725494699725,
+			"stop": 1725494701099,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗначениеЗаполнено(e1cib/data/Документ.РасходнаяНакладная?ref=bae5e848b8c8200011ede18100ff7404)"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "* Отрываем форму существующего элемента",
+					"start": 1725494699726,
+					"stop": 1725494699761,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я открываю навигационную ссылку 'e1cib/data/Документ.РасходнаяНакладная?ref=bae5e848b8c8200011ede18100ff7404'",
+							"start": 1725494699726,
+							"stop": 1725494699727,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "e1cib/data/Документ.РасходнаяНакладная?ref=bae5e848b8c8200011ede18100ff7404"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если появилось предупреждение Тогда",
+							"start": 1725494699727,
+							"stop": 1725494699759,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+							"start": 1725494699759,
+							"stop": 1725494699760,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ErrorWindow"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я запоминаю заголовок формы в переменную 'ЗаголовокФормы'",
+							"start": 1725494699760,
+							"stop": 1725494699761,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ЗаголовокФормы"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "* Записываем существующий элемент",
+					"start": 1725494699761,
+					"stop": 1725494699801,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494699761,
+							"stop": 1725494699763,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаЗаписать' присутствует на форме Тогда",
+							"start": 1725494699763,
+							"stop": 1725494699801,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1725494699764,
+									"stop": 1725494699767,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494699767,
+									"stop": 1725494699800,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494699800,
+									"stop": 1725494699801,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Пересчитаем существующий элемент",
+					"start": 1725494699801,
+					"stop": 1725494699820,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494699801,
+							"stop": 1725494699803,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПеречитать' присутствует на форме Тогда",
+							"start": 1725494699803,
+							"stop": 1725494699820,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПеречитать"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПеречитать'",
+									"start": 1725494699804,
+									"stop": 1725494699807,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПеречитать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494699807,
+									"stop": 1725494699819,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494699819,
+									"stop": 1725494699820,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Помечаем на удаление существующий элемент",
+					"start": 1725494699821,
+					"stop": 1725494699890,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494699821,
+							"stop": 1725494699823,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494699823,
+							"stop": 1725494699890,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494699825,
+									"stop": 1725494699827,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494699827,
+									"stop": 1725494699846,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494699843,
+											"stop": 1725494699846,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494699847,
+									"stop": 1725494699889,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494699889,
+									"stop": 1725494699890,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Снимаем пометку на удаление с существующего элемента",
+					"start": 1725494699890,
+					"stop": 1725494699956,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494699890,
+							"stop": 1725494699891,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаУстановитьПометкуУдаления' присутствует на форме Тогда",
+							"start": 1725494699891,
+							"stop": 1725494699956,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаУстановитьПометкуУдаления"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+									"start": 1725494699892,
+									"stop": 1725494699895,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаУстановитьПометкуУдаления"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если открылось окно '1С:Предприятие' Тогда",
+									"start": 1725494699896,
+									"stop": 1725494699916,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "1С:Предприятие"
+										}
+									],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1725494699913,
+											"stop": 1725494699916,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494699916,
+									"stop": 1725494699955,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494699955,
+									"stop": 1725494699956,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Проведем документ",
+					"start": 1725494699956,
+					"stop": 1725494700003,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494699956,
+							"stop": 1725494699958,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПровести' присутствует на форме Тогда",
+							"start": 1725494699958,
+							"stop": 1725494700003,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПровести"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+									"start": 1725494699959,
+									"stop": 1725494699962,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПровести"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494699962,
+									"stop": 1725494700002,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494700002,
+									"stop": 1725494700003,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Отменим проведение документа",
+					"start": 1725494700003,
+					"stop": 1725494700048,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494700003,
+							"stop": 1725494700004,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаОтменаПроведения' присутствует на форме Тогда",
+							"start": 1725494700004,
+							"stop": 1725494700048,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаОтменаПроведения"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаОтменаПроведения'",
+									"start": 1725494700006,
+									"stop": 1725494700010,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаОтменаПроведения"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494700010,
+									"stop": 1725494700047,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+									"start": 1725494700047,
+									"stop": 1725494700048,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "* Проведем и закроем документ",
+					"start": 1725494700049,
+					"stop": 1725494701099,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Когда открылось окно 'Расходная накладная 0000000004 от 12.04.2024 0:00:00'",
+							"start": 1725494700049,
+							"stop": 1725494700050,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Расходная накладная 0000000004 от 12.04.2024 0:00:00"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Если элемент формы с именем 'ФормаПровестиИЗакрыть' присутствует на форме Тогда",
+							"start": 1725494700050,
+							"stop": 1725494701099,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаПровестиИЗакрыть"
+								}
+							],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+									"start": 1725494700051,
+									"stop": 1725494700054,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПровестиИЗакрыть"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось предупреждение Тогда",
+									"start": 1725494700054,
+									"stop": 1725494700099,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Если появилось окно с заголовком \"ErrorWindow\" Тогда",
+									"start": 1725494700099,
+									"stop": 1725494701099,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ErrorWindow"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запись элемента документа \"Расходная накладная\" (РасходнаяНакладная)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - Запись"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - Запись"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

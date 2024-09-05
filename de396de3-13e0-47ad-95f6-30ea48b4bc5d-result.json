@@ -1,0 +1,122 @@
+{
+	"uuid": "de396de3-13e0-47ad-95f6-30ea48b4bc5d",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Банковские счета\" (БанковскиеСчета)",
+	"name": "Открытие формы списка справочника \"Банковские счета\" (БанковскиеСчета)",
+	"fullName": "011_справочники_формасписка.feature_открытие формы списка справочника \"банковские счета\" (банковскиесчета)",
+	"testCaseId": "5f6b472a20571630869010f07fc8192b",
+	"start": 1725494641483,
+	"stop": 1725494642004,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"БанковскиеСчета\"",
+			"start": 1725494641894,
+			"stop": 1725494641897,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "БанковскиеСчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494641897,
+			"stop": 1725494642001,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494642001,
+			"stop": 1725494642002,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494642003,
+			"stop": 1725494642003,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Банковские счета\" (БанковскиеСчета)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Справочники - ФормаСписка"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Справочники - ФормаСписка"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

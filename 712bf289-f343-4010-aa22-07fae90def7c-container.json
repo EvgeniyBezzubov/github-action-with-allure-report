@@ -1,0 +1,27 @@
+{
+	"uuid": "f317389b-194f-4c6e-b95c-960ba16e7545",
+	"name": "Контекст_<описание сценария>120,00",
+	"description": "",
+	"children": [
+		"712bf289-f343-4010-aa22-07fae90def7c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725426213359,
+			"stop": 1725426213371,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

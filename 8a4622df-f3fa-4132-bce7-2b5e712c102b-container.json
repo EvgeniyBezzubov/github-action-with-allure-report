@@ -1,0 +1,42 @@
+{
+	"uuid": "17d97bb5-35fc-4b44-9f7f-7cfd97d87db5",
+	"name": "Контекст_Открытие формы обработки \"Создание юридического лица\" (СозданиеЮридическогоЛица)",
+	"description": "",
+	"children": [
+		"8a4622df-f3fa-4132-bce7-2b5e712c102b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494724441,
+			"stop": 1725494724451,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494724451,
+			"stop": 1725494724648,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

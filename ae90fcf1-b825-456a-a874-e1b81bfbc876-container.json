@@ -1,0 +1,42 @@
+{
+	"uuid": "4fe9abcc-3898-4276-aef7-bb648485722d",
+	"name": "Контекст_Открытие формы обработки \"Перепроведение расходных накладных\" (ПерепроведениеРасходныхНакладных)",
+	"description": "",
+	"children": [
+		"ae90fcf1-b825-456a-a874-e1b81bfbc876"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494732391,
+			"stop": 1725494732400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494732401,
+			"stop": 1725494732600,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

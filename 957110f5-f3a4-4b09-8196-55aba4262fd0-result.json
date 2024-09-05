@@ -1,0 +1,122 @@
+{
+	"uuid": "957110f5-f3a4-4b09-8196-55aba4262fd0",
+	"historyId": "Дымовые тесты - Отчеты - ФормаОбъекта.Открытие формы отчета \"Остатки товара\" (ОстаткиТовара)",
+	"name": "Открытие формы отчета \"Остатки товара\" (ОстаткиТовара)",
+	"fullName": "072_отчеты_формаобъекта.feature_открытие формы отчета \"остатки товара\" (остаткитовара)",
+	"testCaseId": "e432974d4e0a991690e5971434f652e2",
+	"start": 1725494721188,
+	"stop": 1725494721675,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму отчета \"ОстаткиТовара\"",
+			"start": 1725494721601,
+			"stop": 1725494721605,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОстаткиТовара"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494721605,
+			"stop": 1725494721649,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494721649,
+			"stop": 1725494721673,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494721674,
+			"stop": 1725494721675,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы отчета \"Остатки товара\" (ОстаткиТовара)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Отчеты - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Отчеты - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

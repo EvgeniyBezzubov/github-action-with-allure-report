@@ -1,0 +1,42 @@
+{
+	"uuid": "56ba4902-33a9-40c8-bde1-8e17d352a271",
+	"name": "Контекст_Копирование элемента справочника \"Сотрудники\" (Сотрудники)",
+	"description": "",
+	"children": [
+		"51c5169a-766d-427b-8df9-db9bccfdd76f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494681149,
+			"stop": 1725494681210,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494681210,
+			"stop": 1725494681341,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,1296 @@
+{
+	"uuid": "de7c8df6-a939-4fc7-a41a-91325bfd5f42",
+	"historyId": "Проверка Справочников на Создание.очень важное описание",
+	"name": "очень важное описание",
+	"fullName": "тест 1 создание документа.feature_очень важное описание",
+	"testCaseId": "268fa3e555ed1ebafd85e3c09c0c5135",
+	"start": 1725432566527,
+	"stop": 1725432582319,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Таблица <Номенклатура>.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(6462)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(6443)}: Таблица <Номенклатура>. Строка №<1>. Колонка <Цена>. Ожидали <21,00>, а получили <22,00>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Перемещение товара (создание) *\n        ИмяАктивнойФормы: Документ.ПеремещениеТовара.Форма.ФормаДокумента\n        ИмяФичи: Проверка Справочников на Создание\n        ИмяСценария: очень важное описание\n        НомерСтрокиДерева: 49\n        НомерСтрокиФичи: 63\n        ПолныйПутьКФиче: C:\\VA_Test\\Tests\\тест 1 создание документа.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ТаблицаСталаРавной\n        ИмяРаннера: DESKTOP-3ELRAH3\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\User\\Documents\\infobase\";\n        ДопПараметрыПодключения: /N\"Администратор\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.25.1336\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0:00:16 (ч:м:с)\n        ДатаВремяОшибки: 04.09.2024 16:49:42"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Создание ЭлементаСправочника",
+			"start": 1725432573130,
+			"stop": 1725432574076,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Администрирование' 'Сотрудники'",
+					"start": 1725432573130,
+					"stop": 1725432573713,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Администрирование"
+						},
+						{
+							"name": "Парам2",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудники'",
+					"start": 1725432573713,
+					"stop": 1725432573793,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+					"start": 1725432573793,
+					"stop": 1725432573796,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудники (создание)'",
+					"start": 1725432573796,
+					"stop": 1725432573841,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Наименование' я ввожу текст 'Беззубов Евгений Витальев'",
+					"start": 1725432573841,
+					"stop": 1725432573844,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Наименование"
+						},
+						{
+							"name": "Парам2",
+							"value": "Беззубов Евгений Витальев"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1725432573844,
+					"stop": 1725432573846,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Фамилия' я ввожу текст 'Беззубов'",
+					"start": 1725432573846,
+					"stop": 1725432573854,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Фамилия"
+						},
+						{
+							"name": "Парам2",
+							"value": "Беззубов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1725432573855,
+					"stop": 1725432573857,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Имя' я ввожу текст 'Евгений'",
+					"start": 1725432573857,
+					"stop": 1725432573862,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Имя"
+						},
+						{
+							"name": "Парам2",
+							"value": "Евгений"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1725432573862,
+					"stop": 1725432573865,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Отчество' я ввожу текст 'Витальевич'",
+					"start": 1725432573865,
+					"stop": 1725432573871,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отчество"
+						},
+						{
+							"name": "Парам2",
+							"value": "Витальевич"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1725432573871,
+					"stop": 1725432573873,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку выбора у поля с именем \"ДатаРождения\"",
+					"start": 1725432573874,
+					"stop": 1725432573879,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДатаРождения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ДатаРождения' я ввожу текст '01.01.1998'",
+					"start": 1725432573879,
+					"stop": 1725432573895,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДатаРождения"
+						},
+						{
+							"name": "Парам2",
+							"value": "01.01.1998"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ФилиалРаботы\" я выбираю точное значение 'Владивосток  Русская'",
+					"start": 1725432573895,
+					"stop": 1725432573908,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФилиалРаботы"
+						},
+						{
+							"name": "Парам2",
+							"value": "Владивосток  Русская"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+					"start": 1725432573908,
+					"stop": 1725432573914,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаЗаписатьИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Сотрудники (создание) *' в течение 20 секунд",
+					"start": 1725432573914,
+					"stop": 1725432574076,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Удаление ЭлементаСправочника",
+			"start": 1725432574076,
+			"stop": 1725432576044,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Администрирование' 'Сотрудники'",
+					"start": 1725432574076,
+					"stop": 1725432574091,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Администрирование"
+						},
+						{
+							"name": "Парам2",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудники'",
+					"start": 1725432574091,
+					"stop": 1725432574107,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я нажимаю на кнопку с именем 'СписокНайти'",
+					"start": 1725432574107,
+					"stop": 1725432574288,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": "СписокНайти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Найти'",
+					"start": 1725432574288,
+					"stop": 1725432574340,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Найти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Pattern' я ввожу текст 'Беззубов'",
+					"start": 1725432574340,
+					"stop": 1725432574343,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Pattern"
+						},
+						{
+							"name": "Парам2",
+							"value": "Беззубов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Find'",
+					"start": 1725432574343,
+					"stop": 1725432574349,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Find"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудники'",
+					"start": 1725432574349,
+					"stop": 1725432574383,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И пока в таблице \"Список\" количество строк \">\" 0 Тогда",
+					"start": 1725432574383,
+					"stop": 1725432575022,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": ">"
+						},
+						{
+							"name": "Парам3",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И в таблице \"Список\" я выбираю текущую строку",
+							"start": 1725432574538,
+							"stop": 1725432574540,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно 'Беззубов Евгений Витальев (Сотрудники)'",
+							"start": 1725432574540,
+							"stop": 1725432574564,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Беззубов Евгений Витальев (Сотрудники)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в поле с именем 'Наименование' я ввожу текст 'Фарниев Евгений Витальев'",
+							"start": 1725432574564,
+							"stop": 1725432574570,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Наименование"
+								},
+								{
+									"name": "Парам2",
+									"value": "Фарниев Евгений Витальев"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+							"start": 1725432574570,
+							"stop": 1725432574577,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписатьИЗакрыть"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я жду закрытия окна 'Беззубов Евгений Витальев (Сотрудники) *' в течение 20 секунд",
+							"start": 1725432574578,
+							"stop": 1725432575022,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Беззубов Евгений Витальев (Сотрудники) *"
+								},
+								{
+									"name": "Парам2",
+									"value": "20"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "И пока в таблице \"Список\" количество строк \">\" 0 Тогда",
+					"start": 1725432575022,
+					"stop": 1725432576036,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": ">"
+						},
+						{
+							"name": "Парам3",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И в таблице \"Список\" я выбираю текущую строку",
+							"start": 1725432575038,
+							"stop": 1725432575039,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно 'Беззубов Евгений Витальев (Сотрудники)'",
+							"start": 1725432575039,
+							"stop": 1725432575068,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Беззубов Евгений Витальев (Сотрудники)"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в поле с именем 'Наименование' я ввожу текст 'Фарниев Евгений Витальев'",
+							"start": 1725432575068,
+							"stop": 1725432575075,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Наименование"
+								},
+								{
+									"name": "Парам2",
+									"value": "Фарниев Евгений Витальев"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+							"start": 1725432575076,
+							"stop": 1725432575084,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаЗаписатьИЗакрыть"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я жду закрытия окна 'Беззубов Евгений Витальев (Сотрудники) *' в течение 20 секунд",
+							"start": 1725432575085,
+							"stop": 1725432576036,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Беззубов Евгений Витальев (Сотрудники) *"
+								},
+								{
+									"name": "Парам2",
+									"value": "20"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "И пока в таблице \"Список\" количество строк \">\" 0 Тогда",
+					"start": 1725432576036,
+					"stop": 1725432576044,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": ">"
+						},
+						{
+							"name": "Парам3",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'Документы' 'Перемещение товара'",
+			"start": 1725432576045,
+			"stop": 1725432576073,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Документы"
+				},
+				{
+					"name": "Парам2",
+					"value": "Перемещение товара"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Перемещение товара'",
+			"start": 1725432576073,
+			"stop": 1725432576176,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Перемещение товара"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1725432576176,
+			"stop": 1725432576180,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Перемещение товара (создание)'",
+			"start": 1725432576181,
+			"stop": 1725432576257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Перемещение товара (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я нажимаю на кнопку с именем 'НоменклатураДобавить'",
+			"start": 1725432576257,
+			"stop": 1725432576263,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" из выпадающего списка с именем \"НоменклатураНоменклатура\" я выбираю точное значение 'Смартфон Apple iPhone 6S 4.7\" 32Gb Grey 2x1.8Ghz/2048Mb/1334x750/IPS/3G/LTE/GPS/Cam12AF/iOS'",
+			"start": 1725432576263,
+			"stop": 1725432576289,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураНоменклатура"
+				},
+				{
+					"name": "Парам3",
+					"value": "Смартфон Apple iPhone 6S 4.7\" 32Gb Grey 2x1.8Ghz/2048Mb/1334x750/IPS/3G/LTE/GPS/Cam12AF/iOS"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1725432576289,
+			"stop": 1725432576301,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я активизирую поле с именем \"НоменклатураЦена\"",
+			"start": 1725432576301,
+			"stop": 1725432576309,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураЦена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" в поле с именем 'НоменклатураЦена' я ввожу текст '22,00'",
+			"start": 1725432576309,
+			"stop": 1725432576324,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураЦена"
+				},
+				{
+					"name": "Парам3",
+					"value": "22,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я активизирую поле с именем \"НоменклатураКоличество\"",
+			"start": 1725432576325,
+			"stop": 1725432576337,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураКоличество"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" в поле с именем 'НоменклатураКоличество' я ввожу текст '11'",
+			"start": 1725432576337,
+			"stop": 1725432576350,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураКоличество"
+				},
+				{
+					"name": "Парам3",
+					"value": "11"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица \"Номенклатура\" стала равной:",
+			"start": 1725432576350,
+			"stop": 1725432582319,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Таблица <Номенклатура>.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(6462)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(6443)}: Таблица <Номенклатура>. Строка №<1>. Колонка <Цена>. Ожидали <21,00>, а получили <22,00>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Перемещение товара (создание) *\n        ИмяАктивнойФормы: Документ.ПеремещениеТовара.Форма.ФормаДокумента\n        ИмяФичи: Проверка Справочников на Создание\n        ИмяСценария: очень важное описание\n        НомерСтрокиДерева: 49\n        НомерСтрокиФичи: 63\n        ПолныйПутьКФиче: C:\\VA_Test\\Tests\\тест 1 создание документа.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ТаблицаСталаРавной\n        ИмяРаннера: DESKTOP-3ELRAH3\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\User\\Documents\\infobase\";\n        ДопПараметрыПодключения: /N\"Администратор\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.25.1336\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0:00:16 (ч:м:с)\n        ДатаВремяОшибки: 04.09.2024 16:49:42"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "bb613e19-3219-4408-8845-f5eb221ffe75-attachment.csv",
+					"type": "text/csv"
+				},
+				{
+					"name": "ЭталонноеЗначениеТаблицы.mxl",
+					"source": "592a3364-ad6c-4b23-9f9e-60a884851206-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЭталонноеЗначениеТаблицы.html",
+					"source": "a52a55b4-0755-466b-9d20-e970d68e7dfd-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "Различия.mxl",
+					"source": "c572cc1f-04d1-4944-89cb-218c68cb2b41-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "Различия.html",
+					"source": "00323fd8-64b3-4b75-aab9-8a9e807dcd7f-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.mxl",
+					"source": "72632daa-6f07-4a7b-875c-5468ac76d996-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.html",
+					"source": "5318783b-f0ef-43cb-8700-6f87cac92006-attachment.html",
+					"type": "html"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я завершаю редактирование строки",
+			"start": 1725432582319,
+			"stop": 1725432582319,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1725432582319,
+			"stop": 1725432582319,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Перемещение товара (создание) *' в течение 20 секунд",
+			"start": 1725432582319,
+			"stop": 1725432582319,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Перемещение товара (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "очень важное описание"
+		},
+		{
+			"name": "epic",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "ЭталонноеЗначениеТаблицы.mxl",
+			"source": "f5f1f5c1-eef1-431c-b0ec-ec54e7886be5-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЭталонноеЗначениеТаблицы.html",
+			"source": "9dae82d4-77e8-417c-906d-f61bea5fa149-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "Различия.mxl",
+			"source": "2057196e-5515-4c18-b994-a12a3b965090-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "Различия.html",
+			"source": "46d54125-b083-442f-8c09-2ee88fc8837f-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.mxl",
+			"source": "395c1a2f-6b53-41f4-a49d-ce2f4a2a011a-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.html",
+			"source": "a4c3529f-c887-41b1-ae3a-234e187267dc-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

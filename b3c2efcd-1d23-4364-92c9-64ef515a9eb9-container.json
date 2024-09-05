@@ -1,0 +1,42 @@
+{
+	"uuid": "3dcf6081-d791-4a56-9bc3-d4a4e97a5307",
+	"name": "Контекст_Копирование элемента документа \"Уценка товара\" (УценкаТовара)",
+	"description": "",
+	"children": [
+		"b3c2efcd-1d23-4364-92c9-64ef515a9eb9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494709382,
+			"stop": 1725494709426,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494709426,
+			"stop": 1725494709587,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

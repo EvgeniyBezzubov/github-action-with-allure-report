@@ -1,0 +1,42 @@
+{
+	"uuid": "7d18c41d-7052-42c2-8079-c8389189d173",
+	"name": "Контекст_Запись элемента справочника \"Контрагенты\" (Контрагенты)",
+	"description": "",
+	"children": [
+		"9a83689a-66a5-42e6-8009-d5661b740761"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494659393,
+			"stop": 1725494659411,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494659411,
+			"stop": 1725494659601,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

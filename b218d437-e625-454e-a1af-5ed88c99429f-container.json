@@ -1,0 +1,42 @@
+{
+	"uuid": "454d5898-946c-4572-97b0-61e1878bc941",
+	"name": "Контекст_Открытие формы документа \"Снятие с заказа\" (СнятиеСЗаказа)",
+	"description": "",
+	"children": [
+		"b218d437-e625-454e-a1af-5ed88c99429f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494690692,
+			"stop": 1725494690710,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494690710,
+			"stop": 1725494690900,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

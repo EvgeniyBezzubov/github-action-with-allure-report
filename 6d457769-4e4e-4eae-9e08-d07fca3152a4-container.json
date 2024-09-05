@@ -1,0 +1,42 @@
+{
+	"uuid": "4a009a53-17bf-4c4b-ad90-5084201cb637",
+	"name": "Контекст_Копирование элемента справочника \"Склады\" (Склады)",
+	"description": "",
+	"children": [
+		"6d457769-4e4e-4eae-9e08-d07fca3152a4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494680324,
+			"stop": 1725494680396,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494680396,
+			"stop": 1725494680530,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "e7affa9d-122b-475b-beba-9c88d812f633",
+	"name": "Контекст_Копирование элемента справочника \"Банковские счета\" (БанковскиеСчета)",
+	"description": "",
+	"children": [
+		"9069c69b-db32-4e3a-aee8-c3ef9f371440"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494684394,
+			"stop": 1725494684447,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494684447,
+			"stop": 1725494684601,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

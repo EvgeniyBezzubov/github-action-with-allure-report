@@ -1,0 +1,42 @@
+{
+	"uuid": "4f64729e-9fd8-436a-bff0-51827f1895db",
+	"name": "Контекст_Открытие формы обработки \"Автотесты\" (Автотесты)",
+	"description": "",
+	"children": [
+		"96a6b31e-616c-45dc-96ca-818cb21200c3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494751300,
+			"stop": 1725494751320,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494751320,
+			"stop": 1725494751507,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,122 @@
+{
+	"uuid": "b84a9b45-ae52-45e4-a806-a1fcb51170ec",
+	"historyId": "Дымовые тесты - Отчеты - ФормаОбъекта.Открытие формы отчета \"Продажи сотрудников на филиале\" (ПродажиСотрудниковНаФилиале)",
+	"name": "Открытие формы отчета \"Продажи сотрудников на филиале\" (ПродажиСотрудниковНаФилиале)",
+	"fullName": "072_отчеты_формаобъекта.feature_открытие формы отчета \"продажи сотрудников на филиале\" (продажисотрудниковнафилиале)",
+	"testCaseId": "6a51571110d153e3aacf780d8d79be33",
+	"start": 1725494721789,
+	"stop": 1725494722265,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму отчета \"ПродажиСотрудниковНаФилиале\"",
+			"start": 1725494722202,
+			"stop": 1725494722205,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПродажиСотрудниковНаФилиале"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494722206,
+			"stop": 1725494722263,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494722263,
+			"stop": 1725494722264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494722264,
+			"stop": 1725494722265,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы отчета \"Продажи сотрудников на филиале\" (ПродажиСотрудниковНаФилиале)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Отчеты - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Отчеты - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

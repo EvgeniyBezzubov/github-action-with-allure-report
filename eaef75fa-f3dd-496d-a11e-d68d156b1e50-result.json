@@ -1,0 +1,122 @@
+{
+	"uuid": "eaef75fa-f3dd-496d-a11e-d68d156b1e50",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Перемещение товара\" (ПеремещениеТовара)",
+	"name": "Открытие формы документа \"Перемещение товара\" (ПеремещениеТовара)",
+	"fullName": "022_документы_формаобъекта.feature_открытие формы документа \"перемещение товара\" (перемещениетовара)",
+	"testCaseId": "1ffd5ffd03fdf54030399a7575098ab4",
+	"start": 1725494693326,
+	"stop": 1725494693797,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"ПеремещениеТовара\"",
+			"start": 1725494693737,
+			"stop": 1725494693740,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПеремещениеТовара"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494693740,
+			"stop": 1725494693795,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494693795,
+			"stop": 1725494693796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494693796,
+			"stop": 1725494693797,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Перемещение товара\" (ПеремещениеТовара)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

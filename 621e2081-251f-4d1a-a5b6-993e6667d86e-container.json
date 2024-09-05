@@ -1,0 +1,42 @@
+{
+	"uuid": "efdc117e-a681-466b-ab4b-10f24a7a493d",
+	"name": "Контекст_Открытие формы обработки \"Создание города\" (СозданиеГорода)",
+	"description": "",
+	"children": [
+		"621e2081-251f-4d1a-a5b6-993e6667d86e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494723824,
+			"stop": 1725494723833,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494723833,
+			"stop": 1725494724033,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

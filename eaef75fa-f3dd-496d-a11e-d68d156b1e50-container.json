@@ -1,0 +1,42 @@
+{
+	"uuid": "1a80d830-a0b0-4258-b696-3771134446a3",
+	"name": "Контекст_Открытие формы документа \"Перемещение товара\" (ПеремещениеТовара)",
+	"description": "",
+	"children": [
+		"eaef75fa-f3dd-496d-a11e-d68d156b1e50"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494693327,
+			"stop": 1725494693363,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494693363,
+			"stop": 1725494693536,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

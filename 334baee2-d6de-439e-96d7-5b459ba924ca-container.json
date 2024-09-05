@@ -1,0 +1,42 @@
+{
+	"uuid": "b2cf9b66-9635-4143-9bad-151def7a36ff",
+	"name": "Контекст_Открытие формы обработки \"Наличие модальности\" (НаличиеМодальности)",
+	"description": "",
+	"children": [
+		"334baee2-d6de-439e-96d7-5b459ba924ca"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494741147,
+			"stop": 1725494741157,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494741157,
+			"stop": 1725494741339,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

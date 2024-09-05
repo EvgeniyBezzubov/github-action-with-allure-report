@@ -1,0 +1,63 @@
+{
+	"uuid": "0ec559c9-f3e8-453a-8ff2-b93965f22106",
+	"historyId": "Проверка Справочников на Создание.закрытие клиента Тестирования",
+	"name": "закрытие клиента Тестирования",
+	"fullName": "тест 1 создание документа.feature_закрытие клиента тестирования",
+	"testCaseId": "a30c9feb94992d95cf9f55fd383aba8d",
+	"start": 1725493958257,
+	"stop": 1725493959984,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс текущего клиента тестирования",
+			"start": 1725493958302,
+			"stop": 1725493959984,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "закрытие клиента Тестирования"
+		},
+		{
+			"name": "epic",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

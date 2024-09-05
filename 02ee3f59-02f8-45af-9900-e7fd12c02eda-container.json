@@ -1,0 +1,42 @@
+{
+	"uuid": "37f5e633-cd1c-48bb-b4f4-24d8265c8dde",
+	"name": "Контекст_Открытие формы обработки \"Запрос списка городов\" (ЗапросСпискаГородов)",
+	"description": "",
+	"children": [
+		"02ee3f59-02f8-45af-9900-e7fd12c02eda"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494739102,
+			"stop": 1725494739112,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494739112,
+			"stop": 1725494739309,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

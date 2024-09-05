@@ -1,0 +1,42 @@
+{
+	"uuid": "d548ca40-ea46-4b0c-a758-14f8a979123d",
+	"name": "Контекст_Копирование элемента документа \"Продажа уцененного товара\" (ПродажаУцененногоТовара)",
+	"description": "",
+	"children": [
+		"98eb30fc-ae62-4d4f-a09e-75480ad28139"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494711221,
+			"stop": 1725494711266,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494711266,
+			"stop": 1725494711425,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "8f7a4821-12ed-4ae0-955e-2f28cab94903",
+	"name": "Контекст_Открытие формы обработки \"День 8 Задание 5\" (День8Задание5)",
+	"description": "",
+	"children": [
+		"58eca7b3-f629-46aa-b2b9-47c781d8b630"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494727505,
+			"stop": 1725494727515,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494727515,
+			"stop": 1725494727713,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

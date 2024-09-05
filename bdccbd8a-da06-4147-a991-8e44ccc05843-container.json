@@ -1,0 +1,42 @@
+{
+	"uuid": "91537e96-5da7-41a4-95e3-10144a46fc9c",
+	"name": "Контекст_Запись элемента справочника \"Затраты\" (Затраты)",
+	"description": "",
+	"children": [
+		"bdccbd8a-da06-4147-a991-8e44ccc05843"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494650240,
+			"stop": 1725494650256,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494650256,
+			"stop": 1725494650448,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

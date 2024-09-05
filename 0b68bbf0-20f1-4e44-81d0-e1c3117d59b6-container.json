@@ -1,0 +1,42 @@
+{
+	"uuid": "3a320f1f-9d9f-44e6-8e49-4fb6411746a9",
+	"name": "Контекст_Открытие формы обработки \"Расчет заказа\" (РасчетЗаказа)",
+	"description": "",
+	"children": [
+		"0b68bbf0-20f1-4e44-81d0-e1c3117d59b6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494749269,
+			"stop": 1725494749279,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494749279,
+			"stop": 1725494749478,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

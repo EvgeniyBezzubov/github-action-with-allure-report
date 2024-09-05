@@ -1,0 +1,42 @@
+{
+	"uuid": "93a13206-fcaf-454c-9194-899076dd4a31",
+	"name": "Контекст_Копирование элемента документа \"\" (Документ1)",
+	"description": "",
+	"children": [
+		"ad1df2a0-742c-43a1-a8f1-8e9af0cb026a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494714272,
+			"stop": 1725494714319,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494714319,
+			"stop": 1725494714476,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

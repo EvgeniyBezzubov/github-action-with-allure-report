@@ -1,0 +1,42 @@
+{
+	"uuid": "05930433-a9f9-4944-938a-781efce71d3a",
+	"name": "Контекст_Запись элемента справочника \"Филиалы\" (Филиалы)",
+	"description": "",
+	"children": [
+		"c5f85171-73cb-4752-9e9e-755eea772e5b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494661232,
+			"stop": 1725494661248,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494661248,
+			"stop": 1725494661440,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "af8d42de-3426-40b5-affc-dbbfdb3f8114",
+	"name": "Контекст_Запись элемента документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"description": "",
+	"children": [
+		"d6accec2-ea65-4a51-8547-3960eea0c22a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494695368,
+			"stop": 1725494695390,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494695390,
+			"stop": 1725494695560,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

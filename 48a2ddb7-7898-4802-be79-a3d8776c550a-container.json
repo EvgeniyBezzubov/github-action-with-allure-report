@@ -1,0 +1,27 @@
+{
+	"uuid": "3a63a451-ce08-4a60-a1fa-090b671ad971",
+	"name": "Контекст_закрытие клиента Тестирования",
+	"description": "",
+	"children": [
+		"48a2ddb7-7898-4802-be79-a3d8776c550a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494755355,
+			"stop": 1725494755403,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

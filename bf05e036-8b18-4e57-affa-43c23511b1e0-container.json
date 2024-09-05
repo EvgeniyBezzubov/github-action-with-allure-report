@@ -1,0 +1,42 @@
+{
+	"uuid": "5e172ec0-3009-4bde-8970-ac13ed6bffef",
+	"name": "Контекст_Открытие формы обработки \"Открытие элемента справочника\" (ОткрытиеЭлементаСправочника)",
+	"description": "",
+	"children": [
+		"bf05e036-8b18-4e57-affa-43c23511b1e0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494726272,
+			"stop": 1725494726283,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494726283,
+			"stop": 1725494726479,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,122 @@
+{
+	"uuid": "58eca7b3-f629-46aa-b2b9-47c781d8b630",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"День 8 Задание 5\" (День8Задание5)",
+	"name": "Открытие формы обработки \"День 8 Задание 5\" (День8Задание5)",
+	"fullName": "082_обработки_формаобъекта.feature_открытие формы обработки \"день 8 задание 5\" (день8задание5)",
+	"testCaseId": "f1a13bf6e7474043444057ce5fad2a3b",
+	"start": 1725494727505,
+	"stop": 1725494727956,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"День8Задание5\"",
+			"start": 1725494727900,
+			"stop": 1725494727904,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "День8Задание5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494727904,
+			"stop": 1725494727953,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494727953,
+			"stop": 1725494727954,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494727955,
+			"stop": 1725494727956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"День 8 Задание 5\" (День8Задание5)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Обработки - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

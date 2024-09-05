@@ -1,0 +1,42 @@
+{
+	"uuid": "40683b17-0d90-48c2-b778-ff77e15f5283",
+	"name": "Контекст_Открытие формы обработки \"Загрузка данных\" (ЗагрузкаДанных)",
+	"description": "",
+	"children": [
+		"ef01f67b-6ce4-4dc7-a9bf-57f6505349df"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494728721,
+			"stop": 1725494728731,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494728731,
+			"stop": 1725494728930,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

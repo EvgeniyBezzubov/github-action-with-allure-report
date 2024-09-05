@@ -1,0 +1,42 @@
+{
+	"uuid": "8ad612da-202c-42ec-92b4-29783df256f3",
+	"name": "Контекст_Копирование элемента документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"description": "",
+	"children": [
+		"e43527bb-e05a-4f41-81b1-29bb11219ce2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494710412,
+			"stop": 1725494710453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494710454,
+			"stop": 1725494710618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

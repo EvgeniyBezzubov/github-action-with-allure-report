@@ -1,0 +1,42 @@
+{
+	"uuid": "05cbff2b-aec3-4bc9-9662-ef8a06bfb16d",
+	"name": "Контекст_Открытие формы документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"description": "",
+	"children": [
+		"541445aa-b9bb-4f04-b0af-18fa155e1c52"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494688651,
+			"stop": 1725494688661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494688661,
+			"stop": 1725494688858,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

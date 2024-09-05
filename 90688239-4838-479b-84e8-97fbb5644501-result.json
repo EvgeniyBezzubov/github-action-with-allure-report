@@ -1,0 +1,122 @@
+{
+	"uuid": "90688239-4838-479b-84e8-97fbb5644501",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"name": "Открытие формы документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"fullName": "022_документы_формаобъекта.feature_открытие формы документа \"установка цен номенклатуры\" (установкаценноменклатуры)",
+	"testCaseId": "57aa7f3ba13dd4e62d66f5aa5c46fa19",
+	"start": 1725494687433,
+	"stop": 1725494687907,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"УстановкаЦенНоменклатуры\"",
+			"start": 1725494687844,
+			"stop": 1725494687847,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УстановкаЦенНоменклатуры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725494687847,
+			"stop": 1725494687904,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725494687904,
+			"stop": 1725494687905,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725494687905,
+			"stop": 1725494687906,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

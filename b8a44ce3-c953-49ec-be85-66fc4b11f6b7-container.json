@@ -1,0 +1,42 @@
+{
+	"uuid": "095bcd23-57f5-4e92-a0e5-136daadfa2e3",
+	"name": "Контекст_Открытие формы справочника \"Банковские счета\" (БанковскиеСчета)",
+	"description": "",
+	"children": [
+		"b8a44ce3-c953-49ec-be85-66fc4b11f6b7"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494645340,
+			"stop": 1725494645356,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494645356,
+			"stop": 1725494645547,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

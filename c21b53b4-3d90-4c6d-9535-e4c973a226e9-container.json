@@ -1,0 +1,42 @@
+{
+	"uuid": "fbf9e4db-9255-4c47-a517-c37d10d7d20a",
+	"name": "Контекст_Открытие формы обработки \"Отбор по истории филиалов\" (ОтборПоИсторииФилиалов)",
+	"description": "",
+	"children": [
+		"c21b53b4-3d90-4c6d-9535-e4c973a226e9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494730558,
+			"stop": 1725494730568,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494730568,
+			"stop": 1725494730766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,27 @@
+{
+	"uuid": "60300151-d1d8-4b5e-b843-27b6624d98ab",
+	"name": "Контекст_очень важное описание",
+	"description": "",
+	"children": [
+		"3636b5cb-7765-4088-9cbd-07839a93d74a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725432748395,
+			"stop": 1725432755051,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

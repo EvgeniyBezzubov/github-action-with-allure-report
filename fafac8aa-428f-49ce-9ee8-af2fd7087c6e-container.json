@@ -1,0 +1,42 @@
+{
+	"uuid": "ebaf9652-ca0b-4efb-8e5d-b27c933c395c",
+	"name": "Контекст_ВводНаОсновании элемента документа \"Приходная накладная\" (ПриходнаяНакладная)",
+	"description": "",
+	"children": [
+		"fafac8aa-428f-49ce-9ee8-af2fd7087c6e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725494714874,
+			"stop": 1725494714886,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725494714886,
+			"stop": 1725494715083,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
