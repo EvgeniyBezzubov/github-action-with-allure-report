@@ -1,0 +1,122 @@
+{
+	"uuid": "76e99376-8080-45d8-8db8-ecf1db971192",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"name": "Открытие формы документа \"Расходная накладная\" (РасходнаяНакладная)",
+	"fullName": "022_документы_формаобъекта.feature_открытие формы документа \"расходная накладная\" (расходнаянакладная)",
+	"testCaseId": "83355c6dab9405c8c2259bf635b78686",
+	"start": 1725504175057,
+	"stop": 1725504175536,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"РасходнаяНакладная\"",
+			"start": 1725504175468,
+			"stop": 1725504175471,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасходнаяНакладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725504175472,
+			"stop": 1725504175533,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725504175533,
+			"stop": 1725504175534,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725504175535,
+			"stop": 1725504175535,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Расходная накладная\" (РасходнаяНакладная)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Документы - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

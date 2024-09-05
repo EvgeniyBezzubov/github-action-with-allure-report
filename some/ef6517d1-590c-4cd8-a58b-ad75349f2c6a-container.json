@@ -1,0 +1,42 @@
+{
+	"uuid": "1c0d23fd-2f27-459f-8652-eff1a1b76498",
+	"name": "Контекст_Открытие формы справочника \"Филиалы\" (Филиалы)",
+	"description": "",
+	"children": [
+		"ef6517d1-590c-4cd8-a58b-ad75349f2c6a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504130931,
+			"stop": 1725504130951,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504130951,
+			"stop": 1725504131123,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

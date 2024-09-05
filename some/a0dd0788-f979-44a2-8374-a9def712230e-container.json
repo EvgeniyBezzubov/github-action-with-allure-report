@@ -1,0 +1,42 @@
+{
+	"uuid": "0e0c1f41-15e1-4872-97b6-9e3c2ef1659b",
+	"name": "Контекст_Запись элемента справочника \"Банки\" (Банки)",
+	"description": "",
+	"children": [
+		"a0dd0788-f979-44a2-8374-a9def712230e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504152273,
+			"stop": 1725504152289,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504152289,
+			"stop": 1725504152480,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

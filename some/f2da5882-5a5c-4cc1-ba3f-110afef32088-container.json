@@ -1,0 +1,42 @@
+{
+	"uuid": "6dcb5009-cb7a-4a70-8ff6-6d42d65b0d21",
+	"name": "Контекст_Запись элемента документа \"Заказ поставщику\" (ЗаказПоставщику)",
+	"description": "",
+	"children": [
+		"f2da5882-5a5c-4cc1-ba3f-110afef32088"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504189281,
+			"stop": 1725504189302,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504189302,
+			"stop": 1725504189486,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

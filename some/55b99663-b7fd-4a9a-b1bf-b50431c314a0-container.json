@@ -1,0 +1,42 @@
+{
+	"uuid": "643bf522-5a87-49b7-a178-925d6b9e2540",
+	"name": "Контекст_Открытие формы журнала документов \"Журнал документы формирования цен\" (ЖурналДокументыФормированияЦен)",
+	"description": "",
+	"children": [
+		"55b99663-b7fd-4a9a-b1bf-b50431c314a0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504205161,
+			"stop": 1725504205218,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504205218,
+			"stop": 1725504205368,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

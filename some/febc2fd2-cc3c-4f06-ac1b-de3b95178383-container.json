@@ -1,0 +1,42 @@
+{
+	"uuid": "0436ffe9-9d72-4d96-beb3-15ef98a25d66",
+	"name": "Контекст_Открытие формы обработки \"Перепроведение приходных накладных\" (ПерепроведениеПриходныхНакладных)",
+	"description": "",
+	"children": [
+		"febc2fd2-cc3c-4f06-ac1b-de3b95178383"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504218786,
+			"stop": 1725504218797,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504218797,
+			"stop": 1725504218993,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

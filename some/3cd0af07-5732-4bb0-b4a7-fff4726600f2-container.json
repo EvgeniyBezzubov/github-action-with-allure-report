@@ -1,0 +1,42 @@
+{
+	"uuid": "fab6f1f9-e659-4c66-8b45-33bd79ecbc38",
+	"name": "Контекст_Открытие формы обработки \"Работа с документом приходная накладная\" (РаботаСДокументомПриходнаяНакладная)",
+	"description": "",
+	"children": [
+		"3cd0af07-5732-4bb0-b4a7-fff4726600f2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504215122,
+			"stop": 1725504215132,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504215132,
+			"stop": 1725504215329,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "a9849bd5-cb94-462b-9fa9-1ea38d90aaa4",
+	"name": "Контекст_Копирование элемента плана видов характеристик \"Дополнительные свойства товара\" (ДополнительныеСвойстваТовара)",
+	"description": "",
+	"children": [
+		"525171cf-8cc0-444c-aebf-616b91f16813"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504204338,
+			"stop": 1725504204358,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504204358,
+			"stop": 1725504204544,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

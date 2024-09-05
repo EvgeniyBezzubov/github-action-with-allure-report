@@ -1,0 +1,42 @@
+{
+	"uuid": "f61b7bd9-ea4c-4ca4-935f-6bfea51cb737",
+	"name": "Контекст_Открытие формы обработки \"Управление константами\" (УправлениеКонстантами)",
+	"description": "",
+	"children": [
+		"a302fbd6-c55b-4e4e-9825-e3c218ad0779"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504210242,
+			"stop": 1725504210265,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504210265,
+			"stop": 1725504210449,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

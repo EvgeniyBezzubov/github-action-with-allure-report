@@ -1,0 +1,42 @@
+{
+	"uuid": "5d49f9fa-bebc-4e08-9cc3-3a1590f08757",
+	"name": "Контекст_Открытие формы справочника \"Юридические лица\" (ЮридическиеЛица)",
+	"description": "",
+	"children": [
+		"5b27fa15-62a5-4f5c-9ce0-5e8391884a49"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504131535,
+			"stop": 1725504131552,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504131552,
+			"stop": 1725504131741,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

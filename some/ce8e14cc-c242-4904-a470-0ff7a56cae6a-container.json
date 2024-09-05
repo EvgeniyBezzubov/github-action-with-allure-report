@@ -1,0 +1,42 @@
+{
+	"uuid": "4ccd620b-68c0-45fb-9984-188c96936d0e",
+	"name": "Контекст_Открытие формы обработки \"Работа с витриной\" (РаботаСВитриной)",
+	"description": "",
+	"children": [
+		"ce8e14cc-c242-4904-a470-0ff7a56cae6a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504216338,
+			"stop": 1725504216354,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504216354,
+			"stop": 1725504216546,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

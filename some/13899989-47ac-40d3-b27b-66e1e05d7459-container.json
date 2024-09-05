@@ -1,0 +1,42 @@
+{
+	"uuid": "2c09d993-ee56-40f8-87d5-2d3e47968e0b",
+	"name": "Контекст_Открытие формы обработки \"Переоценка уцененного товара\" (ПереоценкаУцененногоТовара)",
+	"description": "",
+	"children": [
+		"13899989-47ac-40d3-b27b-66e1e05d7459"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504220006,
+			"stop": 1725504220016,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504220016,
+			"stop": 1725504220212,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

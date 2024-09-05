@@ -1,0 +1,42 @@
+{
+	"uuid": "2275ceee-5495-4aa1-9853-95416a79b288",
+	"name": "Контекст_Запись элемента документа \"Уценка товара\" (УценкаТовара)",
+	"description": "",
+	"children": [
+		"2d69c22c-920e-4649-9ba1-2bf79068c0fe"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504183395,
+			"stop": 1725504183417,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504183417,
+			"stop": 1725504183604,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "e37fef1f-0f27-41ed-8279-7f35bbd2500f",
+	"name": "Контекст_Открытие формы отчета \"Остатки товара\" (ОстаткиТовара)",
+	"description": "",
+	"children": [
+		"1a62b1a3-7c9b-4c16-9381-701e0d4dfcc7"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504208205,
+			"stop": 1725504208215,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504208215,
+			"stop": 1725504208412,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

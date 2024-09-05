@@ -1,0 +1,42 @@
+{
+	"uuid": "e58c1fac-78cb-4e55-9ec5-a995c5d1a2c3",
+	"name": "Контекст_Открытие формы справочника \"Города\" (Города)",
+	"description": "",
+	"children": [
+		"32734125-ba8b-4c4f-8b78-44a1dd1210af"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504129107,
+			"stop": 1725504129116,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504129116,
+			"stop": 1725504129305,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
