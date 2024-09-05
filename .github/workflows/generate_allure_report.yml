@@ -1,6 +1,8 @@
 name: Allure Report Generation
 
 on:
+  push:
+    branches: [ "gh-pages" ]
   workflow_dispatch: # Trigger the workflow manually
     inputs:
       tags: # Input parameter for test scenario tags
