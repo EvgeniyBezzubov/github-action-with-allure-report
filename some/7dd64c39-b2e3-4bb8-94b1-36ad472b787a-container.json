@@ -1,0 +1,42 @@
+{
+	"uuid": "cddb372d-d3e4-4298-95dd-8de24a3fb888",
+	"name": "Контекст_Копирование элемента группы справочника \"Затраты\" (Затраты)",
+	"description": "",
+	"children": [
+		"7dd64c39-b2e3-4bb8-94b1-36ad472b787a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504160506,
+			"stop": 1725504160570,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504160571,
+			"stop": 1725504160904,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

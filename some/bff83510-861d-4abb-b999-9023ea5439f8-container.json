@@ -1,0 +1,42 @@
+{
+	"uuid": "e637cf1b-7686-41c7-9c35-68707d7b7676",
+	"name": "Контекст_Открытие формы отчета \"Продажи сотрудников на филиале\" (ПродажиСотрудниковНаФилиале)",
+	"description": "",
+	"children": [
+		"bff83510-861d-4abb-b999-9023ea5439f8"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504208820,
+			"stop": 1725504208831,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504208831,
+			"stop": 1725504209026,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

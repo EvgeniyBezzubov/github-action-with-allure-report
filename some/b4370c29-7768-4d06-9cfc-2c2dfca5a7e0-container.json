@@ -1,0 +1,42 @@
+{
+	"uuid": "c7e7b089-115c-444a-9623-efb06f5a363f",
+	"name": "Контекст_Открытие формы документа \"Продажа уцененного товара\" (ПродажаУцененногоТовара)",
+	"description": "",
+	"children": [
+		"b4370c29-7768-4d06-9cfc-2c2dfca5a7e0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504175673,
+			"stop": 1725504175684,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504175684,
+			"stop": 1725504175882,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

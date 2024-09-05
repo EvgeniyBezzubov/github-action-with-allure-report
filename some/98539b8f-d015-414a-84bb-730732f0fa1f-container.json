@@ -1,0 +1,42 @@
+{
+	"uuid": "03b7b7d2-2399-451d-83bf-adc51a151cf2",
+	"name": "Контекст_Открытие формы журнала документов \"Журнал документы продажи\" (ЖурналДокументыПродажи)",
+	"description": "",
+	"children": [
+		"98539b8f-d015-414a-84bb-730732f0fa1f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504205773,
+			"stop": 1725504205784,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504205784,
+			"stop": 1725504205966,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

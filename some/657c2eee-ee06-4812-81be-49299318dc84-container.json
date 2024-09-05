@@ -1,0 +1,42 @@
+{
+	"uuid": "f0dd0788-adfd-4e19-bd56-71a10a363fc1",
+	"name": "Контекст_Открытие формы обработки \"Перемещение товара на филиал\" (ПеремещениеТовараНаФилиал)",
+	"description": "",
+	"children": [
+		"657c2eee-ee06-4812-81be-49299318dc84"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504236878,
+			"stop": 1725504236890,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504236890,
+			"stop": 1725504237086,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

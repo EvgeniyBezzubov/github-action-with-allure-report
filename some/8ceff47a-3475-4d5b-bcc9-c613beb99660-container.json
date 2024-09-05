@@ -1,0 +1,42 @@
+{
+	"uuid": "6ae38c17-3e3b-4b63-80b3-dcec9ae5b0bf",
+	"name": "Контекст_Открытие формы отчета \"Продажа товара\" (ПродажаТовара)",
+	"description": "",
+	"children": [
+		"8ceff47a-3475-4d5b-bcc9-c613beb99660"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504206372,
+			"stop": 1725504206382,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504206382,
+			"stop": 1725504206579,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

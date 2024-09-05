@@ -1,0 +1,42 @@
+{
+	"uuid": "eb030732-71d7-4c25-9f5f-b3a2cda52f1a",
+	"name": "Контекст_Запись элемента справочника \"Города\" (Города)",
+	"description": "",
+	"children": [
+		"343697b9-6000-4cc0-a17e-609875d0293c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504132753,
+			"stop": 1725504132775,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504132775,
+			"stop": 1725504132964,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

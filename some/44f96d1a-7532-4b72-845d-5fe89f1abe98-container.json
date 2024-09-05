@@ -1,0 +1,42 @@
+{
+	"uuid": "eb90294b-3376-46c7-bd26-e0625aec9222",
+	"name": "Контекст_Открытие формы обработки \"Отсутствие модальности\" (ОтсутствиеМодальности)",
+	"description": "",
+	"children": [
+		"44f96d1a-7532-4b72-845d-5fe89f1abe98"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504234440,
+			"stop": 1725504234508,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504234508,
+			"stop": 1725504234647,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "9d09ae92-47f9-4d5a-ae7e-ad23be005d08",
+	"name": "Контекст_Запись элемента справочника \"Юридические лица\" (ЮридическиеЛица)",
+	"description": "",
+	"children": [
+		"d1fb91d9-a20c-472a-8188-71f7d46893d0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504149218,
+			"stop": 1725504149237,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504149237,
+			"stop": 1725504149426,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

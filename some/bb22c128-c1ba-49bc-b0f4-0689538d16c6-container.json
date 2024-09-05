@@ -1,0 +1,42 @@
+{
+	"uuid": "56475834-2a66-41b9-9f4c-84a3d56ac5a5",
+	"name": "Контекст_Копирование элемента документа \"Установка цен номенклатуры\" (УстановкаЦенНоменклатуры)",
+	"description": "",
+	"children": [
+		"bb22c128-c1ba-49bc-b0f4-0689538d16c6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504195816,
+			"stop": 1725504195873,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504195873,
+			"stop": 1725504196020,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

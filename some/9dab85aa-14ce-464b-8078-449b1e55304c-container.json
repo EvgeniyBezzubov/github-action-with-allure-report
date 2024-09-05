@@ -1,0 +1,42 @@
+{
+	"uuid": "db27321e-b47f-4c6c-86ff-950dbba056c1",
+	"name": "Контекст_Копирование элемента документа \"Перемещение товара\" (ПеремещениеТовара)",
+	"description": "",
+	"children": [
+		"9dab85aa-14ce-464b-8078-449b1e55304c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504200684,
+			"stop": 1725504200705,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504200705,
+			"stop": 1725504200889,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

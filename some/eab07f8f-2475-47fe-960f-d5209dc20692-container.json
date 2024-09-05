@@ -1,0 +1,42 @@
+{
+	"uuid": "4e7b4437-2e8a-4d6d-8374-46f93ec247ca",
+	"name": "Контекст_Копирование элемента справочника \"Контрагенты\" (Контрагенты)",
+	"description": "",
+	"children": [
+		"eab07f8f-2475-47fe-960f-d5209dc20692"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504168154,
+			"stop": 1725504168209,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504168209,
+			"stop": 1725504168359,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

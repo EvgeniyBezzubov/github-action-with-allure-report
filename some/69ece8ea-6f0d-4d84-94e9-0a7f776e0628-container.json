@@ -1,0 +1,42 @@
+{
+	"uuid": "9f902066-fb45-44e2-bd74-13487fe94db1",
+	"name": "Контекст_Открытие формы документа \"Уценка товара\" (УценкаТовара)",
+	"description": "",
+	"children": [
+		"69ece8ea-6f0d-4d84-94e9-0a7f776e0628"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504174459,
+			"stop": 1725504174470,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504174470,
+			"stop": 1725504174665,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

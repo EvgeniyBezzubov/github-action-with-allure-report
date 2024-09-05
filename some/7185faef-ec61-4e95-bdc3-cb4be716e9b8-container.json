@@ -1,0 +1,42 @@
+{
+	"uuid": "f4e32c47-8b89-4488-adb2-14ed96dd8c5e",
+	"name": "Контекст_Копирование элемента справочника \"Классификатор свойств товара\" (КлассификаторСвойствТовара)",
+	"description": "",
+	"children": [
+		"7185faef-ec61-4e95-bdc3-cb4be716e9b8"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504172423,
+			"stop": 1725504172486,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504172486,
+			"stop": 1725504172632,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

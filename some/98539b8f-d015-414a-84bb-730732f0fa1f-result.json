@@ -1,0 +1,122 @@
+{
+	"uuid": "98539b8f-d015-414a-84bb-730732f0fa1f",
+	"historyId": "Дымовые тесты - Журналы документов - ФормаОбъекта.Открытие формы журнала документов \"Журнал документы продажи\" (ЖурналДокументыПродажи)",
+	"name": "Открытие формы журнала документов \"Журнал документы продажи\" (ЖурналДокументыПродажи)",
+	"fullName": "062_журналыдокументов_формаобъекта.feature_открытие формы журнала документов \"журнал документы продажи\" (журналдокументыпродажи)",
+	"testCaseId": "4df1cac908ef25edf058b1f97c916c06",
+	"start": 1725504205773,
+	"stop": 1725504206257,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму журнала документов \"ЖурналДокументыПродажи\"",
+			"start": 1725504206168,
+			"stop": 1725504206172,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЖурналДокументыПродажи"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1725504206172,
+			"stop": 1725504206254,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1725504206254,
+			"stop": 1725504206256,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1725504206256,
+			"stop": 1725504206257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы журнала документов \"Журнал документы продажи\" (ЖурналДокументыПродажи)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Журналы документов - ФормаОбъекта"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Журналы документов - ФормаОбъекта"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

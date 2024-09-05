@@ -1,0 +1,42 @@
+{
+	"uuid": "3089ee53-2ef4-400c-a7b0-17c0c374d06a",
+	"name": "Контекст_Открытие формы обработки \"Генерация тестовой номенклатуры\" (ГенерацияТестовойНоменклатуры)",
+	"description": "",
+	"children": [
+		"2e9efd21-0b4a-4948-beee-e8bae144fe2f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725504213906,
+			"stop": 1725504213917,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1725504213917,
+			"stop": 1725504214114,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
