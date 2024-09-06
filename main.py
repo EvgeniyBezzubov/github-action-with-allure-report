@@ -6,12 +6,13 @@ import time
 def main():
     os.chdir(r'C:\VA_Test')
     os.system('start Vanessa_Start4_3.bat')
-    time.sleep(5)
+    time.sleep(15)
     status = ""
     for proc in psutil.process_iter():
         name = proc.name()
-        print(proc.create_time())
+
         if name == "1cv8c":
+            print(proc.create_time())
             status = "Run"
         else:
             status = "not Run"
