@@ -1,0 +1,27 @@
+{
+	"uuid": "a5ebe10d-31c0-408a-9b65-3fdd7c359d66",
+	"name": "Контекст_Тестна создание Сотрудника, и его удаление",
+	"description": "",
+	"children": [
+		"a214593f-6bec-4297-9a8b-677628681262"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1725586277263,
+			"stop": 1725586288567,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
