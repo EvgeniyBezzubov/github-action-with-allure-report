@@ -1,15 +1,30 @@
 import options
 import os
 import psutil
-
+import time
 
 def main():
     os.chdir(r'C:\VA_Test')
     os.system('start Vanessa_Start4_3.bat')
+    time.sleep(5)
+    status = ""
     for proc in psutil.process_iter():
         name = proc.name()
-        print(name)
         if name == "1cv8c":
-            print(name)
+            status = "Run"
+        else:
+            status = "not Run"
+            return 0
+
+    time.sleep(200)
+
+    for proc in psutil.process_iter():
+        name = proc.name()
+        if name == "1cv8c":
+            status = "Error "
+        else:
+            status = "not Run"
+            return 0
+
 if __name__ == "__main__":
     main()
