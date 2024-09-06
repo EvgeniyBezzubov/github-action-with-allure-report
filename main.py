@@ -10,7 +10,7 @@ def main():
     status = ""
     for proc in psutil.process_iter():
         name = proc.name()
-
+        print(proc)
         if name == "1cv8c":
             print(proc.create_time())
             status = "Run"

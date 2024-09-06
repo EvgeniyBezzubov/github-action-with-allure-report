@@ -1,0 +1,407 @@
+{
+	"uuid": "98c4d4ab-031c-4fce-9251-7c9c0c9f5348",
+	"historyId": "<Проверка Расходной Накладной на создание и проведение>.<описание сценария>120,00",
+	"name": "<описание сценария>120,00",
+	"fullName": "тест 2.feature_<описание сценария>120,00",
+	"testCaseId": "1d6171c510d9cbf2503b31b43b0c447a",
+	"start": 1725583242272,
+	"stop": 1725583243073,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Документы' 'Расходная накладная'",
+			"start": 1725583242319,
+			"stop": 1725583242333,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Документы"
+				},
+				{
+					"name": "Парам2",
+					"value": "Расходная накладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Расходная накладная'",
+			"start": 1725583242333,
+			"stop": 1725583242411,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расходная накладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1725583242411,
+			"stop": 1725583242414,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Расходная накладная (создание)'",
+			"start": 1725583242414,
+			"stop": 1725583242475,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расходная накладная (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Контрагент\" я выбираю точное значение '.Беседа__________________'",
+			"start": 1725583242475,
+			"stop": 1725583242485,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				},
+				{
+					"name": "Парам2",
+					"value": ".Беседа__________________"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я нажимаю на кнопку с именем 'НоменклатураДобавить'",
+			"start": 1725583242485,
+			"stop": 1725583242493,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" из выпадающего списка с именем \"НоменклатураНоменклатура\" я выбираю точное значение 'Товар 3'",
+			"start": 1725583242493,
+			"stop": 1725583242516,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураНоменклатура"
+				},
+				{
+					"name": "Парам3",
+					"value": "Товар 3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1725583242516,
+			"stop": 1725583242529,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" в поле с именем 'НоменклатураКоличество' я ввожу текст '1'",
+			"start": 1725583242529,
+			"stop": 1725583242546,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураКоличество"
+				},
+				{
+					"name": "Парам3",
+					"value": "1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я завершаю редактирование строки",
+			"start": 1725583242546,
+			"stop": 1725583242549,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я активизирую поле с именем \"НоменклатураЦена\"",
+			"start": 1725583242550,
+			"stop": 1725583242559,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураЦена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я выбираю текущую строку",
+			"start": 1725583242559,
+			"stop": 1725583242562,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" в поле с именем 'НоменклатураЦена' я ввожу текст '20,00'",
+			"start": 1725583242562,
+			"stop": 1725583242571,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": "НоменклатураЦена"
+				},
+				{
+					"name": "Парам3",
+					"value": "20,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Номенклатура\" я завершаю редактирование строки",
+			"start": 1725583242571,
+			"stop": 1725583242575,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1725583242575,
+			"stop": 1725583242583,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Расходная накладная (создание) *' в течение 20 секунд",
+			"start": 1725583242583,
+			"stop": 1725583243073,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расходная накладная (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>120,00"
+		},
+		{
+			"name": "epic",
+			"value": "<Проверка Расходной Накладной на создание и проведение>"
+		},
+		{
+			"name": "suite",
+			"value": "<Проверка Расходной Накладной на создание и проведение>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
