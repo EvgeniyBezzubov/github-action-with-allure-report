@@ -3,9 +3,11 @@ import os
 import psutil
 import time
 
+
 def main():
     os.chdir(r'C:\VA_Test')
     os.system('start Vanessa_Start4_3.bat')
+    print(psutil.cpu_stats())
     time.sleep(15)
     status = ""
     for proc in psutil.process_iter():
@@ -18,15 +20,16 @@ def main():
             status = "not Run"
             return 0
 
-    time.sleep(200)
+  ##  time.sleep(200)
 
-    for proc in psutil.process_iter():
-        name = proc.name()
-        if name == "1cv8c":
-            status = "Error "
-        else:
-            status = "not Run"
-            return 0
+    ##for proc in psutil.process_iter():
+      ##  name = proc.name()
+        ##if name == "1cv8c":
+          ##  status = "Error "
+        ##else:
+          ##  status = "not Run"
+           ## return 0
+
 
 if __name__ == "__main__":
     main()
