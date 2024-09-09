@@ -1,0 +1,32 @@
+{
+	"uuid": "2314c230-0ef0-48a6-9bf7-67f892b0b76c",
+	"name": "Контекст_Тестна создание Сотрудника, и его удаление",
+	"description": "",
+	"children": [
+		"2cbd6bba-4792-47e3-a899-c377aeff135e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я подключаю уже запущенный клиент тестирования \"УП-МояБаза\"",
+			"start": 1725849129560,
+			"stop": 1725849130067,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-МояБаза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
