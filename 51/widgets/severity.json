@@ -1,0 +1,1 @@
+[{"uid":"43b9841917cc168f","name":"<описание сценария>120,00","time":{"start":1725848118364,"stop":1725848120085,"duration":1721},"status":"passed","severity":"normal"},{"uid":"b4b44f09f6071964","name":"Тестна создание Сотрудника, и его удаление","time":{"start":1725848105974,"stop":1725848118059,"duration":12085},"status":"passed","severity":"normal"}]
