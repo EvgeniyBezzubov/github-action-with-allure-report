@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 09 00:26:34 GMT 2024","Mon Sep 09 00:26:35 GMT 2024","899","","<Проверка Расходной Накладной на создание и проведение>","","","","<описание сценария>120,00",""
+"passed","Mon Sep 09 00:26:29 GMT 2024","Mon Sep 09 00:26:34 GMT 2024","4452","","Проверка Справочников на Создание","","","","Тестна создание Сотрудника, и его удаление",""
