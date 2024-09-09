@@ -4,4 +4,4 @@ PathToVanessa = C:\Users\User\PycharmProjects\pythonProject1\vanessa-automation\
 PathParams = C:/Users/User/PycharmProjects/pythonProject1/VAParams5.json
 PathToBaseClient = C:\Users\User\Documents\infobase
 PathToProject = C:\Users\User\PycharmProjects\pythonProject1
-timeOnRun = 20
+timeOnRun = 100

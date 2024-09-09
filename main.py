@@ -21,7 +21,7 @@ def main():
 
         if retreat_num == 0:
             Manager = subprocess.Popen([PathTo1c,
-                                        " /N Администратор /TestManager  /Execute " + PathToVanessa + " /IBConnectionString" + f"File={PathToBaseManager}" + f"; /C StartFeaturePlayer;VAParams=C:/Users/User/PycharmProjects/pythonProject1/VAParams5.json"]) ##+ f"; /C StartFeaturePlayer;VAParams=C:/Users/User/PycharmProjects/pythonProject1/VAParams5.json"
+                                        " /N Администратор /TestManager  /Execute " + PathToVanessa + " /IBConnectionString" + f"File={PathToBaseManager}" + f"; /C StartFeaturePlayer;VAParams={PathParams}"]) ##+ f"; /C StartFeaturePlayer;VAParams=C:/Users/User/PycharmProjects/pythonProject1/VAParams5.json"
             Client = subprocess.Popen([PathTo1c,
                                        " /N Администратор /TESTCLIENT -TPort 48132 " + " /IBConnectionString" + f"File={PathToBaseClient}"])
             ProcManagerIsRun = True
