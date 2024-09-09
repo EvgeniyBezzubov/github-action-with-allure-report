@@ -1,7 +1,7 @@
 PathTo1c = C:\Program Files (x86)\1cv8\8.3.25.1336\bin\1cv8c
 PathToBaseManager = C:\Users\User\Documents\infobase
 PathToVanessa = C:\Users\User\PycharmProjects\pythonProject1\vanessa-automation\vanessa-automation-single.epf
-PathParams = C:/Users/User/PycharmProjects/pythonProject1/VAParams5.json
+PathParams = C:/Users/User/PycharmProjects/pythonProject1/VAParams6.json
 PathToBaseClient = C:\Users\User\Documents\infobase
 PathToProject = C:\Users\User\PycharmProjects\pythonProject1
 timeOnRun = 100
