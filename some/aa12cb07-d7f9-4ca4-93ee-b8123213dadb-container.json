@@ -1,0 +1,32 @@
+{
+	"uuid": "594670b0-9109-4782-b866-f513810a7ebe",
+	"name": "Контекст_<описание сценария>120,00",
+	"description": "",
+	"children": [
+		"aa12cb07-d7f9-4ca4-93ee-b8123213dadb"
+	],
+	"befores": [
+		{
+			"name": "Дано Я подключаю уже запущенный клиент тестирования \"УП-МояБаза\"",
+			"start": 1725848118365,
+			"stop": 1725848118978,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-МояБаза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
