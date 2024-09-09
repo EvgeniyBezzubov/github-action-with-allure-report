@@ -1,7 +1,4 @@
-import copy
 import subprocess
-
-import options
 import os
 import psutil
 import time
