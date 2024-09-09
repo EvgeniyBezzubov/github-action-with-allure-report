@@ -61,7 +61,7 @@ def main():
 
         if not ProcClientIsRun and not ProcManagerIsRun:
             os.system("git add .")
-            os.system(f'git commit -m "{commit_name}"')
+            os.system(f'git commit -m "Автозапуск"')
             os.system("git push")
             break
         time.sleep(1)
