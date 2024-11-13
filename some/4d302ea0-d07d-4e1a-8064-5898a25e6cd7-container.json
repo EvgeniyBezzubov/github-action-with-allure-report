@@ -1,0 +1,42 @@
+{
+	"uuid": "0c041cf3-2ed9-4044-a234-376cd4478888",
+	"name": "Контекст_Док.расход со счёта форма списка, фильтрация",
+	"description": "",
+	"children": [
+		"4d302ea0-d07d-4e1a-8064-5898a25e6cd7"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465269668,
+			"stop": 1731465269710,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465269710,
+			"stop": 1731465269853,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

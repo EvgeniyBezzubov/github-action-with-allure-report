@@ -1,0 +1,42 @@
+{
+	"uuid": "b723c604-5bd9-459c-acb0-6222aed65ca2",
+	"name": "Контекст_Открытие элемента счёт на оплату, переход к кнопке изменить>  установить цены по виду",
+	"description": "",
+	"children": [
+		"e96440e0-76a6-4c0c-8dec-547d4aa123b5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464293449,
+			"stop": 1731464293490,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464293490,
+			"stop": 1731464293645,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

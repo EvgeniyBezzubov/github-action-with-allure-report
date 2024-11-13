@@ -1,0 +1,1157 @@
+{
+	"uuid": "903c3e50-fa73-4440-a2f9-02323bccc606",
+	"historyId": "Спр.ОУ тест поиска.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731466290553,
+	"stop": 1731466302764,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Элемента формы с именем <ОтборОдиночныйНомерКузоваШасси> не найдено.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4129)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(7650)}: Элемента формы с именем <ОтборОдиночныйНомерКузоваШасси> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Объекты учета\n        ИмяАктивнойФормы: Справочник.ОбъектыУчета.Форма.ФормаСписка\n        ИмяФичи: Спр.ОУ тест поиска\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 7 700\n        НомерСтрокиФичи: 31\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Спр.ОУ Тест отбора.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:11 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:51:41"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Клиенты\"",
+			"start": 1731466290952,
+			"stop": 1731466290954,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Декларирование\" \"Объекты учета\"",
+			"start": 1731466290954,
+			"stop": 1731466290976,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Объекты учета\"",
+			"start": 1731466290976,
+			"stop": 1731466291114,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если элемент \"СброситьВсеОтборы\" присутствует на форме Тогда",
+			"start": 1731466291115,
+			"stop": 1731466292000,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборОдиночныйНомерКузоваШасси' я ввожу текст \"56565\"",
+			"start": 1731466292001,
+			"stop": 1731466302762,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Элемента формы с именем <ОтборОдиночныйНомерКузоваШасси> не найдено.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4129)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(7650)}: Элемента формы с именем <ОтборОдиночныйНомерКузоваШасси> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Объекты учета\n        ИмяАктивнойФормы: Справочник.ОбъектыУчета.Форма.ФормаСписка\n        ИмяФичи: Спр.ОУ тест поиска\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 7 700\n        НомерСтрокиФичи: 31\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Спр.ОУ Тест отбора.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:11 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:51:41"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборОдиночныйНомерКузоваШасси"
+				},
+				{
+					"name": "Парам2",
+					"value": "56565"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "36472da7-38f0-47f4-84f1-9302aa33c823-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборВидОбъекта' я выбираю точное значение \"Мотороллер\"",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборВидОбъекта"
+				},
+				{
+					"name": "Парам2",
+					"value": "Мотороллер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "c2065967-56e1-44b4-b87f-587aebed3855-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборОт_ОбъемДвигателя' я ввожу текст \"5 500\"",
+			"start": 1731466302763,
+			"stop": 1731466302763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборОт_ОбъемДвигателя"
+				},
+				{
+					"name": "Парам2",
+					"value": "5 500"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "755e5856-2c8c-41c5-9411-25c9ad5e2704-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборДаНет_Гибрид' я выбираю точное значение \"Да\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборДаНет_Гибрид"
+				},
+				{
+					"name": "Парам2",
+					"value": "Да"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборС_ДатаВыпуска'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаВыпуска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборС_ДатаВыпуска' я ввожу текст \"07.02.2024\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаВыпуска"
+				},
+				{
+					"name": "Парам2",
+					"value": "07.02.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "73b4a5ad-2065-4f2f-84fb-06ad3e3c88c9-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборДаНет_ЭтоВложение' я выбираю точное значение \"Да\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборДаНет_ЭтоВложение"
+				},
+				{
+					"name": "Парам2",
+					"value": "Да"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборС_ДатаКоносамента'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаКоносамента"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборС_ДатаКоносамента' я ввожу текст \"07.02.2024\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаКоносамента"
+				},
+				{
+					"name": "Парам2",
+					"value": "07.02.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "de7376e6-bd90-48da-bc85-e51514addfe6-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборНомерКоносамента' я ввожу текст \"5595\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборНомерКоносамента"
+				},
+				{
+					"name": "Парам2",
+					"value": "5595"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "571d3034-3902-4383-8425-58399dc58c24-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборСтранаИзготовителя' я выбираю по строке \"Италия\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборСтранаИзготовителя"
+				},
+				{
+					"name": "Парам2",
+					"value": "Италия"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "df02b3e6-a0b8-49a2-a4df-f87f7a5cedea-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборКлиент' я выбираю по строке \"ушаков антон\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборКлиент"
+				},
+				{
+					"name": "Парам2",
+					"value": "ушаков антон"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И таблица \"Список\" содержит строки:",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "b9e906d5-415b-4c79-9afc-8bfb1e2e37d8-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборАвтор' я выбираю по строке \"валери\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборАвтор"
+				},
+				{
+					"name": "Парам2",
+					"value": "валери"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем 'ОтборАвтор' стал равен \"\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборАвтор"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Объекты учета\"",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+			"start": 1731466302764,
+			"stop": 1731466302764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СброситьВсеОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.ОУ тест поиска"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.ОУ тест поиска"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

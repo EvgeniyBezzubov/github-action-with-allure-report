@@ -1,0 +1,42 @@
+{
+	"uuid": "b7fd182a-8bf8-45e0-90b9-c83314e01ea7",
+	"name": "Контекст_Обр.Групповое начисление",
+	"description": "",
+	"children": [
+		"da5d8fd7-a131-412c-8fb9-2b69c865b83a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464487429,
+			"stop": 1731464487561,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464487562,
+			"stop": 1731464487827,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

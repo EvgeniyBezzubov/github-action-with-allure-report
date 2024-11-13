@@ -1,0 +1,411 @@
+{
+	"uuid": "e72f099e-4885-43ce-b2cd-6e0ed4cbce82",
+	"historyId": "Тест отчёт Реестр Автоком.отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\"",
+	"name": "отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465629578,
+	"stop": 1731465633855,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Декларирование\"",
+			"start": 1731465629984,
+			"stop": 1731465629986,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Декларирование\" \"Все отчеты\"",
+			"start": 1731465629986,
+			"stop": 1731465632041,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Все отчеты\"",
+			"start": 1731465632041,
+			"stop": 1731465632285,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'Образец44d642d1dbfc11e8a158dd7de059b115'",
+			"start": 1731465632285,
+			"stop": 1731465632295,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Образец44d642d1dbfc11e8a158dd7de059b115"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"РЕЕСТР ООО \\\"АВТОКОМ\\\"\"",
+			"start": 1731465632295,
+			"stop": 1731465632593,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РЕЕСТР ООО \"АВТОКОМ\""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'ПредставлениеПериода'",
+			"start": 1731465632593,
+			"stop": 1731465632598,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПредставлениеПериода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выберите период\"",
+			"start": 1731465632598,
+			"stop": 1731465632614,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выберите период"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'DateBegin' я ввожу текст \"01.01.2024\"",
+			"start": 1731465632615,
+			"stop": 1731465632618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DateBegin"
+				},
+				{
+					"name": "Парам2",
+					"value": "01.01.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Select'",
+			"start": 1731465632827,
+			"stop": 1731465632837,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Select"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"РЕЕСТР ООО \\\"АВТОКОМ\\\"\"",
+			"start": 1731465632839,
+			"stop": 1731465632875,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РЕЕСТР ООО \"АВТОКОМ\""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465632875,
+			"stop": 1731465632880,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Отправить'",
+			"start": 1731465632881,
+			"stop": 1731465633028,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка отчета \\\"РЕЕСТР ООО \\\"АВТОКОМ\\\"\\\" по почте\"",
+			"start": 1731465633029,
+			"stop": 1731465633157,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка отчета \"РЕЕСТР ООО \"АВТОКОМ\"\" по почте"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КнопкаПрикрепить'",
+			"start": 1731465633157,
+			"stop": 1731465633164,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КнопкаПрикрепить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка сообщения\"",
+			"start": 1731465633164,
+			"stop": 1731465633606,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Отправка сообщения\"",
+			"start": 1731465633606,
+			"stop": 1731465633608,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"РЕЕСТР ООО \\\"АВТОКОМ\\\"\"",
+			"start": 1731465633609,
+			"stop": 1731465633634,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РЕЕСТР ООО \"АВТОКОМ\""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465633634,
+			"stop": 1731465633855,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт Реестр Автоком"
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт Реестр Автоком"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

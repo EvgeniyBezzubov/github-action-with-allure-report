@@ -1,0 +1,499 @@
+{
+	"uuid": "6bdb83e9-a12d-421d-a3f1-a69a46996476",
+	"historyId": "Док.Заказ покупателя.Док.Заказ покупателя, нажать  тч. установить цены по виду",
+	"name": "Док.Заказ покупателя, нажать  тч. установить цены по виду",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464095585,
+	"stop": 1731464100712,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Текст исключения",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие.Форма(263)}: Текст исключения\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Заказ покупателя\n        ИмяСценария: Док.Заказ покупателя, нажать  тч. установить цены по виду\n        НомерСтрокиДерева: 1 216\n        НомерСтрокиФичи: 37\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Док.Заказ покупателю, Установить цены по виду.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:14:59"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Заказы покупателей\"",
+			"start": 1731464095993,
+			"stop": 1731464096011,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы покупателей\"",
+			"start": 1731464096011,
+			"stop": 1731464096130,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731464096131,
+			"stop": 1731464096134,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание)\"",
+			"start": 1731464096135,
+			"stop": 1731464096259,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыДобавить'",
+			"start": 1731464096259,
+			"stop": 1731464096266,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю кнопку выбора у реквизита с именем 'ЗапасыНоменклатура'",
+			"start": 1731464096266,
+			"stop": 1731464096298,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНоменклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731464096299,
+			"stop": 1731464096453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'СписокЗапасы' я выбираю текущую строку",
+			"start": 1731464096453,
+			"stop": 1731464096460,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокЗапасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731464096460,
+			"stop": 1731464096512,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731464096513,
+			"stop": 1731464096518,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыИзменитьСтроки'",
+			"start": 1731464096518,
+			"stop": 1731464096535,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить цены по виду\"",
+			"start": 1731464096535,
+			"stop": 1731464096625,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить цены по виду"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЗапасыИзменениеСтрокЗначение'",
+			"start": 1731464096806,
+			"stop": 1731464096813,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Виды цен (колонки прайс-листов)\"",
+			"start": 1731464096815,
+			"stop": 1731464096905,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды цен (колонки прайс-листов)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464096905,
+			"stop": 1731464096911,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731464096912,
+			"stop": 1731464096930,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731464096930,
+			"stop": 1731464096937,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если текущее окно \"равно\" ожидаемому окну \"1С:Предприятие\" Тогда",
+			"start": 1731464096937,
+			"stop": 1731464100711,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "равно"
+				},
+				{
+					"name": "Парам2",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'OK'",
+					"start": 1731464097113,
+					"stop": 1731464097123,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "OK"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1731464097123,
+					"stop": 1731464097413,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я вызываю исключение \"Текст исключения\"",
+					"start": 1731464097612,
+					"stop": 1731464100711,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false,
+						"message": "Текст исключения",
+						"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие.Форма(263)}: Текст исключения\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Заказ покупателя\n        ИмяСценария: Док.Заказ покупателя, нажать  тч. установить цены по виду\n        НомерСтрокиДерева: 1 216\n        НомерСтрокиФичи: 37\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Док.Заказ покупателю, Установить цены по виду.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_Условие\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:14:59"
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Текст исключения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464100712,
+			"stop": 1731464100712,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ покупателя, нажать  тч. установить цены по виду"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "91f69d91-1d78-45c4-ad26-cfe9f9004406",
+	"name": "Контекст_Запускаеим док. Счёт на полату, нажимаем кнопку создать копированием",
+	"description": "",
+	"children": [
+		"a9a16183-3a17-42ec-a7d0-8b54657ff62a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731463947521,
+			"stop": 1731463947562,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731463947562,
+			"stop": 1731463947710,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

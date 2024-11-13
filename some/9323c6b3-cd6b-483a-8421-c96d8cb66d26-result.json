@@ -1,0 +1,1112 @@
+{
+	"uuid": "9323c6b3-cd6b-483a-8421-c96d8cb66d26",
+	"historyId": "Спр.Пользователи сервиса, создать элемент.Спр.Пользователи сервиса, создать элемент",
+	"name": "Спр.Пользователи сервиса, создать элемент",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731466322843,
+	"stop": 1731466339715,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Покупатели (Квитанции)> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Спр.Пользователи сервиса, создать элемент\n        ИмяСценария: Спр.Пользователи сервиса, создать элемент\n        НомерСтрокиДерева: 7 902\n        НомерСтрокиФичи: 41\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест спр.Пользователи сервиса.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:15 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:52:17\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]\n"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Финансы\"",
+			"start": 1731466323254,
+			"stop": 1731466323256,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Финансы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В панели разделов я выбираю \"Зарплата\"",
+			"start": 1731466323256,
+			"stop": 1731466323276,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зарплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В панели разделов я выбираю \"Компания\"",
+			"start": 1731466323276,
+			"stop": 1731466323282,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Компания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Квитанции\" \"Пользователи сервиса\"",
+			"start": 1731466323282,
+			"stop": 1731466323290,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "Пользователи сервиса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса\"",
+			"start": 1731466323290,
+			"stop": 1731466323400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСкопировать'",
+			"start": 1731466323401,
+			"stop": 1731466323405,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСкопировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание)\"",
+			"start": 1731466323405,
+			"stop": 1731466323477,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1731466323477,
+			"stop": 1731466323482,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Пользователи сервиса (создание)\" в течение 20 секунд",
+			"start": 1731466323483,
+			"stop": 1731466324056,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание)"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса\"",
+			"start": 1731466324056,
+			"stop": 1731466324059,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаОбщаяКомандаВзаиморасчеты'",
+			"start": 1731466324059,
+			"stop": 1731466324063,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаОбщаяКомандаВзаиморасчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Взаиморасчеты (квитанции)\"",
+			"start": 1731466324063,
+			"stop": 1731466324567,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Взаиморасчеты (квитанции)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Взаиморасчеты (квитанции)\"",
+			"start": 1731466324567,
+			"stop": 1731466324569,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Взаиморасчеты (квитанции)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса\"",
+			"start": 1731466324570,
+			"stop": 1731466324589,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаОбщаяКомандаПринятьОплату'",
+			"start": 1731466324590,
+			"stop": 1731466324595,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаОбщаяКомандаПринятьОплату"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Поступление в кассу (создание)\"",
+			"start": 1731466324596,
+			"stop": 1731466325120,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступление в кассу (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Поступление в кассу (создание)\"",
+			"start": 1731466325121,
+			"stop": 1731466325123,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступление в кассу (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса\"",
+			"start": 1731466325123,
+			"stop": 1731466325139,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731466325139,
+			"stop": 1731466325143,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание)\"",
+			"start": 1731466325144,
+			"stop": 1731466325183,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Наименование' я ввожу текст \"162\"",
+			"start": 1731466325184,
+			"stop": 1731466325187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "162"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Клиент'",
+			"start": 1731466325187,
+			"stop": 1731466325199,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Покупатели (Квитанции)\"",
+			"start": 1731466325200,
+			"stop": 1731466339712,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Покупатели (Квитанции)> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Спр.Пользователи сервиса, создать элемент\n        ИмяСценария: Спр.Пользователи сервиса, создать элемент\n        НомерСтрокиДерева: 7 902\n        НомерСтрокиФичи: 41\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест спр.Пользователи сервиса.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:15 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:52:17\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]\n"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Покупатели (Квитанции)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Контрагенты: Покупатели (Квитанции)\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Покупатели (Квитанции)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Договор'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Договоры\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ТаможенныйПредставитель'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаможенныйПредставитель"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Таможенные представители\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Таможенные представители"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'КомиссияФормула'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомиссияФормула"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Формулы\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Формулы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'СкидкаНаценкаФормула'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СкидкаНаценкаФормула"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Формулы\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Формулы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ПорталДляАвтоОплаты'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПорталДляАвтоОплаты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Порталы\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Порталы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Пользователи сервиса (создание) *\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'КредитныйЛимит' я ввожу текст \"-1\"",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КредитныйЛимит"
+				},
+				{
+					"name": "Парам2",
+					"value": "-1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'АвтоОплата'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АвтоОплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ВключитьУведомления'",
+			"start": 1731466339714,
+			"stop": 1731466339714,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВключитьУведомления"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1731466339715,
+			"stop": 1731466339715,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Пользователи сервиса (создание) *\" в течение 20 секунд",
+			"start": 1731466339715,
+			"stop": 1731466339715,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи сервиса (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,388 @@
+{
+	"uuid": "45f813b6-f06d-4192-9a67-fe876c3f2e82",
+	"historyId": "Отчёт Себестоимость сотатков, все возможные кнопки.Формирую отчёт сво всевозможными настройками",
+	"name": "Формирую отчёт сво всевозможными настройками",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465502630,
+	"stop": 1731465504333,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Запасы\"",
+			"start": 1731465503039,
+			"stop": 1731465503055,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вариант' я выбираю точное значение \"Запасы\"",
+			"start": 1731465503055,
+			"stop": 1731465503279,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант"
+				},
+				{
+					"name": "Парам2",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Запасы\"",
+			"start": 1731465503279,
+			"stop": 1731465503454,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465503454,
+			"stop": 1731465503460,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вариант' я выбираю точное значение \"Себестоимость остатков\"",
+			"start": 1731465503460,
+			"stop": 1731465503523,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант"
+				},
+				{
+					"name": "Парам2",
+					"value": "Себестоимость остатков"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465503524,
+			"stop": 1731465503659,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаНастройкиДиаграмм'",
+			"start": 1731465503660,
+			"stop": 1731465503711,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаНастройкиДиаграмм"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаСтроки'",
+			"start": 1731465503712,
+			"stop": 1731465503733,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаКолонки'",
+			"start": 1731465503734,
+			"stop": 1731465503760,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаКолонки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаФильтры'",
+			"start": 1731465503760,
+			"stop": 1731465503786,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаФильтры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465503786,
+			"stop": 1731465503813,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вариант' я выбираю точное значение \"Запасы\"",
+			"start": 1731465503813,
+			"stop": 1731465503873,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант"
+				},
+				{
+					"name": "Парам2",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465503873,
+			"stop": 1731465504066,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465504066,
+			"stop": 1731465504124,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вариант' я выбираю точное значение \"Себестоимость остатков\"",
+			"start": 1731465504125,
+			"stop": 1731465504189,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант"
+				},
+				{
+					"name": "Парам2",
+					"value": "Себестоимость остатков"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465504189,
+			"stop": 1731465504333,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Формирую отчёт сво всевозможными настройками"
+		},
+		{
+			"name": "epic",
+			"value": "Отчёт Себестоимость сотатков, все возможные кнопки"
+		},
+		{
+			"name": "suite",
+			"value": "Отчёт Себестоимость сотатков, все возможные кнопки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

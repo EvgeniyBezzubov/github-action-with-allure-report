@@ -1,0 +1,112 @@
+{
+	"uuid": "814908b2-fee9-49b7-9783-239ba375c23d",
+	"historyId": "Подсистема клиенты> Все отчёты > форма.Подсистема клиенты> Все отчёты > форма выбора отчётов",
+	"name": "Подсистема клиенты> Все отчёты > форма выбора отчётов",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465440470,
+	"stop": 1731465442165,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Клиенты\"",
+			"start": 1731465440878,
+			"stop": 1731465440880,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Все отчеты\"",
+			"start": 1731465440880,
+			"stop": 1731465442030,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Все отчеты\"",
+			"start": 1731465442030,
+			"stop": 1731465442164,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Подсистема клиенты> Все отчёты > форма выбора отчётов"
+		},
+		{
+			"name": "epic",
+			"value": "Подсистема клиенты> Все отчёты > форма"
+		},
+		{
+			"name": "suite",
+			"value": "Подсистема клиенты> Все отчёты > форма"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

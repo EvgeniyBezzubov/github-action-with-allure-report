@@ -1,0 +1,1346 @@
+{
+	"uuid": "9d2e1222-4e43-4cf7-b372-d51b9c84ea82",
+	"historyId": "Документы > Заявка сбктс > отправить на печать.Создание заявки, отправка на печать",
+	"name": "Создание заявки, отправка на печать",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464404945,
+	"stop": 1731464413765,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не получилось сделать выбор в поле <ЦентрСертификации> значения <Сертификационные системы>.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(10287)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(10271)}: Не получилось сделать выбор в поле <ЦентрСертификации> значения <Сертификационные системы>. \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заявка СБКТС (создание) *\n        ИмяАктивнойФормы: Документ.ЗаявкаСБКТС.Форма.ФормаДокумента\n        ИмяФичи: Документы > Заявка сбктс > отправить на печать\n        ИмяСценария: Создание заявки, отправка на печать\n        НомерСтрокиДерева: 2 392\n        НомерСтрокиФичи: 30\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Кнопки (Отправить на печать печать) Документа заявка СБКТС.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ИзВыпадающегоСпискаСИменемЯВыбираюТочноеЗначение\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:20:12"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Заявка СБКТС\"",
+			"start": 1731464405553,
+			"stop": 1731464405573,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заявка СБКТС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС\"",
+			"start": 1731464405574,
+			"stop": 1731464405651,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731464405651,
+			"stop": 1731464405656,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание)\"",
+			"start": 1731464405657,
+			"stop": 1731464405767,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерДоговора' я ввожу текст \"989898\"",
+			"start": 1731464405768,
+			"stop": 1731464405771,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерДоговора"
+				},
+				{
+					"name": "Парам2",
+					"value": "989898"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464405772,
+			"stop": 1731464405774,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаДоговора' я ввожу текст \"17.09.2024\"",
+			"start": 1731464405775,
+			"stop": 1731464405785,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаДоговора"
+				},
+				{
+					"name": "Парам2",
+					"value": "17.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АЗИЯ СТАР ООО\"",
+			"start": 1731464405785,
+			"stop": 1731464405805,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АЗИЯ СТАР ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"Грэйс ООО\"",
+			"start": 1731464405806,
+			"stop": 1731464405826,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "Грэйс ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'Организация'",
+			"start": 1731464405827,
+			"stop": 1731464405836,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грэйс ООО (Организация)\"",
+			"start": 1731464405836,
+			"stop": 1731464405986,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грэйс ООО (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Грэйс ООО (Организация)\"",
+			"start": 1731464405986,
+			"stop": 1731464405988,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грэйс ООО (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464405989,
+			"stop": 1731464406006,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЦентрСертификации' я выбираю точное значение \"Сертификационные системы\"",
+			"start": 1731464406007,
+			"stop": 1731464413762,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не получилось сделать выбор в поле <ЦентрСертификации> значения <Сертификационные системы>.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(10287)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(10271)}: Не получилось сделать выбор в поле <ЦентрСертификации> значения <Сертификационные системы>. \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заявка СБКТС (создание) *\n        ИмяАктивнойФормы: Документ.ЗаявкаСБКТС.Форма.ФормаДокумента\n        ИмяФичи: Документы > Заявка сбктс > отправить на печать\n        ИмяСценария: Создание заявки, отправка на печать\n        НомерСтрокиДерева: 2 392\n        НомерСтрокиФичи: 30\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Кнопки (Отправить на печать печать) Документа заявка СБКТС.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ИзВыпадающегоСпискаСИменемЯВыбираюТочноеЗначение\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:20:12"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Сертификационные системы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЦентрСертификации'",
+			"start": 1731464413763,
+			"stop": 1731464413763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Центры сертификации\"",
+			"start": 1731464413763,
+			"stop": 1731464413763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Центры сертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464413763,
+			"stop": 1731464413763,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "d300eb5b-43b5-4439-89e6-f945eb096765-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЦентрСертификации'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Центры сертификации\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Центры сертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "32144e9f-c6d0-4ad1-9876-28be9b6b5f02-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'ЦентрСертификации'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"ТРОЯН (Агент ГЛОНАСС)\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТРОЯН (Агент ГЛОНАСС)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"ТРОЯН (Агент ГЛОНАСС)\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТРОЯН (Агент ГЛОНАСС)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Цена' я ввожу текст \"9 559,00\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Цена"
+				},
+				{
+					"name": "Парам2",
+					"value": "9 559,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЦенаПродажи' я ввожу текст \"955 595,00\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦенаПродажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "955 595,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"Отправлена\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "Отправлена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"На проверке\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "На проверке"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"Закрыта\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "Закрыта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"Открыта\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "Открыта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоДобавить'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю кнопку выбора у реквизита с именем 'АвтоИнформацияПоАвто'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоИнформацияПоАвто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я завершаю редактирование строки",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеТПОСКоносаментом'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеТПОСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеГТДСКоносаментом'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеГТДСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеСКоносаментом'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоСнятьВсеОтметки'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоСнятьВсеОтметки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаДополнительно'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаДополнительно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Контрагент'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Договор'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка СБКТС (создание) *\"",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка СБКТС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ПодменюПечатьОбычное_Досмотр'",
+			"start": 1731464413764,
+			"stop": 1731464413764,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПодменюПечатьОбычное_Досмотр"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если текущее окно \"равно\" ожидаемому окну \"1С:Предприятие\" Тогда",
+			"start": 1731464413764,
+			"stop": 1731464413765,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "равно"
+				},
+				{
+					"name": "Парам2",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'OK'",
+					"start": 1731464413764,
+					"stop": 1731464413764,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "OK"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1731464413764,
+					"stop": 1731464413764,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я вызываю исключение \"Текст исключения\"",
+					"start": 1731464413765,
+					"stop": 1731464413765,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Текст исключения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464413765,
+			"stop": 1731464413765,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание заявки, отправка на печать"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка сбктс > отправить на печать"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка сбктс > отправить на печать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

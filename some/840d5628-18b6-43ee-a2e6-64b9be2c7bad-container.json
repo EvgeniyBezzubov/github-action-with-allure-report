@@ -1,0 +1,42 @@
+{
+	"uuid": "d1068653-5a10-4cba-be62-f409c3a5efa5",
+	"name": "Контекст_Доку поступление в кассу ()",
+	"description": "",
+	"children": [
+		"840d5628-18b6-43ee-a2e6-64b9be2c7bad"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464902216,
+			"stop": 1731464902246,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464902246,
+			"stop": 1731464902393,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "2a37758d-c79a-404e-999e-24dc33989e46",
+	"name": "Контекст_док.Расход из кассы",
+	"description": "",
+	"children": [
+		"0337c7cd-eb3f-4979-92c9-5da643892e03"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465236357,
+			"stop": 1731465236471,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465236471,
+			"stop": 1731465236743,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,676 @@
+{
+	"uuid": "6cf3b8c5-df90-4a3e-bb24-2195b5db58d9",
+	"historyId": "открыть отчёт расчёты с персоналом, сформировать с разными настройками.Открываю",
+	"name": "Открываю",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465613531,
+	"stop": 1731465627762,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Кнопка с именем <РазвернутьВсеГруппы> не найдена.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4338)}: Кнопка с именем <РазвернутьВсеГруппы> не найдена. ТекущееОкно=Расчеты с персоналом (упр. вал.)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Расчеты с персоналом (упр. вал.)\n        ИмяАктивнойФормы: ОбщаяФорма.ФормаОтчетаВЭД\n        ИмяФичи: открыть отчёт расчёты с персоналом, сформировать с разными настройками\n        ИмяСценария: Открываю\n        НомерСтрокиДерева: 6 421\n        НомерСтрокиФичи: 26\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест отчёт Расчёты с персоналом(упр.Валютой).feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:40:26"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Финансы\" \"Расчеты с персоналом\"",
+			"start": 1731465613947,
+			"stop": 1731465613961,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Финансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "Расчеты с персоналом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расчеты с персоналом (упр. вал.)\"",
+			"start": 1731465613961,
+			"stop": 1731465614208,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расчеты с персоналом (упр. вал.)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465614208,
+			"stop": 1731465614214,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'РазвернутьВсеГруппы'",
+			"start": 1731465614215,
+			"stop": 1731465627760,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Кнопка с именем <РазвернутьВсеГруппы> не найдена.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4338)}: Кнопка с именем <РазвернутьВсеГруппы> не найдена. ТекущееОкно=Расчеты с персоналом (упр. вал.)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Расчеты с персоналом (упр. вал.)\n        ИмяАктивнойФормы: ОбщаяФорма.ФормаОтчетаВЭД\n        ИмяФичи: открыть отчёт расчёты с персоналом, сформировать с разными настройками\n        ИмяСценария: Открываю\n        НомерСтрокиДерева: 6 421\n        НомерСтрокиФичи: 26\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест отчёт Расчёты с персоналом(упр.Валютой).feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:40:26"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РазвернутьВсеГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СвернутьВсеГруппы'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СвернутьВсеГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Отправить'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка отчета \\\"Расчеты с персоналом (упр. вал.)\\\" по почте\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка отчета \"Расчеты с персоналом (упр. вал.)\" по почте"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КнопкаПрикрепить'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КнопкаПрикрепить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка сообщения\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Отправка сообщения\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расчеты с персоналом (упр. вал.)\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расчеты с персоналом (упр. вал.)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'РассылкаОтчетовСоздатьНовую'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РассылкаОтчетовСоздатьНовую"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Рассылка отчетов (создание)\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылка отчетов (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Рассылка отчетов (создание)\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылка отчетов (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расчеты с персоналом (упр. вал.)\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расчеты с персоналом (упр. вал.)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'РассылкаОтчетовПрисоединитьКСуществующей'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РассылкаОтчетовПрисоединитьКСуществующей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Рассылки отчетов\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылки отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Рассылки отчетов\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылки отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расчеты с персоналом (упр. вал.)\"",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расчеты с персоналом (упр. вал.)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг 'Выводить заголовок'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выводить заголовок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаНастройкиДиаграмм'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаНастройкиДиаграмм"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ВидДиаграммы'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидДиаграммы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю из списка 'Графики'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Графики"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю из списка 'Обычный'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Обычный"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаСтроки'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я снимаю флаг 'Сотрудник, Период регистра...'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудник, Период регистра..."
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаКолонки'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаКолонки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я снимаю флаг 'Сумма'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сумма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаФильтры'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаФильтры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465627762,
+			"stop": 1731465627762,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открываю"
+		},
+		{
+			"name": "epic",
+			"value": "открыть отчёт расчёты с персоналом, сформировать с разными настройками"
+		},
+		{
+			"name": "suite",
+			"value": "открыть отчёт расчёты с персоналом, сформировать с разными настройками"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

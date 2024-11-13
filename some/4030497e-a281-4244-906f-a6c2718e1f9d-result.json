@@ -1,0 +1,1441 @@
+{
+	"uuid": "4030497e-a281-4244-906f-a6c2718e1f9d",
+	"historyId": "Док.Отчёт Агента> создание.Запонение шапки",
+	"name": "Запонение шапки",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465164626,
+	"stop": 1731465174720,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Команда меню <Отчеты агента (ПТД)> не найдена в панели функций.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7699)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7571)}: Команда меню <Отчеты агента (ПТД)> не найдена в панели функций.\nПанель разделов <Квитанции>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Отчёт Агента> создание\n        ИмяСценария: Запонение шапки\n        НомерСтрокиДерева: 4 956\n        НомерСтрокиФичи: 17\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.ОтчётАгента создание.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:09 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:32:53"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Квитанции\" \"Отчеты агента (ПТД)\"",
+			"start": 1731465165242,
+			"stop": 1731465174718,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Команда меню <Отчеты агента (ПТД)> не найдена в панели функций.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7699)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7571)}: Команда меню <Отчеты агента (ПТД)> не найдена в панели функций.\nПанель разделов <Квитанции>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Отчёт Агента> создание\n        ИмяСценария: Запонение шапки\n        НомерСтрокиДерева: 4 956\n        НомерСтрокиФичи: 17\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.ОтчётАгента создание.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:09 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:32:53"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "Отчеты агента (ПТД)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента (создание)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АВТОКОМ ООО (СТАРАЯ)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АВТОКОМ ООО (СТАРАЯ)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АЗИЯ СТАР ООО\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АЗИЯ СТАР ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'Организация'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"АЗИЯ СТАР ООО (Организация)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АЗИЯ СТАР ООО (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"АЗИЯ СТАР ООО (Организация)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АЗИЯ СТАР ООО (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"ГТД\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "ГТД"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"ПТД\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПТД"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Квитанции\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Квитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я активизирую поле с именем 'КвитанцииНомерСтроки'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииНомерСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я активизирую поле с именем 'АгентскиеУслугиНомерСтроки'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				},
+				{
+					"name": "Парам2",
+					"value": "АгентскиеУслугиНомерСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'БанковскийСчет' я выбираю точное значение \"40702810701000163674, в ПАО БАНК ЗЕНИТ\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "БанковскийСчет"
+				},
+				{
+					"name": "Парам2",
+					"value": "40702810701000163674, в ПАО БАНК ЗЕНИТ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'БанковскийСчет'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "БанковскийСчет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"* в ПАО БАНК ЗЕНИТ (Банковские счета)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "* в ПАО БАНК ЗЕНИТ (Банковские счета)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"* в ПАО БАНК ЗЕНИТ (Банковские счета)\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "* в ПАО БАНК ЗЕНИТ (Банковские счета)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Контрагент' я выбираю точное значение \"SAT\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				},
+				{
+					"name": "Парам2",
+					"value": "SAT"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я нажимаю на кнопку с именем 'КвитанцииДобавить'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' из выпадающего списка с именем 'КвитанцииКвитанция' я выбираю точное значение \"Квитанция  от 18.02.2019\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииКвитанция"
+				},
+				{
+					"name": "Парам3",
+					"value": "Квитанция  от 18.02.2019"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я завершаю редактирование строки",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я активизирую поле с именем 'КвитанцииСуммаПошлины'",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииСуммаПошлины"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я выбираю текущую строку",
+			"start": 1731465174719,
+			"stop": 1731465174719,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' в поле с именем 'КвитанцииСуммаПошлины' я ввожу текст \"100,00\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииСуммаПошлины"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' в поле с именем 'КвитанцииСуммаУтилСбора' я ввожу текст \"500,00\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииСуммаУтилСбора"
+				},
+				{
+					"name": "Парам3",
+					"value": "500,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' в поле с именем 'КвитанцииСуммаКомиссии' я ввожу текст \"66,00\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "КвитанцииСуммаКомиссии"
+				},
+				{
+					"name": "Парам3",
+					"value": "66,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Квитанции' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаУслуги'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я нажимаю на кнопку с именем 'АгентскиеУслугиДобавить'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				},
+				{
+					"name": "Парам2",
+					"value": "АгентскиеУслугиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я нажимаю кнопку выбора у реквизита с именем 'АгентскиеУслугиНоменклатура'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				},
+				{
+					"name": "Парам2",
+					"value": "АгентскиеУслугиНоменклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"1С:Предприятие\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'OK'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "OK"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаАвансы'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаАвансы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я нажимаю на кнопку с именем 'АвансыДобавить'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвансыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я нажимаю кнопку выбора у реквизита с именем 'АвансыДокумент'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвансыДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Поступления на счет\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отчет агента (создание) *\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчет агента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я активизирую поле с именем 'АвансыСумма'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвансыСумма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я выбираю текущую строку",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' в поле с именем 'АвансыСумма' я ввожу текст \"666,00\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвансыСумма"
+				},
+				{
+					"name": "Парам3",
+					"value": "666,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авансы' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авансы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаКвитанции'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаКвитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаУслуги'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаКвитанции'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаКвитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' в поле с именем 'АгентскиеУслугиКоличество' я ввожу текст \"23,000\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				},
+				{
+					"name": "Парам2",
+					"value": "АгентскиеУслугиКоличество"
+				},
+				{
+					"name": "Парам3",
+					"value": "23,000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' из выпадающего списка с именем 'АгентскиеУслугиСтавкаНДС' я выбираю точное значение \"Без НДС\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				},
+				{
+					"name": "Парам2",
+					"value": "АгентскиеУслугиСтавкаНДС"
+				},
+				{
+					"name": "Парам3",
+					"value": "Без НДС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'АгентскиеУслуги' я завершаю редактирование строки",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АгентскиеУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровести"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю TestClient \"КлиентТестирования\"",
+			"start": 1731465174720,
+			"stop": 1731465174720,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлиентТестирования"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запонение шапки"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Отчёт Агента> создание"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Отчёт Агента> создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

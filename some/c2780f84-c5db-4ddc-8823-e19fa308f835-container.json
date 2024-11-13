@@ -1,0 +1,42 @@
+{
+	"uuid": "204a7f59-8128-4f09-adca-db80eed6ebc2",
+	"name": "Контекст_открываю корректировку, нажимаю на поле покупатель",
+	"description": "",
+	"children": [
+		"c2780f84-c5db-4ddc-8823-e19fa308f835"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464102514,
+			"stop": 1731464102562,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464102562,
+			"stop": 1731464102897,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

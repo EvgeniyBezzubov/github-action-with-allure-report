@@ -1,0 +1,167 @@
+{
+	"uuid": "5893007b-9fc8-4f77-9ba5-0bdf958df852",
+	"historyId": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \".Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \"",
+	"name": "Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465635672,
+	"stop": 1731465791059,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Декларирование\" \"Все отчеты\"",
+			"start": 1731465636084,
+			"stop": 1731465636098,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Все отчеты\"",
+			"start": 1731465636099,
+			"stop": 1731465636311,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'Образец404adaeebffd11e8949110f00554f280'",
+			"start": 1731465636312,
+			"stop": 1731465636329,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Образец404adaeebffd11e8949110f00554f280"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестр оформленных ТПО ООО \\\"АВТОКОМ\\\"\"",
+			"start": 1731465636329,
+			"stop": 1731465636807,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестр оформленных ТПО ООО \"АВТОКОМ\""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465636808,
+			"stop": 1731465636814,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465636814,
+			"stop": 1731465791059,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

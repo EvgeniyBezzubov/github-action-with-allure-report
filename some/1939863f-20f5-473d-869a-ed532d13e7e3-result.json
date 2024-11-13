@@ -1,0 +1,267 @@
+{
+	"uuid": "1939863f-20f5-473d-869a-ed532d13e7e3",
+	"historyId": "Тест \"Реестр ТПО(ТП Бухгалтерия)\", открытие формы, кнопка сформировать, кнопка отправить.Тест формирования отчёта \"Реестр ТПО(ТП Бухгалтерия)\"",
+	"name": "Тест формирования отчёта \"Реестр ТПО(ТП Бухгалтерия)\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465795938,
+	"stop": 1731465909495,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Декларирование\" \"Все отчеты\"",
+			"start": 1731465796343,
+			"stop": 1731465796357,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Все отчеты\"",
+			"start": 1731465796358,
+			"stop": 1731465796611,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Все отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'Образец8481f1e45ab411eba1e8919a226c1ff5'",
+			"start": 1731465796612,
+			"stop": 1731465796629,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Образец8481f1e45ab411eba1e8919a226c1ff5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестр ТПО (ТП Бухгалтерия)\"",
+			"start": 1731465796629,
+			"stop": 1731465796967,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестр ТПО (ТП Бухгалтерия)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Сформировать'",
+			"start": 1731465796967,
+			"stop": 1731465796973,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Отправить'",
+			"start": 1731465796974,
+			"stop": 1731465811819,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка отчета \\\"Реестр ТПО (ТП Бухгалтерия)\\\" по почте\"",
+			"start": 1731465811819,
+			"stop": 1731465856344,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка отчета \"Реестр ТПО (ТП Бухгалтерия)\" по почте"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КнопкаПрикрепить'",
+			"start": 1731465856344,
+			"stop": 1731465856350,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КнопкаПрикрепить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправка сообщения\"",
+			"start": 1731465856351,
+			"stop": 1731465909145,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Отправка сообщения\"",
+			"start": 1731465909145,
+			"stop": 1731465909148,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправка сообщения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465909148,
+			"stop": 1731465909495,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"Реестр ТПО(ТП Бухгалтерия)\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест \"Реестр ТПО(ТП Бухгалтерия)\", открытие формы, кнопка сформировать, кнопка отправить"
+		},
+		{
+			"name": "suite",
+			"value": "Тест \"Реестр ТПО(ТП Бухгалтерия)\", открытие формы, кнопка сформировать, кнопка отправить"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

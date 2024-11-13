@@ -1,0 +1,42 @@
+{
+	"uuid": "07d63371-c64c-4b93-9243-a4bb310ec74f",
+	"name": "Контекст_Док.Заказ покупателя, нажать  тч. установить цены по виду",
+	"description": "",
+	"children": [
+		"6bdb83e9-a12d-421d-a3f1-a69a46996476"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464095603,
+			"stop": 1731464095644,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464095644,
+			"stop": 1731464095790,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

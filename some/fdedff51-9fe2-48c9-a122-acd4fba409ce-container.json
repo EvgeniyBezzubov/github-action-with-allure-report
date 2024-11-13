@@ -1,0 +1,42 @@
+{
+	"uuid": "660e1c71-2e79-4bd2-8d3b-d32f891f7d3b",
+	"name": "Контекст_заполнение пропуска на сайте",
+	"description": "",
+	"children": [
+		"fdedff51-9fe2-48c9-a122-acd4fba409ce"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464505510,
+			"stop": 1731464505552,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464505552,
+			"stop": 1731464505692,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

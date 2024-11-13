@@ -1,0 +1,42 @@
+{
+	"uuid": "214d020f-6bb9-4899-a882-9344f02a4a5f",
+	"name": "Контекст_док.Поступление",
+	"description": "",
+	"children": [
+		"6d257377-22b6-4b5f-93b8-7f04be93a437"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465176425,
+			"stop": 1731465176464,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465176464,
+			"stop": 1731465176613,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

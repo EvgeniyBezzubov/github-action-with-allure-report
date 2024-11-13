@@ -1,0 +1,42 @@
+{
+	"uuid": "b0e9c6a8-38ff-455d-8c4e-947aa1dcb7d3",
+	"name": "Контекст_<описание сценария>",
+	"description": "",
+	"children": [
+		"a5e91e22-e1d3-4623-a757-bf91a059ed5b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464273544,
+			"stop": 1731464273633,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464273633,
+			"stop": 1731464273927,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

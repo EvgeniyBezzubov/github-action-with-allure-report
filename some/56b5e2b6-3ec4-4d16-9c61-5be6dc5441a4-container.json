@@ -1,0 +1,42 @@
+{
+	"uuid": "8cbf83c5-0bfd-4807-8807-f3c8aadb444c",
+	"name": "Контекст_Тест формирования отчёта \"оформленные ТПО\"",
+	"description": "",
+	"children": [
+		"56b5e2b6-3ec4-4d16-9c61-5be6dc5441a4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465579036,
+			"stop": 1731465579065,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465579065,
+			"stop": 1731465579211,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

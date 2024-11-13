@@ -1,0 +1,378 @@
+{
+	"uuid": "ccfe8742-b51d-4abb-a0f9-0d1b793a3a14",
+	"historyId": "Тест Кнопки выбора Кузова элемента справочника ИПА.Захожу в спавочник ИПА, нажимаю кнопку выбора кузова",
+	"name": "Захожу в спавочник ИПА, нажимаю кнопку выбора кузова",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464455525,
+	"stop": 1731464466746,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Элемента формы с именем <ОтборНомерКоносамента> не найдено.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4129)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(7650)}: Элемента формы с именем <ОтборНомерКоносамента> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Информация по авто\n        ИмяАктивнойФормы: Справочник.ИнформацияПоАвто.Форма.ФормаСписка\n        ИмяФичи: Тест Кнопки выбора Кузова элемента справочника ИПА\n        ИмяСценария: Захожу в спавочник ИПА, нажимаю кнопку выбора кузова\n        НомерСтрокиДерева: 2 479\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Кнопкивыбора кузова спрачоника ИПА.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:10 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:21:05"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Информация по авто\"",
+			"start": 1731464455677,
+			"stop": 1731464455694,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Информация по авто\"",
+			"start": 1731464455694,
+			"stop": 1731464456689,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборНомерКоносамента' я ввожу текст \"CGL221114HIRO88\"",
+			"start": 1731464456690,
+			"stop": 1731464466744,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Элемента формы с именем <ОтборНомерКоносамента> не найдено.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4129)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(7650)}: Элемента формы с именем <ОтборНомерКоносамента> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Информация по авто\n        ИмяАктивнойФормы: Справочник.ИнформацияПоАвто.Форма.ФормаСписка\n        ИмяФичи: Тест Кнопки выбора Кузова элемента справочника ИПА\n        ИмяСценария: Захожу в спавочник ИПА, нажимаю кнопку выбора кузова\n        НомерСтрокиДерева: 2 479\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Кнопкивыбора кузова спрачоника ИПА.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:10 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:21:05"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборНомерКоносамента"
+				},
+				{
+					"name": "Парам2",
+					"value": "CGL221114HIRO88"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборСтатус'",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборСтатус"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я активизирую поле с именем 'Клиент'",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "Клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я активизирую поле с именем 'Дата'",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "Дата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"KIA BONGO III KNCWJZ76ANK609985 (Информация по авто)\"",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "KIA BONGO III KNCWJZ76ANK609985 (Информация по авто)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'НомерКузова'",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерКузова"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если текущее окно \"равно\" ожидаемому окну \"1С:Предприятие\" Тогда",
+			"start": 1731464466745,
+			"stop": 1731464466745,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "равно"
+				},
+				{
+					"name": "Парам2",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'OK'",
+					"start": 1731464466745,
+					"stop": 1731464466745,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "OK"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю текущее окно",
+					"start": 1731464466745,
+					"stop": 1731464466745,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СброситьВсеОтборы'",
+					"start": 1731464466745,
+					"stop": 1731464466745,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СброситьВсеОтборы"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1731464466745,
+					"stop": 1731464466745,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я вызываю исключение \"Текст исключения\"",
+					"start": 1731464466745,
+					"stop": 1731464466745,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Текст исключения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464466746,
+			"stop": 1731464466746,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Захожу в спавочник ИПА, нажимаю кнопку выбора кузова"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Кнопки выбора Кузова элемента справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Кнопки выбора Кузова элемента справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

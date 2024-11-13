@@ -1,0 +1,42 @@
+{
+	"uuid": "308d0331-bd8f-49cb-af9e-0457e5b166f9",
+	"name": "Контекст_Подсистема финансы> Денежные средства> Сформировать отчёт",
+	"description": "",
+	"children": [
+		"14f33a04-d777-4a0b-9c51-dd40306aa11b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465914587,
+			"stop": 1731465914609,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465914609,
+			"stop": 1731465914773,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

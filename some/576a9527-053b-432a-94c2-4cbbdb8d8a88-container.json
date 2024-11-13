@@ -1,0 +1,42 @@
+{
+	"uuid": "3c2a06a9-0045-47f2-b51c-9977c11e486a",
+	"name": "Контекст_подсисистема клиет > дополнительные отчёты >  форма выбора",
+	"description": "",
+	"children": [
+		"576a9527-053b-432a-94c2-4cbbdb8d8a88"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465465676,
+			"stop": 1731465465697,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465465697,
+			"stop": 1731465465865,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "de601a7c-3821-458e-8e54-681ab1b665ad",
+	"name": "Контекст_тест фильтрации",
+	"description": "",
+	"children": [
+		"0f5a7b89-8c59-4862-8558-a3fc10d69d2e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465134590,
+			"stop": 1731465134676,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465134677,
+			"stop": 1731465134972,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

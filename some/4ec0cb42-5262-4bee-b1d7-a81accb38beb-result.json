@@ -1,0 +1,531 @@
+{
+	"uuid": "4ec0cb42-5262-4bee-b1d7-a81accb38beb",
+	"historyId": "спр.Статусы Информации по авто > создание элемента.спр.Статусы Информации по авто > создание элемента",
+	"name": "спр.Статусы Информации по авто > создание элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731466444722,
+	"stop": 1731466446350,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В панели разделов я выбираю \"Клиенты\"",
+			"start": 1731466445331,
+			"stop": 1731466445333,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я нажимаю кнопку командного интерфейса \"Статусы информация по авто\"",
+			"start": 1731466445334,
+			"stop": 1731466445350,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статусы информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Статусы информация по авто\"",
+			"start": 1731466445350,
+			"stop": 1731466445479,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статусы информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731466445479,
+			"stop": 1731466445484,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Статусы информация по авто (создание)\"",
+			"start": 1731466445485,
+			"stop": 1731466445583,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статусы информация по авто (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Наименование' я ввожу текст \"Тест\"",
+			"start": 1731466445583,
+			"stop": 1731466445587,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тест"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Порядок' я ввожу текст \"22\"",
+			"start": 1731466445587,
+			"stop": 1731466445595,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Порядок"
+				},
+				{
+					"name": "Парам2",
+					"value": "22"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Следующий' я выбираю точное значение \"В лаборатории\"",
+			"start": 1731466445596,
+			"stop": 1731466445618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Следующий"
+				},
+				{
+					"name": "Парам2",
+					"value": "В лаборатории"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ПриЗавершении' я ввожу текст \"тест\"",
+			"start": 1731466445618,
+			"stop": 1731466445629,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПриЗавершении"
+				},
+				{
+					"name": "Парам2",
+					"value": "тест"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ПлановыйСрок' я ввожу текст \"5\"",
+			"start": 1731466445629,
+			"stop": 1731466445639,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПлановыйСрок"
+				},
+				{
+					"name": "Парам2",
+					"value": "5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я нажимаю на кнопку с именем 'ЗависимостиДобавить'",
+			"start": 1731466445639,
+			"stop": 1731466445650,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗависимостиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' из выпадающего списка с именем 'ЗависимостиСтатус' я выбираю точное значение \"На досмотре\"",
+			"start": 1731466445650,
+			"stop": 1731466445677,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗависимостиСтатус"
+				},
+				{
+					"name": "Парам3",
+					"value": "На досмотре"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я завершаю редактирование строки",
+			"start": 1731466445678,
+			"stop": 1731466445698,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я добавляю строку",
+			"start": 1731466445698,
+			"stop": 1731466445703,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' из выпадающего списка с именем 'ЗависимостиСтатус' я выбираю точное значение \"ПТС получен\"",
+			"start": 1731466445704,
+			"stop": 1731466445726,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗависимостиСтатус"
+				},
+				{
+					"name": "Парам3",
+					"value": "ПТС получен"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я завершаю редактирование строки",
+			"start": 1731466445726,
+			"stop": 1731466445747,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я добавляю строку",
+			"start": 1731466445748,
+			"stop": 1731466445752,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я нажимаю кнопку выбора у реквизита с именем 'ЗависимостиСтатус'",
+			"start": 1731466445753,
+			"stop": 1731466445777,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗависимостиСтатус"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Зависимости' я отменяю редактирование строки",
+			"start": 1731466445778,
+			"stop": 1731466445793,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зависимости"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1731466445942,
+			"stop": 1731466445948,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Статусы информация по авто (создание) *\" в течение 20 секунд",
+			"start": 1731466445949,
+			"stop": 1731466446176,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статусы информация по авто (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466446176,
+			"stop": 1731466446350,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

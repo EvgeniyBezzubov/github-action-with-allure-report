@@ -1,0 +1,2043 @@
+{
+	"uuid": "d4ba49e8-9982-478e-b550-f54d00748f3b",
+	"historyId": "<описание фичи>.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465107750,
+	"stop": 1731465122163,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Покупатели> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 4 752\n        НомерСтрокиФичи: 24\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.Заказ поставщику создание элемента, тест всех кнопок.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:32:00\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]\n"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Заказы покупателей\"",
+			"start": 1731465107920,
+			"stop": 1731465107940,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы покупателей\"",
+			"start": 1731465107941,
+			"stop": 1731465108158,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731465108159,
+			"stop": 1731465108163,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание)\"",
+			"start": 1731465108163,
+			"stop": 1731465108438,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'СостояниеЗаказа'",
+			"start": 1731465108439,
+			"stop": 1731465108465,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СостояниеЗаказа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Состояния заказов покупателей\"",
+			"start": 1731465108465,
+			"stop": 1731465108547,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Состояния заказов покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465108548,
+			"stop": 1731465108556,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465108556,
+			"stop": 1731465108574,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Контрагент'",
+			"start": 1731465108575,
+			"stop": 1731465108589,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Покупатели\"",
+			"start": 1731465108590,
+			"stop": 1731465122159,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Покупатели> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 4 752\n        НомерСтрокиФичи: 24\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.Заказ поставщику создание элемента, тест всех кнопок.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:32:00\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (НайтиСтроки)\n                {ОбщийМодуль.РаботаСОтборами.Модуль(1787)}:Строки = Форма[ИмяТЧДанныеМеток].НайтиСтроки(Новый Структура(\"ИмяОтбора\", ИмяОтбора));\n                {ОбщийМодуль.РаботаСОтборами.Модуль(126)}:УстановитьНестандартныйОтборСписка(Форма, СписокОтбора, ИмяСписка, ИспользованиеОтбора,\n                {ОбщийМодуль.РаботаСОтборами.Модуль(782)}:УстановитьОтборСписка(Форма, СписокОтбора, строкаПолейОтборов.ИмяПоляОтбора, , Истина,\n                {Справочник.Контрагенты.Форма.ФормаСписка.Форма(89)}:РаботаСОтборами.ВосстановитьНастройкиОтборов(ЭтотОбъект, Список, , , Новый Структура(\"ОтборПериод\",\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Неизвестная колонка\n                [ОшибкаИспользованияВстроенногоЯзыка]\n"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Покупатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АВТОКОМ ООО (СТАРАЯ)\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АВТОКОМ ООО (СТАРАЯ)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыДобавить'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю кнопку выбора у реквизита с именем 'ЗапасыНоменклатура'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНоменклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я активизирую поле с именем 'ЗапасыЦена'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я выбираю текущую строку",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' в поле с именем 'ЗапасыЦена' я ввожу текст \"33,00\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				},
+				{
+					"name": "Парам3",
+					"value": "33,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыДобавить'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю кнопку выбора у реквизита с именем 'ЗапасыНоменклатура'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНоменклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я активизирую поле с именем 'ЗапасыЦена'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я выбираю текущую строку",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' в поле с именем 'ЗапасыЦена' я ввожу текст \"36,00\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				},
+				{
+					"name": "Парам3",
+					"value": "36,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаДополнительно'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаДополнительно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаЗапасы'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаЗапасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыИзменитьСтроки'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Изменить цены на процент\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Изменить цены на процент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"15,00\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "15,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "cf482e29-cc74-4e82-b4b3-b1c2888e6f3c-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122161,
+			"stop": 1731465122161,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Округлить цены\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Округлить цены"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"1\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "805c6e20-6803-4df8-8a6d-4ea293d1f45e-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Округлить суммы\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Округлить суммы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"10\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "381b345e-e01a-425a-bf8e-172d01036e93-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить цены по виду\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить цены по виду"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Распределить сумму по количеству\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Распределить сумму по количеству"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"10,00\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "10,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "d20a1caa-711c-4ed3-8ec2-9638d7b517b9-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Распределить сумму по суммам\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Распределить сумму по суммам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"17,00\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "17,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ec7872f8-76de-4b63-aedb-b73c848d8b32-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить ставку НДС\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить ставку НДС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"18 %\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "18 %"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "5487bcb9-f6e4-45b3-80f6-d537f6fe3f26-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить дату отгрузки\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить дату отгрузки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"01.08.2024  0:00:00\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "01.08.2024  0:00:00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ed0688b4-9265-4da2-ba7c-2a5ba94f844c-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Добавить из документа\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Добавить из документа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЗапасыИзменениеСтрокЗначение'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"\" я перехожу к первой строке",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"\" я выбираю текущую строку",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы покупателей\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "e163f234-f65e-4f0f-862a-db6cc5c7cc5c-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122162,
+			"stop": 1731465122162,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "726ef8fb-81e5-46bb-bbc2-41b65214b72d-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "cbc6daa0-825f-48da-a49d-e3b9e4a9f4f2-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Удалить строки\"",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Удалить строки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыСнятьФлажки'",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыСнятьФлажки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыУстановитьФлажки'",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыУстановитьФлажки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда в таблице 'Запасы' количество строк \"равно\" 0",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "равно"
+				},
+				{
+					"name": "Парам3",
+					"value": "0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465122163,
+			"stop": 1731465122163,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "suite",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

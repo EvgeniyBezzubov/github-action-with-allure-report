@@ -1,0 +1,42 @@
+{
+	"uuid": "9b683b2d-9bd2-4f92-80aa-4753ae4b529f",
+	"name": "Контекст_Создание контрагента",
+	"description": "",
+	"children": [
+		"74d53755-f84c-4304-b2d0-a764de11f99b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464812640,
+			"stop": 1731464812743,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464812743,
+			"stop": 1731464813018,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

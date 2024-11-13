@@ -1,0 +1,42 @@
+{
+	"uuid": "b91f9a9e-b40f-4194-af94-2db48c9b46e8",
+	"name": "Контекст_Открытие формы списка справочника \"Графики работы\" (ГрафикиРаботы)",
+	"description": "",
+	"children": [
+		"557ec6e9-c379-4084-9bd0-804fd8e9c483"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464604839,
+			"stop": 1731464604901,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1731464604901,
+			"stop": 1731464605222,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

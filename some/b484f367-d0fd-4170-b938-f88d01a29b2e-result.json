@@ -1,0 +1,96 @@
+{
+	"uuid": "b484f367-d0fd-4170-b938-f88d01a29b2e",
+	"historyId": "док. Документы по кадрам, открытие формы.док.Документы по кадрам открытие формы",
+	"name": "док.Документы по кадрам открытие формы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464071612,
+	"stop": 1731464072263,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не найдена процедура или функция для выполнения шага:",
+		"trace": "Не найдена процедура или функция для выполнения шага: Тогда открылось окно \"Документы по кадрам\"ава"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Зарплата\" \"Документы по кадрам\"",
+			"start": 1731464072228,
+			"stop": 1731464072243,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зарплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "Документы по кадрам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Документы по кадрам\"ава",
+			"start": 1731464072243,
+			"stop": 1731464072263,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не найдена процедура или функция для выполнения шага:",
+				"trace": "Не найдена процедура или функция для выполнения шага: Тогда открылось окно \"Документы по кадрам\"ава"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Документы по кадрам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Документы по кадрам открытие формы"
+		},
+		{
+			"name": "epic",
+			"value": "док. Документы по кадрам, открытие формы"
+		},
+		{
+			"name": "suite",
+			"value": "док. Документы по кадрам, открытие формы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

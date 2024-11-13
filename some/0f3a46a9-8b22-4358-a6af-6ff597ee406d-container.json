@@ -1,0 +1,42 @@
+{
+	"uuid": "78fce0dd-fbb9-485d-bb29-90841e5b4d5d",
+	"name": "Контекст_Открытие спарвочника, нажатие кнопки.",
+	"description": "",
+	"children": [
+		"0f3a46a9-8b22-4358-a6af-6ff597ee406d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464702130,
+			"stop": 1731464702151,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1731464702151,
+			"stop": 1731464702323,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

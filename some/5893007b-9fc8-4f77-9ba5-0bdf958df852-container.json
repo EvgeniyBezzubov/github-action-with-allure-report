@@ -1,0 +1,42 @@
+{
+	"uuid": "ef23f2b1-80a4-4199-b5db-e851db863e53",
+	"name": "Контекст_Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \"",
+	"description": "",
+	"children": [
+		"5893007b-9fc8-4f77-9ba5-0bdf958df852"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465635699,
+			"stop": 1731465635726,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465635726,
+			"stop": 1731465635876,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

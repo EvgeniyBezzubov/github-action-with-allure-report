@@ -1,0 +1,532 @@
+{
+	"uuid": "427cb889-c3c2-4fd2-8e1e-5bfc2cd4ab9d",
+	"historyId": "<описание фичи>.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731466433344,
+	"stop": 1731466442852,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не получилось нажать на кнопку <ФормаИспользоватьКакОсновного>.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4394)}: Не получилось нажать на кнопку <ФормаИспользоватьКакОсновного>.\n{ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(16704)}: Ошибка при вызове метода контекста (Нажать): Недоступный пользователю элемент управления не может выполнять интерактивные действия. (Использовать как основного)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Сотрудники\n        ИмяАктивнойФормы: Справочник.Сотрудники.Форма.ФормаСписка\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 8 244\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Спр.сотрудники.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:54:01"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Зарплата\"",
+			"start": 1731466433395,
+			"stop": 1731466433397,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зарплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Зарплата\" \"Сотрудники\"",
+			"start": 1731466433398,
+			"stop": 1731466435052,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зарплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "Сотрудники"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Сотрудники\"",
+			"start": 1731466435053,
+			"stop": 1731466435243,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаИспользоватьКакОсновного'",
+			"start": 1731466435243,
+			"stop": 1731466442850,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не получилось нажать на кнопку <ФормаИспользоватьКакОсновного>.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4394)}: Не получилось нажать на кнопку <ФормаИспользоватьКакОсновного>.\n{ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(16704)}: Ошибка при вызове метода контекста (Нажать): Недоступный пользователю элемент управления не может выполнять интерактивные действия. (Использовать как основного)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Сотрудники\n        ИмяАктивнойФормы: Справочник.Сотрудники.Форма.ФормаСписка\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 8 244\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Спр.сотрудники.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:54:01"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаИспользоватьКакОсновного"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаОбщаяКомандаЗаполнениеОбъекта'",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаОбщаяКомандаЗаполнениеОбъекта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Команды заполнения объектов\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Команды заполнения объектов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗакрытьФорму'",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗакрытьФорму"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Сотрудники\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСкопировать'",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСкопировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Сотрудник (создание)\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудник (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаРождения' я ввожу текст \"07.09.2020\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаРождения"
+				},
+				{
+					"name": "Парам2",
+					"value": "07.09.2020"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Пол' я выбираю точное значение \"Мужской\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пол"
+				},
+				{
+					"name": "Парам2",
+					"value": "Мужской"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ИНН' я ввожу текст \"89888898988 \"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ИНН"
+				},
+				{
+					"name": "Парам2",
+					"value": "89888898988 "
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Алина (Сотрудник)\"",
+			"start": 1731466442851,
+			"stop": 1731466442851,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Алина (Сотрудник)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Серия' я ввожу текст \"4579\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Серия"
+				},
+				{
+					"name": "Парам2",
+					"value": "4579"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Номер' я ввожу текст \"776699\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номер"
+				},
+				{
+					"name": "Парам2",
+					"value": "776699"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'КемВыдан' я ввожу текст \"офумс россии по пк\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КемВыдан"
+				},
+				{
+					"name": "Парам2",
+					"value": "офумс россии по пк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаВыдачи' я ввожу текст \"27.09.2024\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВыдачи"
+				},
+				{
+					"name": "Парам2",
+					"value": "27.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'КонтактнаяИнформация'",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КонтактнаяИнформация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ПредставлениеКИ_0' я ввожу текст \"89147377103\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПредставлениеКИ_0"
+				},
+				{
+					"name": "Парам2",
+					"value": "89147377103"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ПредставлениеКИ_1' я ввожу текст \"19720708\"",
+			"start": 1731466442852,
+			"stop": 1731466442852,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПредставлениеКИ_1"
+				},
+				{
+					"name": "Парам2",
+					"value": "19720708"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "suite",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "c044c2a1-b7c8-42db-a373-a8d5cc5f0644",
+	"name": "Контекст_док.Табели, форма элемента",
+	"description": "",
+	"children": [
+		"a8ebe8cc-6295-44c3-a549-7083cd1e315c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465312531,
+			"stop": 1731465312594,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465312594,
+			"stop": 1731465312912,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

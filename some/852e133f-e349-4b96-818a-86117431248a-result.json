@@ -1,0 +1,2500 @@
+{
+	"uuid": "852e133f-e349-4b96-818a-86117431248a",
+	"historyId": "Сделать отбор по клиенту на форме списка справочника ИПА.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731466606715,
+	"stop": 1731466730879,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Кнопка с именем <ОтметкиГруппа_ОтметитьВсе> не найдена.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4338)}: Кнопка с именем <ОтметкиГруппа_ОтметитьВсе> не найдена. ТекущееОкно=Информация по авто\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Информация по авто\n        ИмяАктивнойФормы: Справочник.ИнформацияПоАвто.Форма.ФормаСписка\n        ИмяФичи: Сделать отбор по клиенту на форме списка справочника ИПА\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 8 454\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\ТестВсехКнопокОтбораНаНажатие.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:02:03 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:58:49"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Информация по авто\"",
+			"start": 1731466607218,
+			"stop": 1731466607233,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731466607234,
+			"stop": 1731466716167,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборС_ДатаПрихода'",
+			"start": 1731466716167,
+			"stop": 1731466716213,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаПрихода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборС_ДатаПрихода' я ввожу текст \"30.08.2024\"",
+			"start": 1731466716213,
+			"stop": 1731466716238,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборС_ДатаПрихода"
+				},
+				{
+					"name": "Парам2",
+					"value": "30.08.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборПо_ДатаПрихода'",
+			"start": 1731466716239,
+			"stop": 1731466716816,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборПо_ДатаПрихода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборПо_ДатаПрихода' я ввожу текст \"05.10.2024\"",
+			"start": 1731466716816,
+			"stop": 1731466716856,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборПо_ДатаПрихода"
+				},
+				{
+					"name": "Парам2",
+					"value": "05.10.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборНомерКузова' я ввожу текст \"4362165\"",
+			"start": 1731466716857,
+			"stop": 1731466717201,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборНомерКузова"
+				},
+				{
+					"name": "Парам2",
+					"value": "4362165"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОтметкиГруппа_ОтметитьВсе'",
+			"start": 1731466717201,
+			"stop": 1731466730875,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Кнопка с именем <ОтметкиГруппа_ОтметитьВсе> не найдена.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(4338)}: Кнопка с именем <ОтметкиГруппа_ОтметитьВсе> не найдена. ТекущееОкно=Информация по авто\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Информация по авто\n        ИмяАктивнойФормы: Справочник.ИнформацияПоАвто.Форма.ФормаСписка\n        ИмяФичи: Сделать отбор по клиенту на форме списка справочника ИПА\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 8 454\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\ТестВсехКнопокОтбораНаНажатие.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:02:03 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:58:49"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтметкиГруппа_ОтметитьВсе"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборОдиночныйПолучательГрузаНаименование' я ввожу текст \"Автоком ООО\"",
+			"start": 1731466730877,
+			"stop": 1731466730877,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборОдиночныйПолучательГрузаНаименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Автоком ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731466730877,
+			"stop": 1731466730879,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно \"Информация по авто\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Информация по авто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборКлиент' я выбираю по строке \"ВБС \"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборКлиент"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВБС "
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборТранспорт' я выбираю точное значение \"ADEL.S\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборТранспорт"
+						},
+						{
+							"name": "Парам2",
+							"value": "ADEL.S"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ОтборНомерРейса' я ввожу текст \"13\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборНомерРейса"
+						},
+						{
+							"name": "Парам2",
+							"value": "13"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ОтборНомерКоносамента' я ввожу текст \"58584\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборНомерКоносамента"
+						},
+						{
+							"name": "Парам2",
+							"value": "58584"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"В лаборатории\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "В лаборатории"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Клиент забрал документы\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клиент забрал документы"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Оплачена\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Оплачена"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"В пути\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "В пути"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"В лаборатории\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "В лаборатории"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Выпуск ДТ / ПТД\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Выпуск ДТ / ПТД"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Зарегистрирована\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Зарегистрирована"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Клиент забрал документы\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клиент забрал документы"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"На досмотре\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "На досмотре"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"На стоянке\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "На стоянке"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Оплачена\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Оплачена"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Отдали на ПТС\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Отдали на ПТС"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Отправлена на регистрацию\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Отправлена на регистрацию"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Предварительно подана ДТ / ПТД\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Предварительно подана ДТ / ПТД"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Прибыл\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Прибыл"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"ПТС получен\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПТС получен"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСтатус' я выбираю точное значение \"Создана ДТ / ПТД\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						},
+						{
+							"name": "Парам2",
+							"value": "Создана ДТ / ПТД"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСсылкаРаспилразборИнформацияпоавто' я выбираю точное значение \"конструктор\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаРаспилразборИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "конструктор"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСсылкаРаспилразборИнформацияпоавто' я выбираю точное значение \"распил\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаРаспилразборИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "распил"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаФизикнашИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаФизикнашИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаФизикнашИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаФизикнашИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаПлатятсами' я выбираю точное значение \"Да\"",
+					"start": 1731466730877,
+					"stop": 1731466730877,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПлатятсами"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаПлатятсами' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПлатятсами"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаГЛОНАСС' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаГЛОНАСС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаГЛОНАСС' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаГЛОНАСС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТС' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТС' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСвложениемИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСвложениемИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСвложениемИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСвложениемИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаБитая' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБитая"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаБитая' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБитая"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаБезПТС' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБезПТС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаБезПТС' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБезПТС"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаНоваяИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаНоваяИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаНоваяИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаНоваяИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСсылкаЯвкакопия' я выбираю точное значение \"копия\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаЯвкакопия"
+						},
+						{
+							"name": "Парам2",
+							"value": "копия"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборСсылкаЯвкакопия' я выбираю точное значение \"явка\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаЯвкакопия"
+						},
+						{
+							"name": "Парам2",
+							"value": "явка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаПерегоннашИнформацияпоавто' я выбираю точное значение \"Да\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПерегоннашИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Да"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'ОтборДаНет_СсылкаПерегоннашИнформацияпоавто' я выбираю точное значение \"Нет\"",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПерегоннашИнформацияпоавто"
+						},
+						{
+							"name": "Парам2",
+							"value": "Нет"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаПерегоннашИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПерегоннашИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборСсылкаПеревозчикИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаПеревозчикИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСотправленоИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТСзагруженоИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыпискаотправленаИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаВыписказагруженаИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборСсылкаЯвкакопия'",
+					"start": 1731466730878,
+					"stop": 1731466730878,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаЯвкакопия"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаДобавитьбезПТСИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаНоваяИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаНоваяИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаБезПТС'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБезПТС"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаБитая'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаБитая"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаСвложениемИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСвложениемИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаСБКТС'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСБКТС"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаСкинулинадосмотрДВСицветаИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаЭкспертизазаказанаИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаГЛОНАСС'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаГЛОНАСС"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКоносаментзабралиИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаКнопкуотдалиИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаПлатятсами'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаПлатятсами"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаМашинапограничнаяИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборДаНет_СсылкаФизикнашИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборДаНет_СсылкаФизикнашИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборСсылкаРаспилразборИнформацияпоавто'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСсылкаРаспилразборИнформацияпоавто"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборСтатус'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборСтатус"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборНомерКоносамента'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборНомерКоносамента"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборНомерРейса'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборНомерРейса"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборТранспорт'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборТранспорт"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборКлиент'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборКлиент"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборОдиночныйПолучательГрузаНаименование'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборОдиночныйПолучательГрузаНаименование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборНомерКузова'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборНомерКузова"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборС_ДатаПрихода'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборС_ДатаПрихода"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку очистить у поля с именем 'ОтборПо_ДатаПрихода'",
+					"start": 1731466730879,
+					"stop": 1731466730879,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОтборПо_ДатаПрихода"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466730879,
+			"stop": 1731466730879,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю TestClient \"КлиентТестирования\"",
+			"start": 1731466730879,
+			"stop": 1731466730879,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлиентТестирования"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Сделать отбор по клиенту на форме списка справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Сделать отбор по клиенту на форме списка справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

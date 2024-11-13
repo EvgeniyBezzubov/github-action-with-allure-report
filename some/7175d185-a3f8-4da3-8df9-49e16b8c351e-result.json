@@ -1,0 +1,211 @@
+{
+	"uuid": "7175d185-a3f8-4da3-8df9-49e16b8c351e",
+	"historyId": "Спр.Информация по авто  поле показать всё.Ввод поля клиент при создании авто",
+	"name": "Ввод поля клиент при создании авто",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731463797612,
+	"stop": 1731463800809,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Декларирование\"",
+			"start": 1731463797747,
+			"stop": 1731463797766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Информация по авто\"",
+			"start": 1731463797766,
+			"stop": 1731463797796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731463797797,
+			"stop": 1731463799847,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Создать'",
+			"start": 1731463799847,
+			"stop": 1731463799851,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Создать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание)\"",
+			"start": 1731463799851,
+			"stop": 1731463800187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Клиент'",
+			"start": 1731463800187,
+			"stop": 1731463800191,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если текущее окно \"равно\" ожидаемому окну \"1С:Предприятие\" Тогда",
+			"start": 1731463800191,
+			"stop": 1731463800401,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "равно"
+				},
+				{
+					"name": "Парам2",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731463800401,
+			"stop": 1731463800808,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Ввод поля клиент при создании авто"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Информация по авто  поле показать всё"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Информация по авто  поле показать всё"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

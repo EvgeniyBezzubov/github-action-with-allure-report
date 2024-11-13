@@ -9,5 +9,6 @@ cd /d "C:\VA_Test\"
 call allure generate --clean C:\Users\User\PycharmProjects\pythonProject1\some
 cd C:\Users\User\PycharmProjects\pythonProject1\
 git add .\
+git add .\
 git commit -m "Автоматический коммит"
 git push

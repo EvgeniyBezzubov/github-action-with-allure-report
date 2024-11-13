@@ -1,0 +1,2430 @@
+{
+	"uuid": "33ee5349-a3f2-486e-9ea1-7cfb50b5f3ee",
+	"historyId": "док.Групповое поступление.открыть групповое поступление, проверить кнопки подгруппы изменить",
+	"name": "открыть групповое поступление, проверить кнопки подгруппы изменить",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731463883519,
+	"stop": 1731463898711,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Окно с заголовком <Контрагенты: Поставщики> не найдено.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Поставщики> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Групповое поступление>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: док.Групповое поступление\n        ИмяСценария: открыть групповое поступление, проверить кнопки подгруппы изменить\n        НомерСтрокиДерева: 428\n        НомерСтрокиФичи: 21\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Док. Групповое поступление Группа изменить.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:14 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:11:37"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Групповое поступление\"",
+			"start": 1731463883923,
+			"stop": 1731463883941,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Групповое поступление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление\"",
+			"start": 1731463883941,
+			"stop": 1731463883954,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаАвто'",
+			"start": 1731463883954,
+			"stop": 1731463883956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаАвто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Поставщик'",
+			"start": 1731463883956,
+			"stop": 1731463883974,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поставщик"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Поставщики\"",
+			"start": 1731463883974,
+			"stop": 1731463898708,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Окно с заголовком <Контрагенты: Поставщики> не найдено.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Контрагенты: Поставщики> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Групповое поступление>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: док.Групповое поступление\n        ИмяСценария: открыть групповое поступление, проверить кнопки подгруппы изменить\n        НомерСтрокиДерева: 428\n        НомерСтрокиФичи: 21\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыНеПрошедшие\\Тест Док. Групповое поступление Группа изменить.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:14 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:11:37"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Поставщики"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Валюта' я выбираю точное значение \"EUR\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валюта"
+				},
+				{
+					"name": "Парам2",
+					"value": "EUR"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Валюта' я выбираю точное значение \"JPY\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валюта"
+				},
+				{
+					"name": "Парам2",
+					"value": "JPY"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Валюта' я выбираю точное значение \"KRW\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валюта"
+				},
+				{
+					"name": "Парам2",
+					"value": "KRW"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Валюта' я выбираю точное значение \"USD\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валюта"
+				},
+				{
+					"name": "Парам2",
+					"value": "USD"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Валюта' я выбираю точное значение \"руб.\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валюта"
+				},
+				{
+					"name": "Парам2",
+					"value": "руб."
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ТипВходящегоДокумента' я ввожу текст \"11\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипВходящегоДокумента"
+				},
+				{
+					"name": "Парам2",
+					"value": "11"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерВходящегоДокумента' я ввожу текст \"252\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерВходящегоДокумента"
+				},
+				{
+					"name": "Парам2",
+					"value": "252"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаВходящегоДокумента'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВходящегоДокумента"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаВходящегоДокумента' я ввожу текст \"25.09.2024\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВходящегоДокумента"
+				},
+				{
+					"name": "Парам2",
+					"value": "25.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'Проводить'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Проводить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'УказыватьТоварыПострочно'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УказыватьТоварыПострочно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я активизирую поле с именем 'ЗапасыНомерСтроки'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНомерСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'УказыватьТоварыПострочно'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УказыватьТоварыПострочно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я активизирую поле с именем 'ЗапасыНомерСтроки'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНомерСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'Проводить'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Проводить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаУслуги'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю на кнопку с именем 'ЗапасыДобавить'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю кнопку выбора у реквизита с именем 'ЗапасыНоменклатура'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыНоменклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731463898709,
+			"stop": 1731463898709,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление\"",
+			"start": 1731463898709,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я активизирую поле с именем 'ЗапасыЦена'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' в поле с именем 'ЗапасыЦена' я ввожу текст \"3 333,00\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыЦена"
+				},
+				{
+					"name": "Парам3",
+					"value": "3 333,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я завершаю редактирование строки",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Запасы' я нажимаю на кнопку с именем 'ЗапасыИзменитьСтроки'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗапасыИзменитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить цены по виду\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить цены по виду"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЗапасыИзменениеСтрокЗначение'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Виды цен (колонки прайс-листов)\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды цен (колонки прайс-листов)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить номенклатуру\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить номенклатуру"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЗапасыИзменениеСтрокЗначение'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Номенклатура\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'СписокЗапасы' я перехожу к строке:",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокЗапасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "210fb86d-58f6-4849-8264-ff6e87e21006-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ea15d3ae-40ce-46cd-be07-a3a777d087e2-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить информацию по авто\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить информацию по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаАвто'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаАвто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоДобавить'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю кнопку выбора у реквизита с именем 'АвтоИнформацияПоАвто'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоИнформацияПоАвто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаУслуги'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУслуги"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я завершаю редактирование строки",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЗапасыИзменениеСтрокЗначение'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить номенклатуру\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить номенклатуру"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить информацию по авто\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить информацию по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"YAMAHA XVS 1100 DRAG STAR VP13J-007986\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "YAMAHA XVS 1100 DRAG STAR VP13J-007986"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "4bb0549c-587c-4163-9475-ddd39aa206cd-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить количество\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить количество"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"24,000\"",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "24,000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898710,
+			"stop": 1731463898710,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "79ecd6d6-0276-4d06-ac56-516ee774916a-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Изменить цены на процент\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Изменить цены на процент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"10,00\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "10,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "95fbfcab-5c43-4917-a4d9-8942138c5d43-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Округлить цены\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Округлить цены"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"5\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "279cb1ba-5e1b-41ad-af2e-bcab31d3384f-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Округлить суммы\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Округлить суммы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокЗначение' я выбираю точное значение \"50\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "50"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "5c526377-3c8d-41ac-a8a2-24b8677e5a41-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Установить цены по виду\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Установить цены по виду"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Распределить сумму по количеству\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Распределить сумму по количеству"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"2,00\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "2,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "48035528-357e-4307-92dc-a511b3bd1e24-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Распределить сумму по суммам\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Распределить сумму по суммам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЗапасыИзменениеСтрокЗначение' я ввожу текст \"200,00\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокЗначение"
+				},
+				{
+					"name": "Парам2",
+					"value": "200,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица 'Запасы' стала равной:",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8bf7b474-fb40-4092-adaa-9c095094508f-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Групповое поступление *\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое поступление *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ЗапасыИзменениеСтрокДействие' я выбираю точное значение \"Удалить строки\"",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыИзменениеСтрокДействие"
+				},
+				{
+					"name": "Парам2",
+					"value": "Удалить строки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыСнятьФлажки'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыСнятьФлажки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыУстановитьФлажки'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыУстановитьФлажки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ЗапасыВыполнитьДействие'",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЗапасыВыполнитьДействие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда в таблице 'Запасы' количество строк \"равно\" 0",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запасы"
+				},
+				{
+					"name": "Парам2",
+					"value": "равно"
+				},
+				{
+					"name": "Парам3",
+					"value": "0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю сеанс текущего клиента тестирования",
+			"start": 1731463898711,
+			"stop": 1731463898711,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открыть групповое поступление, проверить кнопки подгруппы изменить"
+		},
+		{
+			"name": "epic",
+			"value": "док.Групповое поступление"
+		},
+		{
+			"name": "suite",
+			"value": "док.Групповое поступление"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

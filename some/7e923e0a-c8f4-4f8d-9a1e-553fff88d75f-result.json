@@ -1,0 +1,3115 @@
+{
+	"uuid": "7e923e0a-c8f4-4f8d-9a1e-553fff88d75f",
+	"historyId": "Проверка подбора физ лица.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464860548,
+	"stop": 1731464878744,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Окно с заголовком <Отправители> не найдено.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Отправители> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Иностранные контрагенты>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Иностранные контрагенты\n        ИмяАктивнойФормы: Справочник.ИностранныеКонтрагенты.ФормаВыбора\n        ИмяФичи: Проверка подбора физ лица\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 3 347\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Создание Элемента справочника До Конца.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:27:57"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Декларирование\"",
+			"start": 1731464861361,
+			"stop": 1731464861363,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Декларирование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Информация по авто\"",
+			"start": 1731464861363,
+			"stop": 1731464861384,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731464861384,
+			"stop": 1731464862495,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Создать'",
+			"start": 1731464862495,
+			"stop": 1731464862500,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Создать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание)\"",
+			"start": 1731464862500,
+			"stop": 1731464862731,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Клиент' я выбираю по строке \"Ва\"",
+			"start": 1731464862731,
+			"stop": 1731464862989,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиент"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ва"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтправительГруза'",
+			"start": 1731464862990,
+			"stop": 1731464863001,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтправительГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Отправители\"",
+			"start": 1731464863002,
+			"stop": 1731464878739,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Окно с заголовком <Отправители> не найдено.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Отправители> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Иностранные контрагенты>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Иностранные контрагенты\n        ИмяАктивнойФормы: Справочник.ИностранныеКонтрагенты.ФормаВыбора\n        ИмяФичи: Проверка подбора физ лица\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 3 347\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Создание Элемента справочника До Конца.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:27:57"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отправители"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'ОтправительГруза'",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтправительГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"AKEBONO CO., LTD (Отправитель)\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "AKEBONO CO., LTD (Отправитель)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"AKEBONO CO., LTD (Отправитель)\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "AKEBONO CO., LTD (Отправитель)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ТипПолучателя' на \"Юр. лицо\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипПолучателя"
+				},
+				{
+					"name": "Парам2",
+					"value": "Юр. лицо"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ПолучательГруза'",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грузополучатели\"",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878740,
+			"stop": 1731464878740,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку очистить у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ТипПолучателя' на \"Юр. лицо\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипПолучателя"
+				},
+				{
+					"name": "Парам2",
+					"value": "Юр. лицо"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ПолучательГруза' я выбираю по строке \"885\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				},
+				{
+					"name": "Парам2",
+					"value": "885"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку очистить у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ТипПолучателя' на \"Юр. лицо\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипПолучателя"
+				},
+				{
+					"name": "Парам2",
+					"value": "Юр. лицо"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грузополучатели\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Грузополучатели\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грузополучатели\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Грузополучатели\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку очистить у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ТипПолучателя' на \"Юр. лицо\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипПолучателя"
+				},
+				{
+					"name": "Парам2",
+					"value": "Юр. лицо"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку создать поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грузополучатель (создание)\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатель (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Грузополучатель (создание)\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатель (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ПолучательГруза'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолучательГруза"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Грузополучатели\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Грузополучатели"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вид' я выбираю точное значение \"Разбор\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вид"
+				},
+				{
+					"name": "Парам2",
+					"value": "Разбор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вид' я выбираю точное значение \"Распил\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вид"
+				},
+				{
+					"name": "Парам2",
+					"value": "Распил"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вид' я выбираю точное значение \"Спецтехника\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вид"
+				},
+				{
+					"name": "Парам2",
+					"value": "Спецтехника"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вид' я выбираю точное значение \"Товар\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вид"
+				},
+				{
+					"name": "Парам2",
+					"value": "Товар"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Вид' я выбираю точное значение \"ТС (Авто, мото, грузовые)\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вид"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТС (Авто, мото, грузовые)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Товар' я выбираю по строке \"Ка\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товар"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Товар' я ввожу текст \"\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товар"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Товар' я выбираю по строке \"maz\"",
+			"start": 1731464878741,
+			"stop": 1731464878741,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товар"
+				},
+				{
+					"name": "Парам2",
+					"value": "maz"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Товар' я выбираю по строке \"suzuki sw\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товар"
+				},
+				{
+					"name": "Парам2",
+					"value": "suzuki sw"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я генерирую SSCC честного знака для GS1 \"GS1\" уровня \"1\" в переменную \"переменная\" (расширение)",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "GS1"
+				},
+				{
+					"name": "Парам2",
+					"value": "1"
+				},
+				{
+					"name": "Парам3",
+					"value": "переменная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я запоминаю случайное число в диапазоне от \"99999\" до \"10000000\" в переменную \"Случайный номер\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "99999"
+				},
+				{
+					"name": "Парам2",
+					"value": "10000000"
+				},
+				{
+					"name": "Парам3",
+					"value": "Случайный номер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерКузова' я ввожу значение переменной \"Случайный номер\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерКузова"
+				},
+				{
+					"name": "Парам2",
+					"value": "Случайный номер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Цвет'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Цвет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Цвета\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Цвета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "793b7d11-76ed-4427-96d1-8598cc55a38e-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Цвет' я выбираю по строке \"пер\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Цвет"
+				},
+				{
+					"name": "Парам2",
+					"value": "пер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Масса'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Масса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Масса' я ввожу текст \"555,000\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Масса"
+				},
+				{
+					"name": "Парам2",
+					"value": "555,000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаВыпуска' я ввожу текст \"18.08.1996\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВыпуска"
+				},
+				{
+					"name": "Парам2",
+					"value": "18.08.1996"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаВыпуска'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВыпуска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаВыпуска' я ввожу текст \"06.08.1996\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаВыпуска"
+				},
+				{
+					"name": "Парам2",
+					"value": "06.08.1996"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Транспорт'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Транспорт"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Транспорт\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Транспорт"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "11d658a4-5888-492e-a874-096491173d83-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Транспорт' я выбираю точное значение \"ADEL.S\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Транспорт"
+				},
+				{
+					"name": "Парам2",
+					"value": "ADEL.S"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерРейса' я ввожу текст \"77\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерРейса"
+				},
+				{
+					"name": "Парам2",
+					"value": "77"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаПрихода'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаПрихода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаПрихода' я ввожу текст \"12.09.2024\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаПрихода"
+				},
+				{
+					"name": "Парам2",
+					"value": "12.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерКоносамента' я ввожу текст \"1\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерКоносамента"
+				},
+				{
+					"name": "Парам2",
+					"value": "1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаКоносамента'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаКоносамента"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаКоносамента' я ввожу текст \"19.09.2024\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаКоносамента"
+				},
+				{
+					"name": "Парам2",
+					"value": "19.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'СВХ'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СВХ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"СВХ\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СВХ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "2ed93999-9622-4606-a24a-5a4fa68f46b4-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'СВХ'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СВХ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"ППС (СВХ)\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ППС (СВХ)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"ППС (СВХ)\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ППС (СВХ)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Лаборатория' я выбираю точное значение \"ТРОЯН\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Лаборатория"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТРОЯН"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Лаборатория'",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Лаборатория"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Лаборатории\"",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Лаборатории"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "30f052d8-b488-44e1-a527-332fea5df94a-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878742,
+			"stop": 1731464878742,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_D963C9C6x1054x11EAxA18Ax9B2288C8D03D' я выбираю точное значение \"копия\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_D963C9C6x1054x11EAxA18Ax9B2288C8D03D"
+				},
+				{
+					"name": "Парам2",
+					"value": "копия"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8672B779xF9F2x11E8xA160xECD76A63EDA0'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8672B779xF9F2x11E8xA160xECD76A63EDA0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8EB71E12x6A10x11E9xA175xD01461395E89'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8EB71E12x6A10x11E9xA175xD01461395E89"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_7DFF9C81x5503x11E9xA167xA5BD8FB38786'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_7DFF9C81x5503x11E9xA167xA5BD8FB38786"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_AFD159CDx7632x11E9xA17Cx8EE7D2DAF138'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_AFD159CDx7632x11E9xA17Cx8EE7D2DAF138"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_5812998Cx8AF6x11E8x9485x10F00554F280'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_5812998Cx8AF6x11E8x9485x10F00554F280"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8D79D9D2x6580x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8D79D9D2x6580x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_49F8F53ExB667x11E8x948Bx10F00554F280'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_49F8F53ExB667x11E8x948Bx10F00554F280"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_CFB2D673xAF56x11E7x9463x10F00554F280'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_CFB2D673xAF56x11E7x9463x10F00554F280"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8D79D9D1x6580x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_8D79D9D1x6580x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9ECx6583x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9ECx6583x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9F0x6583x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9F0x6583x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6F78E9EFx6583x11E7xAC57x10BF48BCD1A8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_BFCE193Ax8BA9x11E8x9485x10F00554F280'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_BFCE193Ax8BA9x11E8x9485x10F00554F280"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B689FECDxFBBAx11EAxA1C1x0CC47A88D460' я выбираю точное значение \"конструктор\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B689FECDxFBBAx11EAxA1C1x0CC47A88D460"
+				},
+				{
+					"name": "Парам2",
+					"value": "конструктор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6CC6888Dx7605x11E9xA17Cx8EE7D2DAF138'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6CC6888Dx7605x11E9xA17Cx8EE7D2DAF138"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6CC6888Dx7605x11E9xA17Cx8EE7D2DAF138' я ввожу текст \"04.09.2024\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_6CC6888Dx7605x11E9xA17Cx8EE7D2DAF138"
+				},
+				{
+					"name": "Парам2",
+					"value": "04.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_CA37FCE9x4BCBx11E9xA167xA5BD8FB38786'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_CA37FCE9x4BCBx11E9xA167xA5BD8FB38786"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_A7FB7171xF0BFx11EBxA1F8xC1A2EE676BCE'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_A7FB7171xF0BFx11EBxA1F8xC1A2EE676BCE"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_B2CC2CE5x393Ax11EBxA1E3xAE22A077FB99"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_55C0FA40x7605x11E9xA17Cx8EE7D2DAF138'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_55C0FA40x7605x11E9xA17Cx8EE7D2DAF138"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_55C0FA40x7605x11E9xA17Cx8EE7D2DAF138' я ввожу текст \"03.09.2024  0:00:00\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_55C0FA40x7605x11E9xA17Cx8EE7D2DAF138"
+				},
+				{
+					"name": "Парам2",
+					"value": "03.09.2024  0:00:00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_A253B324x61F0x11EBxA1E9xE849C5B5DC02'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_A253B324x61F0x11EBxA1E9xE849C5B5DC02"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_7D755E82xF0BFx11EBxA1F8xC1A2EE676BCE'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_7D755E82xF0BFx11EBxA1F8xC1A2EE676BCE"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_62B6FC94xDD71x11EBxA1F7xBDD364078C68'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_62B6FC94xDD71x11EBxA1F7xBDD364078C68"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_C928396DxDA72x11EBxA1F7xBDD364078C68'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныйРеквизитЗначение_D8837AD4x1CAFx11E8x9475x10F00554F280_C928396DxDA72x11EBxA1F7xBDD364078C68"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выберите значение свойства Перевозчик\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выберите значение свойства Перевозчик"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "32e8083c-2fc1-4d63-a1d0-70cb01bc3f61-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОУСсылка'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОУСсылка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Объекты учета\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Объекты учета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто (создание) *\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Комментарий' я ввожу текст \"важный\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комментарий"
+				},
+				{
+					"name": "Парам2",
+					"value": "важный"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Примечание' я ввожу текст \"важной примечание\"",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Примечание"
+				},
+				{
+					"name": "Парам2",
+					"value": "важной примечание"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1731464878743,
+			"stop": 1731464878743,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464878744,
+			"stop": 1731464878744,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю TestClient \"КлиентТестирования\"",
+			"start": 1731464878744,
+			"stop": 1731464878744,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлиентТестирования"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Проверка подбора физ лица"
+		},
+		{
+			"name": "suite",
+			"value": "Проверка подбора физ лица"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

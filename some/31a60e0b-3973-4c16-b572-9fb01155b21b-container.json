@@ -1,0 +1,27 @@
+{
+	"uuid": "f1d3076d-50e9-4855-9aeb-e4eaf99e4252",
+	"name": "Контекст_Открытие номенклатуры",
+	"description": "",
+	"children": [
+		"31a60e0b-3973-4c16-b572-9fb01155b21b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464551622,
+			"stop": 1731464551737,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

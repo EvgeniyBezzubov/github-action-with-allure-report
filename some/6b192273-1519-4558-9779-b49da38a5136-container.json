@@ -1,0 +1,42 @@
+{
+	"uuid": "8c84fbf2-7cc1-4d8c-a434-cb0efa670c57",
+	"name": "Контекст_Тест формирования отчёта \"Непроходные\"",
+	"description": "",
+	"children": [
+		"6b192273-1519-4558-9779-b49da38a5136"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464574572,
+			"stop": 1731464574614,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464574615,
+			"stop": 1731464574760,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

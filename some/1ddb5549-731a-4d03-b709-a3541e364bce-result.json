@@ -1,0 +1,787 @@
+{
+	"uuid": "1ddb5549-731a-4d03-b709-a3541e364bce",
+	"historyId": "док.Приём на работу.док.Приём на работу, создать элемент",
+	"name": "док.Приём на работу, создать элемент",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465208508,
+	"stop": 1731465234609,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ожидали в течение <20> секунд, что закроется окно с заголовком <Прием на работу (создание) *>",
+		"trace": "Ожидали в течение <20> секунд, что закроется окно с заголовком <Прием на работу (создание) *>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Прием на работу (создание) *\n        ИмяАктивнойФормы: Документ.ПриемНаРаботу.Форма.ФормаДокумента\n        ИмяФичи: док.Приём на работу\n        ИмяСценария: док.Приём на работу, создать элемент\n        НомерСтрокиДерева: 5 182\n        НомерСтрокиФичи: 50\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.приём на работу.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯЖдуЗакрытияОкнаВТечениеСекунд\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:25 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:33:53"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Компания\"",
+			"start": 1731465209110,
+			"stop": 1731465209112,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Компания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В панели разделов я выбираю \"Квитанции\"",
+			"start": 1731465209319,
+			"stop": 1731465209322,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Зарплата\" \"Приемы на работу\"",
+			"start": 1731465209323,
+			"stop": 1731465209332,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Зарплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "Приемы на работу"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Приемы на работу сотрудников\"",
+			"start": 1731465209332,
+			"stop": 1731465209457,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Приемы на работу сотрудников"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731465209457,
+			"stop": 1731465209461,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Прием на работу (создание)\"",
+			"start": 1731465209462,
+			"stop": 1731465209588,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Прием на работу (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я нажимаю на кнопку с именем 'СотрудникиДобавить'",
+			"start": 1731465209588,
+			"stop": 1731465209595,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я нажимаю кнопку выбора у реквизита с именем 'СотрудникиСотрудник'",
+			"start": 1731465209596,
+			"stop": 1731465209619,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиСотрудник"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Сотрудники\"",
+			"start": 1731465209619,
+			"stop": 1731465209702,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465209702,
+			"stop": 1731465209709,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Прием на работу (создание) *\"",
+			"start": 1731465209709,
+			"stop": 1731465209731,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Прием на работу (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я активизирую поле с именем 'СотрудникиПериод'",
+			"start": 1731465209731,
+			"stop": 1731465209740,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиПериод"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я нажимаю кнопку выбора у реквизита с именем 'СотрудникиПериод'",
+			"start": 1731465209741,
+			"stop": 1731465209748,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиПериод"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я активизирую поле с именем 'СотрудникиДолжность'",
+			"start": 1731465209748,
+			"stop": 1731465209772,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиДолжность"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' из выпадающего списка с именем 'СотрудникиДолжность' я выбираю точное значение \"Генеральный директор\"",
+			"start": 1731465209773,
+			"stop": 1731465209779,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиДолжность"
+				},
+				{
+					"name": "Парам3",
+					"value": "Генеральный директор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465209779,
+			"stop": 1731465209821,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я нажимаю кнопку выбора у реквизита с именем 'СотрудникиГрафикРаботы'",
+			"start": 1731465209821,
+			"stop": 1731465209843,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				},
+				{
+					"name": "Парам2",
+					"value": "СотрудникиГрафикРаботы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Графики работы\"",
+			"start": 1731465209844,
+			"stop": 1731465209919,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Графики работы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Графики работы\"",
+			"start": 1731465209919,
+			"stop": 1731465209921,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Графики работы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Прием на работу (создание) *\"",
+			"start": 1731465209922,
+			"stop": 1731465209931,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Прием на работу (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаНачисленияУдержания'",
+			"start": 1731465209931,
+			"stop": 1731465209934,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаНачисленияУдержания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Сотрудники' я завершаю редактирование строки",
+			"start": 1731465209934,
+			"stop": 1731465209968,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сотрудники"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'НачисленияУдержания' я нажимаю на кнопку с именем 'НачисленияУдержанияДобавить'",
+			"start": 1731465209969,
+			"stop": 1731465209978,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НачисленияУдержания"
+				},
+				{
+					"name": "Парам2",
+					"value": "НачисленияУдержанияДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'НачисленияУдержания' я нажимаю кнопку выбора у реквизита с именем 'НачисленияУдержанияВидНачисленияУдержания'",
+			"start": 1731465209978,
+			"stop": 1731465210005,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НачисленияУдержания"
+				},
+				{
+					"name": "Парам2",
+					"value": "НачисленияУдержанияВидНачисленияУдержания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Виды начислений и удержаний\"",
+			"start": 1731465210005,
+			"stop": 1731465210084,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды начислений и удержаний"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу на один уровень вниз",
+			"start": 1731465210084,
+			"stop": 1731465210088,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465210088,
+			"stop": 1731465210113,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Прием на работу (создание) *\"",
+			"start": 1731465210114,
+			"stop": 1731465210126,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Прием на работу (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'НачисленияУдержания' я активизирую поле с именем 'НачисленияУдержанияСумма'",
+			"start": 1731465210126,
+			"stop": 1731465210138,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НачисленияУдержания"
+				},
+				{
+					"name": "Парам2",
+					"value": "НачисленияУдержанияСумма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'НачисленияУдержания' в поле с именем 'НачисленияУдержанияСумма' я ввожу текст \"8 000,00\"",
+			"start": 1731465210139,
+			"stop": 1731465210147,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НачисленияУдержания"
+				},
+				{
+					"name": "Парам2",
+					"value": "НачисленияУдержанияСумма"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 000,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'НачисленияУдержания' я завершаю редактирование строки",
+			"start": 1731465210147,
+			"stop": 1731465210150,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НачисленияУдержания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'СтраницаДополнительно'",
+			"start": 1731465210150,
+			"stop": 1731465210157,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаДополнительно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1731465210157,
+			"stop": 1731465210169,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Прием на работу (создание) *\" в течение 20 секунд",
+			"start": 1731465210170,
+			"stop": 1731465234609,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ожидали в течение <20> секунд, что закроется окно с заголовком <Прием на работу (создание) *>",
+				"trace": "Ожидали в течение <20> секунд, что закроется окно с заголовком <Прием на работу (создание) *>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Прием на работу (создание) *\n        ИмяАктивнойФормы: Документ.ПриемНаРаботу.Форма.ФормаДокумента\n        ИмяФичи: док.Приём на работу\n        ИмяСценария: док.Приём на работу, создать элемент\n        НомерСтрокиДерева: 5 182\n        НомерСтрокиФичи: 50\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест док.приём на работу.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ЯЖдуЗакрытияОкнаВТечениеСекунд\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:25 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:33:53"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Прием на работу (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Приём на работу, создать элемент"
+		},
+		{
+			"name": "epic",
+			"value": "док.Приём на работу"
+		},
+		{
+			"name": "suite",
+			"value": "док.Приём на работу"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

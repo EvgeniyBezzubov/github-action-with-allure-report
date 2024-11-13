@@ -1,0 +1,42 @@
+{
+	"uuid": "7cd2e83d-2246-4a5f-b74f-63ac4f55a709",
+	"name": "Контекст_Док.Заказ покупателя, выбрать организацию",
+	"description": "",
+	"children": [
+		"f853a5ba-8c19-4cd3-a4b7-7ca7662b351c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464074079,
+			"stop": 1731464074160,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464074161,
+			"stop": 1731464074461,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

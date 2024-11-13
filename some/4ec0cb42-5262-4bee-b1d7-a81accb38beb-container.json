@@ -1,0 +1,42 @@
+{
+	"uuid": "88182b70-f6d0-4666-88c8-5052624fac70",
+	"name": "Контекст_спр.Статусы Информации по авто > создание элемента",
+	"description": "",
+	"children": [
+		"4ec0cb42-5262-4bee-b1d7-a81accb38beb"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731466444752,
+			"stop": 1731466444802,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466444802,
+			"stop": 1731466445126,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "23c68467-24aa-4818-9789-80bf9002cf34",
+	"name": "Контекст_подсисистема клиет > отчёты, Взаимозачёты",
+	"description": "",
+	"children": [
+		"d82a8fb8-d3c9-48eb-8644-339d1cc2a5c6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464564615,
+			"stop": 1731464564738,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464564738,
+			"stop": 1731464565004,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

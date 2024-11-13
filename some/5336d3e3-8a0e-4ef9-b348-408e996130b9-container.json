@@ -1,0 +1,42 @@
+{
+	"uuid": "82aa6d43-945d-487d-b9f2-13de729c9443",
+	"name": "Контекст_Нажать кнопку перейти в декларацию в справ. ИПА",
+	"description": "",
+	"children": [
+		"5336d3e3-8a0e-4ef9-b348-408e996130b9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464843509,
+			"stop": 1731464843604,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464843604,
+			"stop": 1731464843896,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

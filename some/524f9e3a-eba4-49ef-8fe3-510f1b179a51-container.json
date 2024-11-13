@@ -1,0 +1,42 @@
+{
+	"uuid": "536725f9-f0fa-4018-8f45-6e484dcb09f0",
+	"name": "Контекст_спр.Центры сертификации",
+	"description": "",
+	"children": [
+		"524f9e3a-eba4-49ef-8fe3-510f1b179a51"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731466448202,
+			"stop": 1731466448232,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466448233,
+			"stop": 1731466448382,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

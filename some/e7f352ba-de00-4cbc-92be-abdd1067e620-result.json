@@ -1,0 +1,627 @@
+{
+	"uuid": "e7f352ba-de00-4cbc-92be-abdd1067e620",
+	"historyId": "Док.Расход из кассы.Док.Расход из кассы",
+	"name": "Док.Расход из кассы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464909505,
+	"stop": 1731464912350,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я выполняю код встроенного языка на сервере без контекста с передачей переменных",
+			"start": 1731464909911,
+			"stop": 1731464909926,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запрос = Новый Запрос;\nЗапрос.Текст =\n\"ВЫБРАТЬ\n|\u0009ДенежныеСредстваОстатки.Организация КАК Организация,\n|\u0009ДенежныеСредстваОстатки.ТипДенежныхСредств КАК ТипДенежныхСредств,\n|\u0009ДенежныеСредстваОстатки.БанковскийСчетКасса КАК БанковскийСчетКасса,\n|\u0009ДенежныеСредстваОстатки.Валюта КАК Валюта,\n|\u0009ДенежныеСредстваОстатки.СуммаОстаток КАК СуммаОстаток,\n|\u0009ДенежныеСредстваОстатки.СуммаВалОстаток КАК СуммаВалОстаток\n|ИЗ\n|\u0009РегистрНакопления.ДенежныеСредства.Остатки КАК ДенежныеСредстваОстатки\n|ГДЕ\n|\u0009ДенежныеСредстваОстатки.БанковскийСчетКасса = &БанковскийСчетКасса\n|\u0009И ДенежныеСредстваОстатки.Организация = &Организация\";\nЗапрос.УстановитьПараметр(\"БанковскийСчетКасса\", Справочники.Кассы.НайтиПоНаименованию(\"Карточка Илья\"));\nЗапрос.УстановитьПараметр(\"Организация\", справочники.Организации.НайтиПоНаименованию(\"АЗИЯ СТАР ООО\"));\nРезультатЗапроса = Запрос.Выполнить();\nВыборкаДетальныеЗаписи = РезультатЗапроса.Выбрать();\nПока ВыборкаДетальныеЗаписи.Следующий() Цикл\nСообщить(ВыборкаДетальныеЗаписи.СуммаОстаток);\nсумма = ВыборкаДетальныеЗаписи.СуммаОстаток;\nКонецЦикла;\nКонтекст.Вставить(\"сумма\", сумма);"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Финансы\" \"Расход из кассы\"",
+			"start": 1731464909926,
+			"stop": 1731464909939,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Финансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "Расход из кассы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход из кассы\"",
+			"start": 1731464909939,
+			"stop": 1731464910092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход из кассы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаРасходПоставщикуКасса'",
+			"start": 1731464910092,
+			"stop": 1731464910095,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаРасходПоставщикуКасса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход из кассы (создание)\"",
+			"start": 1731464910095,
+			"stop": 1731464910329,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход из кассы (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АЗИЯ СТАР ООО\"",
+			"start": 1731464910329,
+			"stop": 1731464910349,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АЗИЯ СТАР ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Контрагент'",
+			"start": 1731464910349,
+			"stop": 1731464910464,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Поставщики\"",
+			"start": 1731464910721,
+			"stop": 1731464910724,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Поставщики"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464910725,
+			"stop": 1731464910735,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход из кассы (создание) *\"",
+			"start": 1731464910736,
+			"stop": 1731464910999,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход из кассы (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Касса'",
+			"start": 1731464911000,
+			"stop": 1731464911012,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Касса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Кассы\"",
+			"start": 1731464911012,
+			"stop": 1731464911069,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Кассы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464911069,
+			"stop": 1731464911079,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "f5d08ca3-6f62-4b7b-a9e4-bd42259b80b1-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464911079,
+			"stop": 1731464911087,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8ad55c58-57c6-4fa6-9551-fbdf0913ccfa-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464911088,
+			"stop": 1731464911098,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход из кассы (создание) *\"",
+			"start": 1731464911099,
+			"stop": 1731464911195,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход из кассы (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я активизирую поле с именем 'РасшифровкаПлатежаПризнакАванса'",
+			"start": 1731464911196,
+			"stop": 1731464911207,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаПризнакАванса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я изменяю флаг с именем 'РасшифровкаПлатежаПризнакАванса'",
+			"start": 1731464911207,
+			"stop": 1731464911216,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаПризнакАванса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464911216,
+			"stop": 1731464911220,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я активизирую поле с именем 'РасшифровкаПлатежаСуммаРасчетов'",
+			"start": 1731464911221,
+			"stop": 1731464911228,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я выбираю текущую строку",
+			"start": 1731464911229,
+			"stop": 1731464911234,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' в поле с именем 'РасшифровкаПлатежаСуммаРасчетов' я ввожу текст \"1,00\"",
+			"start": 1731464911234,
+			"stop": 1731464911259,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "1,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464911260,
+			"stop": 1731464911263,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1731464911264,
+			"stop": 1731464911289,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Расход из кассы (создание) *\" в течение 20 секунд",
+			"start": 1731464911290,
+			"stop": 1731464912073,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход из кассы (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выполняю код встроенного языка на сервере без контекста с передачей переменных",
+			"start": 1731464912073,
+			"stop": 1731464912094,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Запрос = Новый Запрос;\nЗапрос.Текст =\n\"ВЫБРАТЬ\n|\u0009ДенежныеСредстваОстатки.Организация КАК Организация,\n|\u0009ДенежныеСредстваОстатки.ТипДенежныхСредств КАК ТипДенежныхСредств,\n|\u0009ДенежныеСредстваОстатки.БанковскийСчетКасса КАК БанковскийСчетКасса,\n|\u0009ДенежныеСредстваОстатки.Валюта КАК Валюта,\n|\u0009ДенежныеСредстваОстатки.СуммаОстаток КАК СуммаОстаток,\n|\u0009ДенежныеСредстваОстатки.СуммаВалОстаток КАК СуммаВалОстаток\n|ИЗ\n|\u0009РегистрНакопления.ДенежныеСредства.Остатки КАК ДенежныеСредстваОстатки\n|ГДЕ\n|\u0009ДенежныеСредстваОстатки.БанковскийСчетКасса = &БанковскийСчетКасса\n|\u0009И ДенежныеСредстваОстатки.Организация = &Организация\";\nЗапрос.УстановитьПараметр(\"БанковскийСчетКасса\", Справочники.Кассы.НайтиПоНаименованию(\"Карточка Илья\"));\nЗапрос.УстановитьПараметр(\"Организация\", справочники.Организации.НайтиПоНаименованию(\"АЗИЯ СТАР ООО\"));\nРезультатЗапроса = Запрос.Выполнить();\nВыборкаДетальныеЗаписи = РезультатЗапроса.Выбрать();\nПока ВыборкаДетальныеЗаписи.Следующий() Цикл\nсуммаПослеПеревода = ВыборкаДетальныеЗаписи.СуммаОстаток;\nКонецЦикла;\nСообщить(суммаПослеПеревода);\nСообщить(Контекст.Сумма);\nЕсли (суммаПослеПеревода + 1) <> Контекст.Сумма Тогда\nВызватьисключение \"Сумма не ушла с баланса\"\nКонецЕсли;"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464912095,
+			"stop": 1731464912349,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Расход из кассы"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Расход из кассы"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Расход из кассы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

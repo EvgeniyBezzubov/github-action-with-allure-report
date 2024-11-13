@@ -1,0 +1,42 @@
+{
+	"uuid": "f4287a37-4405-4d66-9eb2-27a5bf9538d0",
+	"name": "Контекст_Отчёт, расчёты с подчиненными, сформировать.",
+	"description": "",
+	"children": [
+		"b908e9e6-7789-4c29-8f8f-b8b7d4b07797"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465934091,
+			"stop": 1731465934144,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465934144,
+			"stop": 1731465934474,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

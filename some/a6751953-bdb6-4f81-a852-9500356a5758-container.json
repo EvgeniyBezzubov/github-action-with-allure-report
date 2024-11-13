@@ -1,0 +1,42 @@
+{
+	"uuid": "7fd073f2-7e6b-488b-821b-3253446f5eaf",
+	"name": "Контекст_Создание напоминания",
+	"description": "",
+	"children": [
+		"a6751953-bdb6-4f81-a852-9500356a5758"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465392154,
+			"stop": 1731465392199,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1731465392199,
+			"stop": 1731465392335,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

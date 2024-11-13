@@ -1,0 +1,2233 @@
+{
+	"uuid": "12bc3128-9f8f-4b43-a8ed-103f620ca148",
+	"historyId": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731464981205,
+	"stop": 1731464999857,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Окно с заголовком <Договоры> не найдено.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Договоры> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Договоры с \"Авантех\">.\nВозможная строка шаблона <Договор*>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Договоры с \"Авантех\"\n        ИмяАктивнойФормы: Справочник.ДоговорыКонтрагентов.Форма.ФормаСписка\n        ИмяФичи: Док.БанкИКасса подгруппа расход, тест кнопок на нажатие\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 4 042\n        НомерСтрокиФичи: 53\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Док.БанкИкасса кнопка Расходная.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:29:58"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Финансы\" \"Банк и касса\"",
+			"start": 1731464981822,
+			"stop": 1731464981834,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Финансы"
+				},
+				{
+					"name": "Парам2",
+					"value": "Банк и касса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Банк и касса\"",
+			"start": 1731464981834,
+			"stop": 1731464982049,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Банк и касса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаРасходПоставщикуБанк'",
+			"start": 1731464982049,
+			"stop": 1731464982054,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаРасходПоставщикуБанк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание)\"",
+			"start": 1731464982054,
+			"stop": 1731464982169,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Контрагент'",
+			"start": 1731464982169,
+			"stop": 1731464982174,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Поставщики\"",
+			"start": 1731464982175,
+			"stop": 1731464982394,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Поставщики"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464982394,
+			"stop": 1731464982401,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464982401,
+			"stop": 1731464982685,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'СуммаДокумента' я ввожу текст \"100,00\"",
+			"start": 1731464982685,
+			"stop": 1731464982697,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СуммаДокумента"
+				},
+				{
+					"name": "Парам2",
+					"value": "100,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464982697,
+			"stop": 1731464982701,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'СуммаКомиссииДокумента' я ввожу текст \"50,00\"",
+			"start": 1731464982701,
+			"stop": 1731464982749,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СуммаКомиссииДокумента"
+				},
+				{
+					"name": "Парам2",
+					"value": "50,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731464982749,
+			"stop": 1731464982753,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"На расходы\"",
+			"start": 1731464982753,
+			"stop": 1731464982777,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "На расходы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464982778,
+			"stop": 1731464982864,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Прочему контрагенту (учредителю, таможне)\"",
+			"start": 1731464982865,
+			"stop": 1731464982878,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Прочему контрагенту (учредителю, таможне)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Покупателю (возврат)\"",
+			"start": 1731464982878,
+			"stop": 1731464982978,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Покупателю (возврат)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Прочий расход\"",
+			"start": 1731464982978,
+			"stop": 1731464983090,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Прочий расход"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Подотчетнику\"",
+			"start": 1731464983091,
+			"stop": 1731464983180,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Подотчетнику"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464983180,
+			"stop": 1731464983256,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Снятие наличных\"",
+			"start": 1731464983256,
+			"stop": 1731464983270,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Снятие наличных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Перевод на другой счет организации\"",
+			"start": 1731464983270,
+			"stop": 1731464983355,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Перевод на другой счет организации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ВидОперации' я выбираю точное значение \"Поставщику\"",
+			"start": 1731464983355,
+			"stop": 1731464983439,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "Поставщику"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'РасшифровкаПлатежаДобавить'",
+			"start": 1731464983439,
+			"stop": 1731464983558,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я нажимаю кнопку выбора у реквизита с именем 'РасшифровкаПлатежаДоговор'",
+			"start": 1731464983559,
+			"stop": 1731464983594,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаДоговор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731464983595,
+			"stop": 1731464983986,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Договоры\"",
+			"start": 1731464983986,
+			"stop": 1731464983990,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464983990,
+			"stop": 1731464984004,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464984005,
+			"stop": 1731464984015,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Контрагент'",
+			"start": 1731464984016,
+			"stop": 1731464984033,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты: Поставщики\"",
+			"start": 1731464984034,
+			"stop": 1731464984252,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты: Поставщики"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731464984252,
+			"stop": 1731464984260,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464984261,
+			"stop": 1731464984485,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я выбираю текущую строку",
+			"start": 1731464984486,
+			"stop": 1731464984496,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я нажимаю кнопку выбора у реквизита с именем 'РасшифровкаПлатежаДоговор'",
+			"start": 1731464984497,
+			"stop": 1731464984519,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаДоговор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731464984520,
+			"stop": 1731464999854,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Окно с заголовком <Договоры> не найдено.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Договоры> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Договоры с \"Авантех\">.\nВозможная строка шаблона <Договор*>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Договоры с \"Авантех\"\n        ИмяАктивнойФормы: Справочник.ДоговорыКонтрагентов.Форма.ФормаСписка\n        ИмяФичи: Док.БанкИКасса подгруппа расход, тест кнопок на нажатие\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 4 042\n        НомерСтрокиФичи: 53\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Док.БанкИкасса кнопка Расходная.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:29:58"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я выбираю текущую строку",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' в поле с именем 'РасшифровкаПлатежаСуммаРасчетов' я ввожу текст \"32,00\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "32,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' в поле с именем 'РасшифровкаПлатежаСуммаПлатежа' я ввожу текст \"3 332,00\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "3 332,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"С помощником\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "С помощником"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"Авто\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"С помощником\"",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "С помощником"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'ТаблицаДолгов' я перехожу к строке:",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаДолгов"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "a4e00cd0-4749-4fe6-aae1-32b21c5a7051-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'ТаблицаДолгов' я выбираю текущую строку",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаДолгов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у поля с именем 'ДокументОснованиеНадписьСПомощником' я нажимаю гиперссылку 'выбрать'",
+			"start": 1731464999855,
+			"stop": 1731464999855,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДокументОснованиеНадписьСПомощником"
+				},
+				{
+					"name": "Парам2",
+					"value": "выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в меню формы я выбираю 'Дополнительные расходы'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительные расходы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Дополнительные расходы\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительные расходы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Дополнительные расходы\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительные расходы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у поля с именем 'ДокументОснованиеНадписьСПомощником' я нажимаю гиперссылку 'выбрать'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДокументОснованиеНадписьСПомощником"
+				},
+				{
+					"name": "Парам2",
+					"value": "выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в меню формы я выбираю 'Заказ поставщику'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ поставщику"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы поставщикам\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Заказы поставщикам\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у поля с именем 'ДокументОснованиеНадписьСПомощником' я нажимаю гиперссылку 'выбрать'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДокументОснованиеНадписьСПомощником"
+				},
+				{
+					"name": "Парам2",
+					"value": "выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в меню формы я выбираю 'Приходная накладная'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Приходная накладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Приходные накладные\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Приходные накладные"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Приходные накладные\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Приходные накладные"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"Владивостокский филиал ВТП Сервис Групп ООО\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "Владивостокский филиал ВТП Сервис Групп ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"Вручную\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Вручную"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"Авто\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"Вручную\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Вручную"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'РасшифровкаПлатежаДобавить'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я нажимаю кнопку выбора у реквизита с именем 'РасшифровкаПлатежаДоговор'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаДоговор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета (создание) *\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' в поле с именем 'РасшифровкаПлатежаСуммаРасчетов' я ввожу текст \"12,00\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "12,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я выбираю текущую строку",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' в поле с именем 'РасшифровкаПлатежаСуммаПлатежа' я ввожу текст \"22,00\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "22,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'ГруппаСтатья'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаСтатья"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статья' я выбираю точное значение \"Прочее\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статья"
+				},
+				{
+					"name": "Парам2",
+					"value": "Прочее"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я разворачиваю группу с именем 'Дополнительно'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительно"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'НалогообложениеНДС' я выбираю точное значение \"Не облагается (без НДС)\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НалогообложениеНДС"
+				},
+				{
+					"name": "Парам2",
+					"value": "Не облагается (без НДС)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'НалогообложениеНДС' я выбираю точное значение \"Экспорт (0% НДС)\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НалогообложениеНДС"
+				},
+				{
+					"name": "Парам2",
+					"value": "Экспорт (0% НДС)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я устанавливаю флаг с именем 'РасшифровкаПлатежаПризнакАванса'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "РасшифровкаПлатежаПризнакАванса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'РасшифровкаПлатежа' я завершаю редактирование строки",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РасшифровкаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Расход со счета * от *\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета * от *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у поля с именем 'ДокументОснованиеНадписьВручную' я нажимаю гиперссылку 'выбрать'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДокументОснованиеНадписьВручную"
+				},
+				{
+					"name": "Парам2",
+					"value": "выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в меню формы я выбираю 'Заказ поставщику'",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ поставщику"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы поставщикам\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Заказы поставщикам\"",
+			"start": 1731464999856,
+			"stop": 1731464999856,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета * от *\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета * от *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НазначениеПлатежа' я ввожу текст \"тест\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НазначениеПлатежа"
+				},
+				{
+					"name": "Парам2",
+					"value": "тест"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Комментарий' я ввожу текст \"тест\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комментарий"
+				},
+				{
+					"name": "Парам2",
+					"value": "тест"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"С помощником\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "С помощником"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'ВариантЗаполненияРасшифровки' на \"Авто\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВариантЗаполненияРасшифровки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДоговорАвтоЗачетаДолгов_0'",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДоговорАвтоЗачетаДолгов_0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Договоры\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Договоры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "3399f4be-c55f-440e-8af2-b74ff154e81f-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Расход со счета * от * *\"",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Расход со счета * от * *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровести"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464999857,
+			"stop": 1731464999857,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие"
+		},
+		{
+			"name": "suite",
+			"value": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

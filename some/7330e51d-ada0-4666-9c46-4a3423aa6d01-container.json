@@ -1,0 +1,42 @@
+{
+	"uuid": "60c1e979-fbda-4aa1-9216-4686025ce1bd",
+	"name": "Контекст_Создание заявки глонасс",
+	"description": "",
+	"children": [
+		"7330e51d-ada0-4666-9c46-4a3423aa6d01"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465371432,
+			"stop": 1731465373676,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465373677,
+			"stop": 1731465373846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "b6079abc-96a8-449f-989f-170d90a50d4f",
+	"name": "Контекст_нажимаем \"Создать на основании расход со счёта\"",
+	"description": "",
+	"children": [
+		"0a1c1086-fee3-4322-b028-ac45a5037ad1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464193514,
+			"stop": 1731464193605,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464193606,
+			"stop": 1731464193900,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

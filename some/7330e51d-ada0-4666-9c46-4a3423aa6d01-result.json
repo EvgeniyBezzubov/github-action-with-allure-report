@@ -1,0 +1,5432 @@
+{
+	"uuid": "7330e51d-ada0-4666-9c46-4a3423aa6d01",
+	"historyId": "Документы > Заявка Глонасс > Создание.Создание заявки глонасс",
+	"name": "Создание заявки глонасс",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465371414,
+	"stop": 1731465390283,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ошибка при вызове метода контекста (ПолучитьФункциональнуюОпцию)\n                {Документ.ЗаявкаГЛОНАСС.Форма.ФормаДокумента.Форма(11)}:УказыватьТранспортНомерРейса      = ПолучитьФункциональнуюОпцию(\"УказыватьТранспортНомерРейса\");\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Функциональная опция не найдена",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Заявка ГЛОНАСС (создание)> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Документы > Заявка Глонасс > Создание\n        ИмяСценария: Создание заявки глонасс\n        НомерСтрокиДерева: 5 852\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Заявка Глонасс Создание.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:36:28\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (ПолучитьФункциональнуюОпцию)\n                {Документ.ЗаявкаГЛОНАСС.Форма.ФормаДокумента.Форма(11)}:УказыватьТранспортНомерРейса      = ПолучитьФункциональнуюОпцию(\"УказыватьТранспортНомерРейса\");\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Функциональная опция не найдена\n"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда В панели разделов я выбираю \"Клиенты\"",
+			"start": 1731465374053,
+			"stop": 1731465374064,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Клиенты\" \"Заявка ГЛОНАСС\"",
+			"start": 1731465374064,
+			"stop": 1731465376107,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Клиенты"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заявка ГЛОНАСС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС\"",
+			"start": 1731465376108,
+			"stop": 1731465376240,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1731465376240,
+			"stop": 1731465376244,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС (создание)\"",
+			"start": 1731465376245,
+			"stop": 1731465390276,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ошибка при вызове метода контекста (ПолучитьФункциональнуюОпцию)\n                {Документ.ЗаявкаГЛОНАСС.Форма.ФормаДокумента.Форма(11)}:УказыватьТранспортНомерРейса      = ПолучитьФункциональнуюОпцию(\"УказыватьТранспортНомерРейса\");\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Функциональная опция не найдена",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(2756)}: Окно с заголовком <Заявка ГЛОНАСС (создание)> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <1С:Предприятие>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Документы > Заявка Глонасс > Создание\n        ИмяСценария: Создание заявки глонасс\n        НомерСтрокиДерева: 5 852\n        НомерСтрокиФичи: 22\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Заявка Глонасс Создание.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:36:28\n        ДеталиОшибки:\n                Ошибка при вызове метода контекста (ПолучитьФункциональнуюОпцию)\n                {Документ.ЗаявкаГЛОНАСС.Форма.ФормаДокумента.Форма(11)}:УказыватьТранспортНомерРейса      = ПолучитьФункциональнуюОпцию(\"УказыватьТранспортНомерРейса\");\n                \n                [ОшибкаВоВремяВыполненияВстроенногоЯзыка]\n                по причине:\n                Функциональная опция не найдена\n"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'НомерДоговора' я ввожу текст \"555555\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерДоговора"
+				},
+				{
+					"name": "Парам2",
+					"value": "555555"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаДоговора'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаДоговора"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаДоговора' я ввожу текст \"17.09.2024\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаДоговора"
+				},
+				{
+					"name": "Парам2",
+					"value": "17.09.2024"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Цена' я ввожу текст \"6 666,00\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Цена"
+				},
+				{
+					"name": "Парам2",
+					"value": "6 666,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ЦенаПродажи' я ввожу текст \"7 777,00\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦенаПродажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "7 777,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС (создание) *\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"ВСТ-КАМЧАТКА ООО\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВСТ-КАМЧАТКА ООО"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Организация' я выбираю точное значение \"АВТОКОМ ООО (СТАРАЯ)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				},
+				{
+					"name": "Парам2",
+					"value": "АВТОКОМ ООО (СТАРАЯ)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'Организация'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"АВТОКОМ ООО (СТАРАЯ) (Организация)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АВТОКОМ ООО (СТАРАЯ) (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"АВТОКОМ ООО (СТАРАЯ) (Организация)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АВТОКОМ ООО (СТАРАЯ) (Организация)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС (создание) *\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ЦентрСертификации'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Центры сертификации\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Центры сертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я перехожу к строке:",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8b729631-260f-4082-a46e-baa9fe11abe5-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я выбираю текущую строку",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС (создание) *\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку открытия поля с именем 'ЦентрСертификации'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ЦентрСертификации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"НАША (Агент ГЛОНАСС)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НАША (Агент ГЛОНАСС)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"НАША (Агент ГЛОНАСС)\" в течение 20 секунд",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НАША (Агент ГЛОНАСС)"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС (создание) *\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"Закрыта\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "Закрыта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Статус' я выбираю точное значение \"Открыта\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Статус"
+				},
+				{
+					"name": "Парам2",
+					"value": "Открыта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * ()\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * ()"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровести"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса \"Присоединенные файлы\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Присоединенные файлы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса \"Файлы\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Файлы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса \"Основное\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Основное"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ПодменюФайлыОбычное_1'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПодменюФайлыОбычное_1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Рассылка E-mail, SMS (создание)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылка E-mail, SMS (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно \"Рассылка E-mail, SMS (создание)\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рассылка E-mail, SMS (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * ()\"",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * ()"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаполнениеКоносамента'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаполнениеКоносамента"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоДобавить'",
+			"start": 1731465390278,
+			"stop": 1731465390278,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю кнопку выбора у реквизита с именем 'АвтоИнформацияПоАвто'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоИнформацияПоАвто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Информация по авто\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Информация по авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я активизирую дополнение формы с именем 'ДополнениеСтрокаПоиска'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнениеСтрокаПоиска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ОтборНомерКузова' я ввожу текст \"RP4-1206668\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборНомерКузова"
+				},
+				{
+					"name": "Парам2",
+					"value": "RP4-1206668"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Список' я активизирую поле с именем 'Товар'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "Товар"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я активизирую поле с именем 'АвтоОтметка'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоОтметка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я завершаю редактирование строки",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * ()\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * ()"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я устанавливаю флаг с именем 'АвтоОтметка'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоОтметка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я завершаю редактирование строки",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * ()\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * ()"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеТПОСКоносаментом'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеТПОСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеГТДСКоносаментом'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеГТДСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Авто' я нажимаю на кнопку с именем 'АвтоАвтоОтметитьВсеСКоносаментом'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Авто"
+				},
+				{
+					"name": "Парам2",
+					"value": "АвтоАвтоОтметитьВсеСКоносаментом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС * от * ()\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * ()"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "f53ad42d-a3f2-4601-84b4-3a2eb92f6233-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "a110cc86-846b-4498-b224-d2cd499c98b1-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Корректировки долга\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Корректировки долга"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390279,
+			"stop": 1731465390279,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "31218d46-f912-4aa5-9dd9-40085821273f-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "7fc2a058-ff95-4690-a50c-c8fd0052657b-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8ffaa3c8-ec60-4cb7-aad7-d569917a74fd-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем 'ГруппаПредоплата'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаПредоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю на кнопку с именем 'ПредоплатаДобавить'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаДокумент'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Выбор типа данных\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор типа данных"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я перехожу к строке:",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "abdb7941-daf0-4d0b-97a2-43cb3041140b-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице '' я выбираю текущую строку",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к первой строке",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390280,
+			"stop": 1731465390280,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к следующей строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к следующей строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к следующей строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к следующей строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Предоплата\" я перехожу к следующей строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я нажимаю кнопку выбора у реквизита с именем 'ПредоплатаЗаказ'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаЗаказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Реестры\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к первой строке",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390281,
+			"stop": 1731465390281,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к следующей строке",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к следующей строке",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к следующей строке",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390282,
+			"stop": 1731465390282,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к следующей строке",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я перехожу к следующей строке",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаРасчетов' я ввожу текст \"999,00\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				},
+				{
+					"name": "Парам3",
+					"value": "999,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаКурс'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКурс' я ввожу текст \"100,0000\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКурс"
+				},
+				{
+					"name": "Парам3",
+					"value": "100,0000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я выбираю текущую строку",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаКратность' я ввожу текст \"10\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаКратность"
+				},
+				{
+					"name": "Парам3",
+					"value": "10"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаПлатежа'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' в поле с именем 'ПредоплатаСуммаПлатежа' я ввожу текст \"8 556,00\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаПлатежа"
+				},
+				{
+					"name": "Парам3",
+					"value": "8 556,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я завершаю редактирование строки",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'Предоплата' я активизирую поле с именем 'ПредоплатаСуммаРасчетов'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Предоплата"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПредоплатаСуммаРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заявка ГЛОНАСС * от * () *\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Комментарий' я ввожу текст \"Тест\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комментарий"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тест"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна \"Заявка ГЛОНАСС * от * () *\" в течение 20 секунд",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заявка ГЛОНАСС * от * () *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю TestClient \"КлиентТестирования\"",
+			"start": 1731465390283,
+			"stop": 1731465390283,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлиентТестирования"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание заявки глонасс"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка Глонасс > Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка Глонасс > Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

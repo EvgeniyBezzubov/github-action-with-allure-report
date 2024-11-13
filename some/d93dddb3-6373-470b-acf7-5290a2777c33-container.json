@@ -1,0 +1,42 @@
+{
+	"uuid": "effca911-f70b-4a1e-ad40-41e610f23c03",
+	"name": "Контекст_открытие док. декларация > создание элемента",
+	"description": "",
+	"children": [
+		"d93dddb3-6373-470b-acf7-5290a2777c33"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465091522,
+			"stop": 1731465091590,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465091591,
+			"stop": 1731465091910,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

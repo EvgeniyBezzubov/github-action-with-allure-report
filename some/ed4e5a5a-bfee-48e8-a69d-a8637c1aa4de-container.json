@@ -1,0 +1,42 @@
+{
+	"uuid": "490712af-75b1-483f-8885-af3c7c33cadf",
+	"name": "Контекст_Нажимаю все кнопки вкладки фалиы",
+	"description": "",
+	"children": [
+		"ed4e5a5a-bfee-48e8-a69d-a8637c1aa4de"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731466529644,
+			"stop": 1731466529795,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466529796,
+			"stop": 1731466530038,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

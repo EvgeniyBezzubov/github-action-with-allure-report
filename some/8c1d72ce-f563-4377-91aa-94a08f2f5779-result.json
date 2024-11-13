@@ -1,0 +1,473 @@
+{
+	"uuid": "8c1d72ce-f563-4377-91aa-94a08f2f5779",
+	"historyId": "Док.Поступление на счёт форма списка.Док.Поступление на счёт форма списка, фильтрация",
+	"name": "Док.Поступление на счёт форма списка, фильтрация",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731465196721,
+	"stop": 1731465206733,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Команда меню <Поступления на счет> не найдена в панели функций.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7699)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7571)}: Команда меню <Поступления на счет> не найдена в панели функций.\nПанель разделов <Квитанции>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Поступление на счёт форма списка\n        ИмяСценария: Док.Поступление на счёт форма списка, фильтрация\n        НомерСтрокиДерева: 5 120\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Док.Поступление на счёт Форма списка, тест фильтров.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:09 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:33:25"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Квитанции\" \"Поступления на счет\"",
+			"start": 1731465197336,
+			"stop": 1731465206732,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Команда меню <Поступления на счет> не найдена в панели функций.",
+				"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7699)}: {ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом.Форма(7571)}: Команда меню <Поступления на счет> не найдена в панели функций.\nПанель разделов <Квитанции>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Групповое поступление\n        ИмяАктивнойФормы: Обработка.ГрупповоеНачисление.Форма.Форма\n        ИмяФичи: Док.Поступление на счёт форма списка\n        ИмяСценария: Док.Поступление на счёт форма списка, фильтрация\n        НомерСтрокиДерева: 5 120\n        НомерСтрокиФичи: 18\n        ПолныйПутьКФиче: D:\\vanessa-automation\\Тесты\\РучныеТесты\\ТестыПрошедшие\\Тест Док.Поступление на счёт Форма списка, тест фильтров.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСИнтерфейсом\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: autocom-dev\n        ИмяКлиентаТестирования: КлиентТестирования\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"localhost\";Ref=\"dev_evgeniy\";\n        ДопПараметрыПодключения: /N\"Евгений\" \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.23.2157\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:09 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 12:33:25"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квитанции"
+				},
+				{
+					"name": "Парам2",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'ОтборВидОперации' я выбираю точное значение \"От покупателя\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборВидОперации"
+				},
+				{
+					"name": "Парам2",
+					"value": "От покупателя"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я перехожу к первой строке",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы \"Список\" я выполняю",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Список\" текущая строка равна:",
+					"start": 1731465206733,
+					"stop": 1731465206733,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "4f69e230-94b4-4eb6-8dbb-96a8e5ca53b6-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'Метка_0'",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Метка_0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'ОтборКонтрагент'",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборКонтрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Контрагенты\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагенты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я активизирую дополнение формы с именем 'ДополнениеСтрокаПоиска'",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнениеСтрокаПоиска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в дополнение формы с именем 'ДополнениеСтрокаПоиска' я ввожу текст \"Алексей Шуклин\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнениеСтрокаПоиска"
+				},
+				{
+					"name": "Парам2",
+					"value": "Алексей Шуклин"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Выбрать'",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы \"Список\" я выполняю",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Список\" текущая строка равна:",
+					"start": 1731465206733,
+					"stop": 1731465206733,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "25ab170f-be0d-45d6-9c06-4ee1fb5a0359-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Поступления на счет\"",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления на счет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем 'Метка_0'",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Метка_0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465206733,
+			"stop": 1731465206733,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Поступление на счёт форма списка, фильтрация"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

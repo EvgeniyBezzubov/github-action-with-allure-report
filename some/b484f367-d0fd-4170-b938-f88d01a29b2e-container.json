@@ -1,0 +1,42 @@
+{
+	"uuid": "b2a7f5c0-92ab-462f-ad6b-048c73c1717c",
+	"name": "Контекст_док.Документы по кадрам открытие формы",
+	"description": "",
+	"children": [
+		"b484f367-d0fd-4170-b938-f88d01a29b2e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464071632,
+			"stop": 1731464071730,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464071730,
+			"stop": 1731464072026,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

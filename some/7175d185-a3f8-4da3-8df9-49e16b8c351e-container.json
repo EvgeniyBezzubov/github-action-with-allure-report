@@ -1,0 +1,27 @@
+{
+	"uuid": "2a8f5b18-fc2e-48d5-9cc3-1eaf218bc6a7",
+	"name": "Контекст_Ввод поля клиент при создании авто",
+	"description": "",
+	"children": [
+		"7175d185-a3f8-4da3-8df9-49e16b8c351e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731463797632,
+			"stop": 1731463797747,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

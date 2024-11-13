@@ -1,0 +1,42 @@
+{
+	"uuid": "64b38750-7199-4692-a1eb-9adaa0b469b8",
+	"name": "Контекст_Тест нажатия кнопки сформировать Рачётной ведомости",
+	"description": "",
+	"children": [
+		"920f50db-e8f7-47bd-8dab-3f56a2c947f0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464580463,
+			"stop": 1731464580505,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464580505,
+			"stop": 1731464580649,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

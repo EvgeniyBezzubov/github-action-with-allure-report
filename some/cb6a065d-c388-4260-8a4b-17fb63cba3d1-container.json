@@ -1,0 +1,42 @@
+{
+	"uuid": "a7ff1906-e115-4d55-ad3a-cac568c7f73e",
+	"name": "Контекст_Открыть счёт учёта",
+	"description": "",
+	"children": [
+		"cb6a065d-c388-4260-8a4b-17fb63cba3d1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464468538,
+			"stop": 1731464468659,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464468659,
+			"stop": 1731464468932,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

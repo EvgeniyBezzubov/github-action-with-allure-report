@@ -1,0 +1,27 @@
+{
+	"uuid": "552699d1-8155-4f8c-8dac-30711341e2f9",
+	"name": "Контекст_Создать элемент СПР.СВХ",
+	"description": "",
+	"children": [
+		"8b6fbbda-9769-40ba-b8f2-35c5cfb2d591"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731466426666,
+			"stop": 1731466426719,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

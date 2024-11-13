@@ -1,0 +1,42 @@
+{
+	"uuid": "5b4debd4-7756-4b38-981e-08f36839f1cd",
+	"name": "Контекст_Добавить строку в тч Услуги документа отчёт агента",
+	"description": "",
+	"children": [
+		"47491cfc-65d4-4676-88e8-1aa495ef67ca"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464148209,
+			"stop": 1731464148306,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464148306,
+			"stop": 1731464148603,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

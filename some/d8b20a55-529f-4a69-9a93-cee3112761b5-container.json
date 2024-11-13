@@ -1,0 +1,42 @@
+{
+	"uuid": "37d9b1b2-6b03-4131-a3db-b361ce7c5f06",
+	"name": "Контекст_Тест нажатия кнопки всех кнопочек отчёта Выпуски инпекторов",
+	"description": "",
+	"children": [
+		"d8b20a55-529f-4a69-9a93-cee3112761b5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464568477,
+			"stop": 1731464568533,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464568534,
+			"stop": 1731464568676,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "b2e609fb-d715-4e3c-952c-a5d16fc25b28",
+	"name": "Контекст_нажатие всех кнопок в отчёте продажи по номенклатуре",
+	"description": "",
+	"children": [
+		"e2ac72ae-990b-4cc2-9303-74b2cf86bbb5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465595682,
+			"stop": 1731465595736,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465595736,
+			"stop": 1731465595863,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

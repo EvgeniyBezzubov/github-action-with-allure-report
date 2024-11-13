@@ -1,0 +1,42 @@
+{
+	"uuid": "14b799f6-882e-4eb9-9342-ba589ecfe7e5",
+	"name": "Контекст_Док. Расход со счёта, форма списка, кнопки \"создать копированием\",\"Заполнение\", \"Отчёты\"",
+	"description": "",
+	"children": [
+		"7e0e6f16-721c-4d1c-bdf3-d53da6989d72"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465257895,
+			"stop": 1731465258018,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465258018,
+			"stop": 1731465258272,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

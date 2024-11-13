@@ -1,0 +1,42 @@
+{
+	"uuid": "5b091b15-b84c-4801-8a54-57db7c03083e",
+	"name": "Контекст_Заполнение справочника клиенты",
+	"description": "",
+	"children": [
+		"14d08439-3e9c-4e85-b42f-3b210e47952d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465358026,
+			"stop": 1731465360744,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465360744,
+			"stop": 1731465361054,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

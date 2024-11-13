@@ -1,0 +1,42 @@
+{
+	"uuid": "1188cdb8-8223-45fa-8e15-cc8cbdf0eecf",
+	"name": "Контекст_Тест выбора товара",
+	"description": "",
+	"children": [
+		"0e62a206-1617-459f-9bad-d6826bff8e47"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465077509,
+			"stop": 1731465077550,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465077551,
+			"stop": 1731465077692,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "8edbea82-b4c0-4101-9946-8220325c9ce7",
+	"name": "Контекст_Нажимаю все кнопки вкладки фалиы",
+	"description": "",
+	"children": [
+		"408c8f56-ac7e-497e-aaca-be7ce547ad40"
+	],
+	"befores": [
+		{
+			"name": "Дано Я подключаю уже запущенный клиент тестирования \"КлиентТестирования\"",
+			"start": 1731464740544,
+			"stop": 1731464740909,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлиентТестирования"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

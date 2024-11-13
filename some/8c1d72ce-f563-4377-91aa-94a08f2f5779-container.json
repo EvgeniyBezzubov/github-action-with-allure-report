@@ -1,0 +1,42 @@
+{
+	"uuid": "9800adf1-8653-454e-8dda-27a57e1ce310",
+	"name": "Контекст_Док.Поступление на счёт форма списка, фильтрация",
+	"description": "",
+	"children": [
+		"8c1d72ce-f563-4377-91aa-94a08f2f5779"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731465196740,
+			"stop": 1731465196793,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731465196794,
+			"stop": 1731465197133,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

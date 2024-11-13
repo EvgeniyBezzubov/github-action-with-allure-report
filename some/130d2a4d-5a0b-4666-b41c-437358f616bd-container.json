@@ -1,0 +1,42 @@
+{
+	"uuid": "cb029ec6-6997-4a99-ad52-8414b39bcd19",
+	"name": "Контекст_открытие формы списка возврат товара",
+	"description": "",
+	"children": [
+		"130d2a4d-5a0b-4666-b41c-437358f616bd"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464016767,
+			"stop": 1731464016894,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464016895,
+			"stop": 1731464017187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

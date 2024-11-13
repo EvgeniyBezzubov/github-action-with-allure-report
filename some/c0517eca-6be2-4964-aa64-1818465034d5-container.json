@@ -1,0 +1,42 @@
+{
+	"uuid": "f4c7b106-4108-4189-8fad-5fec7350abc4",
+	"name": "Контекст_Открываю док.Корректировку долга > поле операция",
+	"description": "",
+	"children": [
+		"c0517eca-6be2-4964-aa64-1818465034d5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731464124451,
+			"stop": 1731464124494,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731464124494,
+			"stop": 1731464124630,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

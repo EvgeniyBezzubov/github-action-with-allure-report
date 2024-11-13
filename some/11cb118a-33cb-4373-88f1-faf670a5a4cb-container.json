@@ -1,0 +1,42 @@
+{
+	"uuid": "9cbafb4c-8a48-48c2-903f-12188fe061ed",
+	"name": "Контекст_открыть и создать элемент спра информации по авто",
+	"description": "",
+	"children": [
+		"11cb118a-33cb-4373-88f1-faf670a5a4cb"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1731466154881,
+			"stop": 1731466154920,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1731466154920,
+			"stop": 1731466155072,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
