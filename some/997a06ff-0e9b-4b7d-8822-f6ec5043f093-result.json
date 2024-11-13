@@ -1,0 +1,111 @@
+{
+	"uuid": "997a06ff-0e9b-4b7d-8822-f6ec5043f093",
+	"historyId": "Проверка Справочников на Создание.Тестна создание Сотрудника, и его удаление",
+	"name": "Тестна создание Сотрудника, и его удаление",
+	"fullName": "тест 1 создание документа.feature_тестна создание сотрудника, и его удаление",
+	"testCaseId": "00e1df91116de8e8f09ae2abeb90034a",
+	"start": 1731457752051,
+	"stop": 1731457756334,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не получилось подключиться к ранее запущенному клиенту тестирования <УП-МояБаза>, порт <48 001>.",
+		"trace": "{ВнешняяОбработка.VanessaAutomationsingle.Форма.УправляемаяФорма.Форма(38879)}: Не получилось подключиться к ранее запущенному клиенту тестирования <УП-МояБаза>, порт <48 001>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: \n        ИмяАктивнойФормы: \n        ИмяФичи: Проверка Справочников на Создание\n        ИмяСценария: Тестна создание Сотрудника, и его удаление\n        НомерСтрокиДерева: 3\n        НомерСтрокиФичи: 12\n        ПолныйПутьКФиче: C:\\Users\\User\\PycharmProjects\\pythonProject1\\tests\\тест 1 создание документа.feature\n        ИмяФайла: ВнешняяОбработка.VanessaAutomationsingle.Форма.Тест_РаботаСTestClient\n        ИмяПроцедуры: ЯПодключаюУжеЗапущенныйКлиентТестирования\n        ИмяРаннера: DESKTOP-3ELRAH3\n        ИмяКлиентаТестирования: \n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: \n        СтрокаСоединения: \n        ДопПараметрыПодключения: \n        PIDКлиентаТестирования: 0\n        ВерсияVA: ver 1.2.041.22\n        ВерсияПлатформы: 8.3.25.1336\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 13.11.2024 10:29:16"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Создание ЭлементаСправочника",
+			"start": 1731457756334,
+			"stop": 1731457756334,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Администрирование' 'Сотрудники'",
+					"start": 1731457756334,
+					"stop": 1731457756334,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Администрирование"
+						},
+						{
+							"name": "Парам2",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выполняю команду системы",
+					"start": 1731457756334,
+					"stop": 1731457756334,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "4950950c-be6e-4ddb-8ba8-5bb25cb36b5b-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тестна создание Сотрудника, и его удаление"
+		},
+		{
+			"name": "epic",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Проверка Справочников на Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-3ELRAH3"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
