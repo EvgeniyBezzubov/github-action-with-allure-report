@@ -1,0 +1,47 @@
+{
+	"uuid": "7bd33088-c85b-4f41-bcce-b23e78c001ed",
+	"historyId": "Спр.Изготовители объектов учёта.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445322,
+	"stop": 1731468445322,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Изготовители объектов учёта"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Изготовители объектов учёта"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

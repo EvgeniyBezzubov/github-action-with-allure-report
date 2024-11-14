@@ -1,0 +1,47 @@
+{
+	"uuid": "0e8650a5-888e-49c9-aaa4-c293fb310bb1",
+	"historyId": "док.декларация> создание элемента.открытие док. декларация > создание элемента",
+	"name": "открытие док. декларация > создание элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444962,
+	"stop": 1731468444962,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открытие док. декларация > создание элемента"
+		},
+		{
+			"name": "epic",
+			"value": "док.декларация> создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "док.декларация> создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

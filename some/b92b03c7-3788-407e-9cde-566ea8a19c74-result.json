@@ -1,0 +1,47 @@
+{
+	"uuid": "b92b03c7-3788-407e-9cde-566ea8a19c74",
+	"historyId": "Спр. Контрагенты> кнопка телефонный звонок.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444730,
+	"stop": 1731468444730,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр. Контрагенты> кнопка телефонный звонок"
+		},
+		{
+			"name": "suite",
+			"value": "Спр. Контрагенты> кнопка телефонный звонок"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

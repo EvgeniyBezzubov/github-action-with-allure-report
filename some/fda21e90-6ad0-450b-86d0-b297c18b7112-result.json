@@ -1,0 +1,47 @@
+{
+	"uuid": "fda21e90-6ad0-450b-86d0-b297c18b7112",
+	"historyId": "Обр.Групповое начисление.Обр.Групповое начисление",
+	"name": "Обр.Групповое начисление",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445131,
+	"stop": 1731468445131,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Обр.Групповое начисление"
+		},
+		{
+			"name": "epic",
+			"value": "Обр.Групповое начисление"
+		},
+		{
+			"name": "suite",
+			"value": "Обр.Групповое начисление"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

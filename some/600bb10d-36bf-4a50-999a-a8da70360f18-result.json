@@ -1,0 +1,47 @@
+{
+	"uuid": "600bb10d-36bf-4a50-999a-a8da70360f18",
+	"historyId": "<описание фичи>.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444969,
+	"stop": 1731468444969,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "suite",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

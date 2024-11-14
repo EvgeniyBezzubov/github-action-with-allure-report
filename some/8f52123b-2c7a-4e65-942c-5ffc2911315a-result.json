@@ -1,0 +1,47 @@
+{
+	"uuid": "8f52123b-2c7a-4e65-942c-5ffc2911315a",
+	"historyId": "Документы > Заявка сбктс > отправить на печать.Создание заявки, отправка на печать",
+	"name": "Создание заявки, отправка на печать",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444617,
+	"stop": 1731468444617,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание заявки, отправка на печать"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка сбктс > отправить на печать"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка сбктс > отправить на печать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "2ef954e5-84e3-489c-8304-fad481df998d",
+	"historyId": "Элемент справочник информация по авто > кнопка Оплатить.Прикрепление фаила",
+	"name": "Прикрепление фаила",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444630,
+	"stop": 1731468444630,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Прикрепление фаила"
+		},
+		{
+			"name": "epic",
+			"value": "Элемент справочник информация по авто > кнопка Оплатить"
+		},
+		{
+			"name": "suite",
+			"value": "Элемент справочник информация по авто > кнопка Оплатить"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

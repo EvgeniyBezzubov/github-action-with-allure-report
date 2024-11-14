@@ -1,0 +1,47 @@
+{
+	"uuid": "dbbac47b-fc0f-4a9c-9657-8b6cc217b4cb",
+	"historyId": "Тест Конпки Создать рассылку отчётов.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444820,
+	"stop": 1731468444820,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Конпки Создать рассылку отчётов"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Конпки Создать рассылку отчётов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

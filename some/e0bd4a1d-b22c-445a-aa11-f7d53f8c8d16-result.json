@@ -1,0 +1,47 @@
+{
+	"uuid": "e0bd4a1d-b22c-445a-aa11-f7d53f8c8d16",
+	"historyId": "Док.Декларации Форма списка.Тест выбора товара",
+	"name": "Тест выбора товара",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444956,
+	"stop": 1731468444956,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест выбора товара"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Декларации Форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Декларации Форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

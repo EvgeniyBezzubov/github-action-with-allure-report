@@ -1,0 +1,47 @@
+{
+	"uuid": "7ec79423-c456-411a-85c0-86158fcd6d83",
+	"historyId": "Тест всех кнопок вкладки Фаилы Справочника ИПА.Нажимаю все кнопки вкладки фалиы",
+	"name": "Нажимаю все кнопки вкладки фалиы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445512,
+	"stop": 1731468445512,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Нажимаю все кнопки вкладки фалиы"
+		},
+		{
+			"name": "epic",
+			"value": "Тест всех кнопок вкладки Фаилы Справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест всех кнопок вкладки Фаилы Справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

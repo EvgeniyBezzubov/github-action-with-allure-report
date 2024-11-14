@@ -1,0 +1,47 @@
+{
+	"uuid": "b499d48d-f075-44b8-abf5-8fca6555fc5b",
+	"historyId": "Спр.ОУ тест поиска.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445414,
+	"stop": 1731468445414,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.ОУ тест поиска"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.ОУ тест поиска"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

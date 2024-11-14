@@ -1,0 +1,47 @@
+{
+	"uuid": "29d125bb-b7c9-440d-ab68-a06d3df46ff5",
+	"historyId": "док.ПриходнаяНакладная> форма списка > нажатие всех кнопок.нажимаю по очереди все рабочие кнопки",
+	"name": "нажимаю по очереди все рабочие кнопки",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445098,
+	"stop": 1731468445098,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "нажимаю по очереди все рабочие кнопки"
+		},
+		{
+			"name": "epic",
+			"value": "док.ПриходнаяНакладная> форма списка > нажатие всех кнопок"
+		},
+		{
+			"name": "suite",
+			"value": "док.ПриходнаяНакладная> форма списка > нажатие всех кнопок"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

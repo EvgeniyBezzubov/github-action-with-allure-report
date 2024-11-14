@@ -1,0 +1,47 @@
+{
+	"uuid": "5764d002-811b-4a40-83fe-319cb712bbfc",
+	"historyId": "Справочник информация по авто > Форма элемента> ссылка на реестр.открытие реестра через элемент справочника ИПА",
+	"name": "открытие реестра через элемент справочника ИПА",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444794,
+	"stop": 1731468444794,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открытие реестра через элемент справочника ИПА"
+		},
+		{
+			"name": "epic",
+			"value": "Справочник информация по авто > Форма элемента> ссылка на реестр"
+		},
+		{
+			"name": "suite",
+			"value": "Справочник информация по авто > Форма элемента> ссылка на реестр"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

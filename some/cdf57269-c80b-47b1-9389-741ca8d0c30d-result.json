@@ -1,0 +1,47 @@
+{
+	"uuid": "cdf57269-c80b-47b1-9389-741ca8d0c30d",
+	"historyId": "Док.Расход из кассы(На расходы) с контролем.Док.Расход из кассы(На расходы) с контролем",
+	"name": "Док.Расход из кассы(На расходы) с контролем",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445033,
+	"stop": 1731468445033,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Расход из кассы(На расходы) с контролем"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Расход из кассы(На расходы) с контролем"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Расход из кассы(На расходы) с контролем"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

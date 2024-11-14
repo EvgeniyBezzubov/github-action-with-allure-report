@@ -1,0 +1,47 @@
+{
+	"uuid": "e70300a6-cd73-44ad-a774-448955095094",
+	"historyId": "спр.Центры сертификации.спр.Центры сертификации",
+	"name": "спр.Центры сертификации",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445493,
+	"stop": 1731468445493,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.Центры сертификации"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Центры сертификации"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Центры сертификации"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

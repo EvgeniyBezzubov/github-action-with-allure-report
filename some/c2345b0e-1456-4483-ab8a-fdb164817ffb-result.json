@@ -1,0 +1,47 @@
+{
+	"uuid": "c2345b0e-1456-4483-ab8a-fdb164817ffb",
+	"historyId": "спр.Реестры > создать элемент.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445459,
+	"stop": 1731468445459,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Реестры > создать элемент"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Реестры > создать элемент"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

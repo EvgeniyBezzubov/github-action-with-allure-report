@@ -1,0 +1,47 @@
+{
+	"uuid": "fbab2bca-2385-41d6-96ee-f90b96c9d9e7",
+	"historyId": "Док.Поступление в кассу.Док.Поступление в кассу ввод ТЧ",
+	"name": "Док.Поступление в кассу ввод ТЧ",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445006,
+	"stop": 1731468445006,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Поступление в кассу ввод ТЧ"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление в кассу"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление в кассу"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

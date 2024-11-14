@@ -1,0 +1,47 @@
+{
+	"uuid": "6a78afa9-9aef-4dda-b729-09479b883055",
+	"historyId": "Спр.Модели кузовов Создание элемента.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445374,
+	"stop": 1731468445374,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Модели кузовов Создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Модели кузовов Создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

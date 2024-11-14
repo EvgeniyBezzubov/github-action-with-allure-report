@@ -1,0 +1,47 @@
+{
+	"uuid": "f59e9bd0-c586-4038-9e86-13d8419b0455",
+	"historyId": "Спр.Организации.Спр.Организации",
+	"name": "Спр.Организации",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445388,
+	"stop": 1731468445388,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Спр.Организации"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Организации"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Организации"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

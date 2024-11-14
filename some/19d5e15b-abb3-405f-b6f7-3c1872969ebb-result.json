@@ -1,0 +1,47 @@
+{
+	"uuid": "19d5e15b-abb3-405f-b6f7-3c1872969ebb",
+	"historyId": "Документы > Заявка сбктс > Долполнительно > Договр Выбрать.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444578,
+	"stop": 1731468444578,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка сбктс > Долполнительно > Договр Выбрать"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка сбктс > Долполнительно > Договр Выбрать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "c7138bcb-7b4a-4c88-8740-af8a4ace4301",
+	"historyId": "подсисистема клиент > Отчёт Взаимозачёты.подсисистема клиет > отчёты, Взаимозачёты",
+	"name": "подсисистема клиет > отчёты, Взаимозачёты",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444683,
+	"stop": 1731468444683,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "подсисистема клиет > отчёты, Взаимозачёты"
+		},
+		{
+			"name": "epic",
+			"value": "подсисистема клиент > Отчёт Взаимозачёты"
+		},
+		{
+			"name": "suite",
+			"value": "подсисистема клиент > Отчёт Взаимозачёты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

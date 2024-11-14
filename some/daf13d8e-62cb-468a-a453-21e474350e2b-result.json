@@ -1,0 +1,47 @@
+{
+	"uuid": "daf13d8e-62cb-468a-a453-21e474350e2b",
+	"historyId": "Док.Заказ покупателя.Док.Заказ покупателя, выбрать организацию",
+	"name": "Док.Заказ покупателя, выбрать организацию",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444411,
+	"stop": 1731468444411,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ покупателя, выбрать организацию"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

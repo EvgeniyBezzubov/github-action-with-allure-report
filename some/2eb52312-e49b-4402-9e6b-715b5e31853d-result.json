@@ -1,0 +1,47 @@
+{
+	"uuid": "2eb52312-e49b-4402-9e6b-715b5e31853d",
+	"historyId": "док. Приходная накладная Создание элемента.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445105,
+	"stop": 1731468445105,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "док. Приходная накладная Создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "док. Приходная накладная Создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

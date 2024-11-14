@@ -1,0 +1,47 @@
+{
+	"uuid": "bf00a65f-1a13-4486-b9da-959e719b7972",
+	"historyId": "Спр.Контрагенты > форма списка.нажимает все кнопки на форме списка справочника контрагенты",
+	"name": "нажимает все кнопки на форме списка справочника контрагенты",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444859,
+	"stop": 1731468444859,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "нажимает все кнопки на форме списка справочника контрагенты"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Контрагенты > форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Контрагенты > форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

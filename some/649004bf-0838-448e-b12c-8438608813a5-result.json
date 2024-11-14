@@ -1,0 +1,47 @@
+{
+	"uuid": "649004bf-0838-448e-b12c-8438608813a5",
+	"historyId": "Документы > Заявка Глонасс > Создание.Создание заявки глонасс",
+	"name": "Создание заявки глонасс",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445118,
+	"stop": 1731468445118,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание заявки глонасс"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка Глонасс > Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка Глонасс > Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

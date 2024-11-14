@@ -1,0 +1,47 @@
+{
+	"uuid": "ccfc824e-3975-4bc4-a8d6-14cdefc2355a",
+	"historyId": "Спр.Транспорт.Создание элемента СПР.транспорт",
+	"name": "Создание элемента СПР.транспорт",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445276,
+	"stop": 1731468445276,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание элемента СПР.транспорт"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Транспорт"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Транспорт"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

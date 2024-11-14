@@ -1,0 +1,47 @@
+{
+	"uuid": "e7cd9e8c-08b2-4079-a59d-062333643ee0",
+	"historyId": "спр.Виды информации по авто.открыть и создать элемент спра информации по авто",
+	"name": "открыть и создать элемент спра информации по авто",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445335,
+	"stop": 1731468445335,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открыть и создать элемент спра информации по авто"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Виды информации по авто"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Виды информации по авто"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

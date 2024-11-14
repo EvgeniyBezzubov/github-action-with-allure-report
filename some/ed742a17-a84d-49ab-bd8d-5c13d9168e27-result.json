@@ -1,0 +1,47 @@
+{
+	"uuid": "ed742a17-a84d-49ab-bd8d-5c13d9168e27",
+	"historyId": "док. Счёт на оплату> форма элемента> заполнение поля клиент.Открытиен элемента счёт на оплату, заполнение поля клиентянянян",
+	"name": "Открытиен элемента счёт на оплату, заполнение поля клиентянянян",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444564,
+	"stop": 1731468444564,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытиен элемента счёт на оплату, заполнение поля клиентянянян"
+		},
+		{
+			"name": "epic",
+			"value": "док. Счёт на оплату> форма элемента> заполнение поля клиент"
+		},
+		{
+			"name": "suite",
+			"value": "док. Счёт на оплату> форма элемента> заполнение поля клиент"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

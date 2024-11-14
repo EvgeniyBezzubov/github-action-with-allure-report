@@ -1,0 +1,47 @@
+{
+	"uuid": "96ba6f43-fa9d-41d0-bee7-ba4b0e555d1f",
+	"historyId": "Тест Расчётная ведомость, сформировать.Тест нажатия кнопки сформировать Рачётной ведомости",
+	"name": "Тест нажатия кнопки сформировать Рачётной ведомости",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444703,
+	"stop": 1731468444703,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест нажатия кнопки сформировать Рачётной ведомости"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Расчётная ведомость, сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Расчётная ведомость, сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "ec217335-13b3-40b3-a8f3-4aff70f1a796",
+	"historyId": "Документ счёт на оплату, форма списка.Запускаеим док. Счёт на полату, нажимаем кнопку создать копированием",
+	"name": "Запускаеим док. Счёт на полату, нажимаем кнопку создать копированием",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444558,
+	"stop": 1731468444558,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запускаеим док. Счёт на полату, нажимаем кнопку создать копированием"
+		},
+		{
+			"name": "epic",
+			"value": "Документ счёт на оплату, форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Документ счёт на оплату, форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

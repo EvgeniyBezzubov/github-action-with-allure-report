@@ -1,0 +1,47 @@
+{
+	"uuid": "0cff4adc-8c50-412c-980c-1c38e9a2b870",
+	"historyId": "Спр.Виды цен, создать.Спр.Виды цен создать новый элемент",
+	"name": "Спр.Виды цен создать новый элемент",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445295,
+	"stop": 1731468445295,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Спр.Виды цен создать новый элемент"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Виды цен, создать"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Виды цен, создать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "94c28e5c-3f5f-4e2d-be57-e763387adde5",
+	"historyId": "спр.Статусы Информации по авто > создание элемента.спр.Статусы Информации по авто > создание элемента",
+	"name": "спр.Статусы Информации по авто > создание элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445486,
+	"stop": 1731468445486,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Статусы Информации по авто > создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

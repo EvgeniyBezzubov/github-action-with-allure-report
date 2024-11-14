@@ -1,0 +1,47 @@
+{
+	"uuid": "92e4598b-0377-4945-9378-a86b6615d8a9",
+	"historyId": "Спр. Номенклатура, форма списка, создать копированем.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444756,
+	"stop": 1731468444756,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр. Номенклатура, форма списка, создать копированем"
+		},
+		{
+			"name": "suite",
+			"value": "Спр. Номенклатура, форма списка, создать копированем"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

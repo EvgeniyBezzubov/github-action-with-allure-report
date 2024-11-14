@@ -1,0 +1,47 @@
+{
+	"uuid": "6f2188c4-eb4d-4738-83cc-b867503f07fc",
+	"historyId": "Докуменит.Выпуск ГДТ.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444943,
+	"stop": 1731468444943,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Докуменит.Выпуск ГДТ"
+		},
+		{
+			"name": "suite",
+			"value": "Докуменит.Выпуск ГДТ"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

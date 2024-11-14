@@ -1,0 +1,47 @@
+{
+	"uuid": "b5c5ee9b-c70f-46b9-9d8d-bda365ebe1bd",
+	"historyId": "Тест справочник ИПА.Создание напоминания",
+	"name": "Создание напоминания",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445124,
+	"stop": 1731468445124,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание напоминания"
+		},
+		{
+			"name": "epic",
+			"value": "Тест справочник ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест справочник ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

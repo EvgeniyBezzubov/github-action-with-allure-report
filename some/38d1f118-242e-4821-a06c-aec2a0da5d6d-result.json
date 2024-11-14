@@ -1,0 +1,47 @@
+{
+	"uuid": "38d1f118-242e-4821-a06c-aec2a0da5d6d",
+	"historyId": "Док.БанкИКасса создание послепления в кассу.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444336,
+	"stop": 1731468444336,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.БанкИКасса создание послепления в кассу"
+		},
+		{
+			"name": "suite",
+			"value": "Док.БанкИКасса создание послепления в кассу"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

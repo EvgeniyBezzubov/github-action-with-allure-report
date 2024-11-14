@@ -1,0 +1,47 @@
+{
+	"uuid": "45804fa8-f92e-437f-90ba-8d49e44d7ae5",
+	"historyId": "Тест Кнопки Создать ТС в Справочнике ОУ.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444813,
+	"stop": 1731468444813,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Кнопки Создать ТС в Справочнике ОУ"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Кнопки Создать ТС в Справочнике ОУ"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

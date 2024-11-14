@@ -1,0 +1,47 @@
+{
+	"uuid": "4bedba40-a984-412f-8058-fb6359b65555",
+	"historyId": "Постепление на счёт Форма списка, скопировать.На форме списка Поступления на счёт нажимаю кнопку скопировать",
+	"name": "На форме списка Поступления на счёт нажимаю кнопку скопировать",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444276,
+	"stop": 1731468444276,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "На форме списка Поступления на счёт нажимаю кнопку скопировать"
+		},
+		{
+			"name": "epic",
+			"value": "Постепление на счёт Форма списка, скопировать"
+		},
+		{
+			"name": "suite",
+			"value": "Постепление на счёт Форма списка, скопировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

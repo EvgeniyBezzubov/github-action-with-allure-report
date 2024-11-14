@@ -1,0 +1,47 @@
+{
+	"uuid": "6960d442-3553-4d6e-88af-e3baa3c5df97",
+	"historyId": "Тест отчёт Непроходные, открытие формы.Тест формирования отчёта \"Непроходные\"",
+	"name": "Тест формирования отчёта \"Непроходные\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444697,
+	"stop": 1731468444697,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"Непроходные\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт Непроходные, открытие формы"
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт Непроходные, открытие формы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "5fd0255d-ca4e-44a7-9eab-ee71f1a039c2",
+	"historyId": "Док.Поступление на счёт форма списка.Док.Поступление на счёт форма списка кнопка создать по шаблону",
+	"name": "Док.Поступление на счёт форма списка кнопка создать по шаблону",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444283,
+	"stop": 1731468444283,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Поступление на счёт форма списка кнопка создать по шаблону"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

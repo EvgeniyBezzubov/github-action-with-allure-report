@@ -1,0 +1,47 @@
+{
+	"uuid": "661c3c8f-c466-446a-b867-9b6c54643c16",
+	"historyId": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444356,
+	"stop": 1731468444356,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие"
+		},
+		{
+			"name": "suite",
+			"value": "Док.БанкИКасса подгруппа расход, тест кнопок на нажатие"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

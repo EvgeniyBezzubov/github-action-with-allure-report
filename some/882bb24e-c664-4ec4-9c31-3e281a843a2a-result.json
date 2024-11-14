@@ -1,0 +1,47 @@
+{
+	"uuid": "882bb24e-c664-4ec4-9c31-3e281a843a2a",
+	"historyId": "отчёт Продажи по номенклатуре.нажатие всех кнопок в отчёте продажи по номенклатуре",
+	"name": "нажатие всех кнопок в отчёте продажи по номенклатуре",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445196,
+	"stop": 1731468445196,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "нажатие всех кнопок в отчёте продажи по номенклатуре"
+		},
+		{
+			"name": "epic",
+			"value": "отчёт Продажи по номенклатуре"
+		},
+		{
+			"name": "suite",
+			"value": "отчёт Продажи по номенклатуре"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

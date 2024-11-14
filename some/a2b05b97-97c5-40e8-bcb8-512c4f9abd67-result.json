@@ -1,0 +1,47 @@
+{
+	"uuid": "a2b05b97-97c5-40e8-bcb8-512c4f9abd67",
+	"historyId": "Док. возврат товара > открыть форму списка.открытие формы списка возврат товара",
+	"name": "открытие формы списка возврат товара",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444363,
+	"stop": 1731468444363,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открытие формы списка возврат товара"
+		},
+		{
+			"name": "epic",
+			"value": "Док. возврат товара > открыть форму списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док. возврат товара > открыть форму списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

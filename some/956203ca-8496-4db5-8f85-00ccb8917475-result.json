@@ -1,0 +1,47 @@
+{
+	"uuid": "956203ca-8496-4db5-8f85-00ccb8917475",
+	"historyId": "спр.ИПА Кнопка перейти в декларацию.Нажать кнопку перейти в декларацию в справ. ИПА",
+	"name": "Нажать кнопку перейти в декларацию в справ. ИПА",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444846,
+	"stop": 1731468444846,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Нажать кнопку перейти в декларацию в справ. ИПА"
+		},
+		{
+			"name": "epic",
+			"value": "спр.ИПА Кнопка перейти в декларацию"
+		},
+		{
+			"name": "suite",
+			"value": "спр.ИПА Кнопка перейти в декларацию"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

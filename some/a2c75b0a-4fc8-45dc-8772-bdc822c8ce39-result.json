@@ -1,0 +1,47 @@
+{
+	"uuid": "a2c75b0a-4fc8-45dc-8772-bdc822c8ce39",
+	"historyId": "Нажатие кнопки создатьн ачисление в справочнике информайция по авто.Нажатие кнопки",
+	"name": "Нажатие кнопки",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444840,
+	"stop": 1731468444840,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Нажатие кнопки"
+		},
+		{
+			"name": "epic",
+			"value": "Нажатие кнопки создатьн ачисление в справочнике информайция по авто"
+		},
+		{
+			"name": "suite",
+			"value": "Нажатие кнопки создатьн ачисление в справочнике информайция по авто"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

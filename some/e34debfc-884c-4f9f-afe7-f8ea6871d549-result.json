@@ -1,0 +1,47 @@
+{
+	"uuid": "e34debfc-884c-4f9f-afe7-f8ea6871d549",
+	"historyId": "Создание Контрагента Через Информацию По Авто.Создание контрагента",
+	"name": "Создание контрагента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444833,
+	"stop": 1731468444833,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание контрагента"
+		},
+		{
+			"name": "epic",
+			"value": "Создание Контрагента Через Информацию По Авто"
+		},
+		{
+			"name": "suite",
+			"value": "Создание Контрагента Через Информацию По Авто"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

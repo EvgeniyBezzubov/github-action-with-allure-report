@@ -1,0 +1,47 @@
+{
+	"uuid": "eaa4b1a6-e648-4c58-9a2f-532012d81b8e",
+	"historyId": "Спраочник Виды начислений и удержаний.тест Спр.Виды начислений и удержаний",
+	"name": "тест Спр.Виды начислений и удержаний",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444717,
+	"stop": 1731468444717,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "тест Спр.Виды начислений и удержаний"
+		},
+		{
+			"name": "epic",
+			"value": "Спраочник Виды начислений и удержаний"
+		},
+		{
+			"name": "suite",
+			"value": "Спраочник Виды начислений и удержаний"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "c363da32-e6ef-4630-8a3e-5cde6ba25bb6",
+	"historyId": "док. Счёт на оплату> форма элемента> тест кнопок изменить.Открытие",
+	"name": "Открытие",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445072,
+	"stop": 1731468445072,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие"
+		},
+		{
+			"name": "epic",
+			"value": "док. Счёт на оплату> форма элемента> тест кнопок изменить"
+		},
+		{
+			"name": "suite",
+			"value": "док. Счёт на оплату> форма элемента> тест кнопок изменить"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

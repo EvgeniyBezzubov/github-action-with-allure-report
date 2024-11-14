@@ -1,0 +1,47 @@
+{
+	"uuid": "30ddd48c-d545-4794-a9fb-2419757bf2f3",
+	"historyId": "Отчёт Доходы и Расходы.открываю отчёт Доходы и расходы, нажимаю сформировать",
+	"name": "открываю отчёт Доходы и расходы, нажимаю сформировать",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445170,
+	"stop": 1731468445170,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открываю отчёт Доходы и расходы, нажимаю сформировать"
+		},
+		{
+			"name": "epic",
+			"value": "Отчёт Доходы и Расходы"
+		},
+		{
+			"name": "suite",
+			"value": "Отчёт Доходы и Расходы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "6ae79270-0919-4ae7-9be9-e6a3c93914bb",
+	"historyId": "Док.Отчёт Агента> тч. услуги> добавить строку.Добавить строку в тч Услуги документа отчёт агента",
+	"name": "Добавить строку в тч Услуги документа отчёт агента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444464,
+	"stop": 1731468444464,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Добавить строку в тч Услуги документа отчёт агента"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Отчёт Агента> тч. услуги> добавить строку"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Отчёт Агента> тч. услуги> добавить строку"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

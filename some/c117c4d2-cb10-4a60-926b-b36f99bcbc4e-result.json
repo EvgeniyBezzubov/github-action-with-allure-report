@@ -1,0 +1,47 @@
+{
+	"uuid": "c117c4d2-cb10-4a60-926b-b36f99bcbc4e",
+	"historyId": "док. Зарплата платёжные ведомости.тест кнопок",
+	"name": "тест кнопок",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444975,
+	"stop": 1731468444975,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "тест кнопок"
+		},
+		{
+			"name": "epic",
+			"value": "док. Зарплата платёжные ведомости"
+		},
+		{
+			"name": "suite",
+			"value": "док. Зарплата платёжные ведомости"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

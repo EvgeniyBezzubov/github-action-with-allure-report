@@ -1,0 +1,47 @@
+{
+	"uuid": "3ba305e7-fc18-4317-914c-0eb8b8cbcb6f",
+	"historyId": "Спр.Контракты Создание элемента.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445348,
+	"stop": 1731468445348,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Контракты Создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Контракты Создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

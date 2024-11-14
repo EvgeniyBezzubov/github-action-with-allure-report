@@ -1,0 +1,47 @@
+{
+	"uuid": "06de54e0-4b7c-43eb-a3e1-c02e6b7d5f88",
+	"historyId": "Спр. Контрагенты> форма списка> Купить > заказ поставщику.Открытие спарвочника, нажатие кнопки.",
+	"name": "Открытие спарвочника, нажатие кнопки.",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444787,
+	"stop": 1731468444787,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие спарвочника, нажатие кнопки."
+		},
+		{
+			"name": "epic",
+			"value": "Спр. Контрагенты> форма списка> Купить > заказ поставщику"
+		},
+		{
+			"name": "suite",
+			"value": "Спр. Контрагенты> форма списка> Купить > заказ поставщику"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

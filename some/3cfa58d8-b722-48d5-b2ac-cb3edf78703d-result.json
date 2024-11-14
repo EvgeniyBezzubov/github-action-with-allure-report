@@ -1,0 +1,47 @@
+{
+	"uuid": "3cfa58d8-b722-48d5-b2ac-cb3edf78703d",
+	"historyId": "док. Расходная накладная > форме элемента > тч. товары и услуги > Зполнить по резервам.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444296,
+	"stop": 1731468444296,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "док. Расходная накладная > форме элемента > тч. товары и услуги > Зполнить по резервам"
+		},
+		{
+			"name": "suite",
+			"value": "док. Расходная накладная > форме элемента > тч. товары и услуги > Зполнить по резервам"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

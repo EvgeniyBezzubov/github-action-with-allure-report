@@ -1,0 +1,47 @@
+{
+	"uuid": "d407737f-0d2f-4b0d-aca0-27b20f7478d7",
+	"historyId": "спр.Номенклатура > Создать расходную накладную.открыть спр.номенклатура, создать расходную накладную",
+	"name": "открыть спр.номенклатура, создать расходную накладную",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444749,
+	"stop": 1731468444749,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открыть спр.номенклатура, создать расходную накладную"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Номенклатура > Создать расходную накладную"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Номенклатура > Создать расходную накладную"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

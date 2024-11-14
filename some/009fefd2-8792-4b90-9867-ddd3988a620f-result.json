@@ -1,0 +1,47 @@
+{
+	"uuid": "009fefd2-8792-4b90-9867-ddd3988a620f",
+	"historyId": "Тест создания элемента справочника на авто с физлицом.Тест на изменение физлица",
+	"name": "Тест на изменение физлица",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444224,
+	"stop": 1731468444224,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест на изменение физлица"
+		},
+		{
+			"name": "epic",
+			"value": "Тест создания элемента справочника на авто с физлицом"
+		},
+		{
+			"name": "suite",
+			"value": "Тест создания элемента справочника на авто с физлицом"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

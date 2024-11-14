@@ -1,0 +1,47 @@
+{
+	"uuid": "e6256731-b917-4abb-b9cd-10c0b1481185",
+	"historyId": "Док.Поступление в кассу.док.Поступление",
+	"name": "док.Поступление",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445000,
+	"stop": 1731468445000,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Поступление"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление в кассу"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление в кассу"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "01bc7879-ecea-4bca-be15-05779e13dac4",
+	"historyId": "Док. Расход со счёта, форма списка.Док. Расход со счёта, форма списка, кнопки \"создать копированием\",\"Заполнение\", \"Отчёты\"",
+	"name": "Док. Расход со счёта, форма списка, кнопки \"создать копированием\",\"Заполнение\", \"Отчёты\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445059,
+	"stop": 1731468445059,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док. Расход со счёта, форма списка, кнопки \"создать копированием\",\"Заполнение\", \"Отчёты\""
+		},
+		{
+			"name": "epic",
+			"value": "Док. Расход со счёта, форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док. Расход со счёта, форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

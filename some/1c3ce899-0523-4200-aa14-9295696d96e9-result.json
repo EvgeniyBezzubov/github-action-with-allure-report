@@ -1,0 +1,47 @@
+{
+	"uuid": "1c3ce899-0523-4200-aa14-9295696d96e9",
+	"historyId": "Док.Расходная накладная заполнение..Заполнение справочника клиенты",
+	"name": "Заполнение справочника клиенты",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445111,
+	"stop": 1731468445111,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Заполнение справочника клиенты"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Расходная накладная заполнение."
+		},
+		{
+			"name": "suite",
+			"value": "Док.Расходная накладная заполнение."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

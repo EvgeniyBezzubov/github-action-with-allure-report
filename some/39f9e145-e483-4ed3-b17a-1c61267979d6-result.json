@@ -1,0 +1,47 @@
+{
+	"uuid": "39f9e145-e483-4ed3-b17a-1c61267979d6",
+	"historyId": "Тест повторного выбора из справочника ИПА.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444710,
+	"stop": 1731468444710,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Тест повторного выбора из справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест повторного выбора из справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

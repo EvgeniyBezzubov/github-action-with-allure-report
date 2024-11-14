@@ -1,0 +1,47 @@
+{
+	"uuid": "1d63bce9-864a-47f7-b60b-ba8862a6c769",
+	"historyId": "спр.Маршруты создание элемента.спр.Маршруты",
+	"name": "спр.Маршруты",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445368,
+	"stop": 1731468445368,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.Маршруты"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Маршруты создание элемента"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Маршруты создание элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

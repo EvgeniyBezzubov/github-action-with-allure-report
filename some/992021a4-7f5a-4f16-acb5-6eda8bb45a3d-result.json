@@ -1,0 +1,47 @@
+{
+	"uuid": "992021a4-7f5a-4f16-acb5-6eda8bb45a3d",
+	"historyId": "Документы > Заявка сбктс > создание и заполнение.Создание заявки, проведение, отмена проведения",
+	"name": "Создание заявки, проведение, отмена проведения",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444604,
+	"stop": 1731468444604,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание заявки, проведение, отмена проведения"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка сбктс > создание и заполнение"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка сбктс > создание и заполнение"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "79b9b938-7594-40df-aee7-c0d01c1dcd9c",
+	"historyId": "Док.Перемещение денежных средств.Док.Перемещение",
+	"name": "Док.Перемещение",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444866,
+	"stop": 1731468444866,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Перемещение"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Перемещение денежных средств"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Перемещение денежных средств"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

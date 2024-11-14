@@ -1,0 +1,47 @@
+{
+	"uuid": "a4689f83-4f56-43ac-9cb6-d4ac0cd64b79",
+	"historyId": "Подсистема клиенты> Все отчёты > форма.Подсистема клиенты> Все отчёты > форма выбора отчётов",
+	"name": "Подсистема клиенты> Все отчёты > форма выбора отчётов",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445143,
+	"stop": 1731468445143,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Подсистема клиенты> Все отчёты > форма выбора отчётов"
+		},
+		{
+			"name": "epic",
+			"value": "Подсистема клиенты> Все отчёты > форма"
+		},
+		{
+			"name": "suite",
+			"value": "Подсистема клиенты> Все отчёты > форма"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

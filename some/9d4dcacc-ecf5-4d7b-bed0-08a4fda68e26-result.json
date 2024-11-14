@@ -1,0 +1,47 @@
+{
+	"uuid": "9d4dcacc-ecf5-4d7b-bed0-08a4fda68e26",
+	"historyId": "док.Табели, форма списка, форма элемента.док.Табели, форма элемента",
+	"name": "док.Табели, форма элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445085,
+	"stop": 1731468445085,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Табели, форма элемента"
+		},
+		{
+			"name": "epic",
+			"value": "док.Табели, форма списка, форма элемента"
+		},
+		{
+			"name": "suite",
+			"value": "док.Табели, форма списка, форма элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

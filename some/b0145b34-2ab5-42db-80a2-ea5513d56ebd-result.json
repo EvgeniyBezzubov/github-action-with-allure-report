@@ -1,0 +1,47 @@
+{
+	"uuid": "b0145b34-2ab5-42db-80a2-ea5513d56ebd",
+	"historyId": "Док.Отчёт Агента, тест сумм.Док.Отчёт Агента, тест сумм",
+	"name": "Док.Отчёт Агента, тест сумм",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444457,
+	"stop": 1731468444457,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Отчёт Агента, тест сумм"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Отчёт Агента, тест сумм"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Отчёт Агента, тест сумм"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

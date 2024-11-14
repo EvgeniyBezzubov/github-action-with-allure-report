@@ -1,0 +1,47 @@
+{
+	"uuid": "012e985d-1c30-4921-b872-a8345a471239",
+	"historyId": "Док.Корректировка > Поле операция.Открываю док.Корректировку долга > поле операция",
+	"name": "Открываю док.Корректировку долга > поле операция",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445256,
+	"stop": 1731468445256,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открываю док.Корректировку долга > поле операция"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Корректировка > Поле операция"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Корректировка > Поле операция"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

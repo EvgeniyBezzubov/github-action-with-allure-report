@@ -1,0 +1,47 @@
+{
+	"uuid": "af727db6-f802-46d7-8f4e-b6a2ec1ce357",
+	"historyId": "Переход в справочник контрагенты и открытие счёта учёта.Открыть счёт учёта",
+	"name": "Открыть счёт учёта",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444643,
+	"stop": 1731468444643,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открыть счёт учёта"
+		},
+		{
+			"name": "epic",
+			"value": "Переход в справочник контрагенты и открытие счёта учёта"
+		},
+		{
+			"name": "suite",
+			"value": "Переход в справочник контрагенты и открытие счёта учёта"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

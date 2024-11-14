@@ -1,0 +1,47 @@
+{
+	"uuid": "4f050713-9d3e-4560-9578-c9ac2b25bdab",
+	"historyId": "Док.Поступление на счёт форма списка.Док.Поступление на счёт форма списка, конпка сформировать отчет",
+	"name": "Док.Поступление на счёт форма списка, конпка сформировать отчет",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444289,
+	"stop": 1731468444289,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Поступление на счёт форма списка, конпка сформировать отчет"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

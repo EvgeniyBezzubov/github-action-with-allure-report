@@ -1,0 +1,47 @@
+{
+	"uuid": "471a57b6-0a0d-4c74-af66-3316d85b2a0c",
+	"historyId": "Спр.Классификаторы ТН Вэд, создание.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445341,
+	"stop": 1731468445341,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Классификаторы ТН Вэд, создание"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Классификаторы ТН Вэд, создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,51 @@
+{
+	"uuid": "1ea84720-7818-4441-a7a1-c0aff9225834",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Графики работы\" (ГрафикиРаботы)",
+	"name": "Открытие формы списка справочника \"Графики работы\" (ГрафикиРаботы)",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444723,
+	"stop": 1731468444723,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Графики работы\" (ГрафикиРаботы)"
+		},
+		{
+			"name": "epic",
+			"value": "Дымовые тесты - Справочники - ФормаСписка"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты - Справочники - ФормаСписка"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

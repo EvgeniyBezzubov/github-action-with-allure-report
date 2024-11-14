@@ -1,0 +1,47 @@
+{
+	"uuid": "a1480c41-a73b-449d-bd20-cc3b5eb4cf6f",
+	"historyId": "док.Документы по зарплате.док. документы по зарплате форма списка, тест кнопок создания на основании",
+	"name": "док. документы по зарплате форма списка, тест кнопок создания на основании",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444398,
+	"stop": 1731468444398,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док. документы по зарплате форма списка, тест кнопок создания на основании"
+		},
+		{
+			"name": "epic",
+			"value": "док.Документы по зарплате"
+		},
+		{
+			"name": "suite",
+			"value": "док.Документы по зарплате"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

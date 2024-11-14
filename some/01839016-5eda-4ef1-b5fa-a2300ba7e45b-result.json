@@ -1,0 +1,47 @@
+{
+	"uuid": "01839016-5eda-4ef1-b5fa-a2300ba7e45b",
+	"historyId": "Док.Корректировка долга> Кнопка заполнить на основании.открываю корректировку, нажимаю на поле покупатель",
+	"name": "открываю корректировку, нажимаю на поле покупатель",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444444,
+	"stop": 1731468444444,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открываю корректировку, нажимаю на поле покупатель"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Корректировка долга> Кнопка заполнить на основании"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Корректировка долга> Кнопка заполнить на основании"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

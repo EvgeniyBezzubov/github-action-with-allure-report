@@ -1,0 +1,47 @@
+{
+	"uuid": "a2a42be2-59d7-46fb-ad8d-5652d92cc0b2",
+	"historyId": "Сделать отбор по клиенту на форме списка справочника ИПА.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444669,
+	"stop": 1731468444669,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Сделать отбор по клиенту на форме списка справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Сделать отбор по клиенту на форме списка справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

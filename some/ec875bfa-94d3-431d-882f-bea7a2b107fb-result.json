@@ -1,0 +1,47 @@
+{
+	"uuid": "ec875bfa-94d3-431d-882f-bea7a2b107fb",
+	"historyId": "спр.Грузополучатели > создать и заполнитьэлемент.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445308,
+	"stop": 1731468445308,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Грузополучатели > создать и заполнитьэлемент"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Грузополучатели > создать и заполнитьэлемент"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

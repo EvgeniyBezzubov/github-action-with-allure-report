@@ -1,0 +1,47 @@
+{
+	"uuid": "112bc89b-bac2-4a85-9ac1-dbef434f702a",
+	"historyId": "Док.Заказ поставщику.Док.Заказ поставщику, создание элемента",
+	"name": "Док.Заказ поставщику, создание элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444210,
+	"stop": 1731468444210,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ поставщику, создание элемента"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ поставщику"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ поставщику"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

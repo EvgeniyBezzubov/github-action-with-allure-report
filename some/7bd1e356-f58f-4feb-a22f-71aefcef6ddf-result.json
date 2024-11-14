@@ -1,0 +1,47 @@
+{
+	"uuid": "7bd1e356-f58f-4feb-a22f-71aefcef6ddf",
+	"historyId": "ТестКнопки ОбработкаГрупповоеНачислениеГрупповоеНачисление2.Открытие номенклатуры",
+	"name": "Открытие номенклатуры",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444676,
+	"stop": 1731468444676,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие номенклатуры"
+		},
+		{
+			"name": "epic",
+			"value": "ТестКнопки ОбработкаГрупповоеНачислениеГрупповоеНачисление2"
+		},
+		{
+			"name": "suite",
+			"value": "ТестКнопки ОбработкаГрупповоеНачислениеГрупповоеНачисление2"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

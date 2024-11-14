@@ -1,0 +1,47 @@
+{
+	"uuid": "33c5adde-d544-4438-94ed-70f2dcd1e077",
+	"historyId": "Спр.Валюты.спр.валюты > загрузить курсы",
+	"name": "спр.валюты > загрузить курсы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445288,
+	"stop": 1731468445288,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.валюты > загрузить курсы"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Валюты"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Валюты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

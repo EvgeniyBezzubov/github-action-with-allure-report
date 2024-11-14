@@ -1,0 +1,47 @@
+{
+	"uuid": "a60b5e24-2e6d-4a7a-89f4-8ae3a0f50160",
+	"historyId": "Док.Заказ покупателя.Док.Заказ покупателя, нажать печать",
+	"name": "Док.Заказ покупателя, нажать печать",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444425,
+	"stop": 1731468444425,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ покупателя, нажать печать"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

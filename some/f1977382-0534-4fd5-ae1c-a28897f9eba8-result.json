@@ -1,0 +1,47 @@
+{
+	"uuid": "f1977382-0534-4fd5-ae1c-a28897f9eba8",
+	"historyId": "Спр.Органы выдачи паспорта Создание.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445401,
+	"stop": 1731468445401,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Органы выдачи паспорта Создание"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Органы выдачи паспорта Создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

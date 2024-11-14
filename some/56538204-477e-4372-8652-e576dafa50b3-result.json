@@ -1,0 +1,47 @@
+{
+	"uuid": "56538204-477e-4372-8652-e576dafa50b3",
+	"historyId": "Открыть Отчёт Рачёты с подчиненными и сформировать.Отчёт, расчёты с подчиненными, сформировать.",
+	"name": "Отчёт, расчёты с подчиненными, сформировать.",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445250,
+	"stop": 1731468445250,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Отчёт, расчёты с подчиненными, сформировать."
+		},
+		{
+			"name": "epic",
+			"value": "Открыть Отчёт Рачёты с подчиненными и сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Открыть Отчёт Рачёты с подчиненными и сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "de18acf2-eb05-4d6e-9263-d90a366f7b9b",
+	"historyId": "док.Расход из кассы(подотчётнику) с контролем.док.Расход из кассы(подотчётнику) с контролем",
+	"name": "док.Расход из кассы(подотчётнику) с контролем",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445039,
+	"stop": 1731468445039,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Расход из кассы(подотчётнику) с контролем"
+		},
+		{
+			"name": "epic",
+			"value": "док.Расход из кассы(подотчётнику) с контролем"
+		},
+		{
+			"name": "suite",
+			"value": "док.Расход из кассы(подотчётнику) с контролем"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

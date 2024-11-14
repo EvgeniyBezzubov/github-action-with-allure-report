@@ -1,0 +1,47 @@
+{
+	"uuid": "d2cf2261-11e1-4274-8434-4e3307be727f",
+	"historyId": "Тест \"Реестр ТПО\", открытие формы, кнопка сформировать.Тест формирования отчёта \"Реестр ТПО\"",
+	"name": "Тест формирования отчёта \"Реестр ТПО\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445223,
+	"stop": 1731468445223,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"Реестр ТПО\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест \"Реестр ТПО\", открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Тест \"Реестр ТПО\", открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

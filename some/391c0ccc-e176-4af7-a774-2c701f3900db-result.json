@@ -1,0 +1,47 @@
+{
+	"uuid": "391c0ccc-e176-4af7-a774-2c701f3900db",
+	"historyId": "Спр.Физ лица в работе , открыть форму спискп.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444781,
+	"stop": 1731468444781,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Физ лица в работе , открыть форму спискп"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Физ лица в работе , открыть форму спискп"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

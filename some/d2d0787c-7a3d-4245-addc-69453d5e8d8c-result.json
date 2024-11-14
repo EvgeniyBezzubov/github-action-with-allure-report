@@ -1,0 +1,47 @@
+{
+	"uuid": "d2d0787c-7a3d-4245-addc-69453d5e8d8c",
+	"historyId": "Тест оформленные ТПО, открытие формы, кнопка сформировать.Тест формирования отчёта \"оформленные ТПО\"",
+	"name": "Тест формирования отчёта \"оформленные ТПО\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445190,
+	"stop": 1731468445190,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"оформленные ТПО\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест оформленные ТПО, открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Тест оформленные ТПО, открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

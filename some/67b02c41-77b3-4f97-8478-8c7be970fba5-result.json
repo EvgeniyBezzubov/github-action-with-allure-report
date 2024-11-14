@@ -1,0 +1,47 @@
+{
+	"uuid": "67b02c41-77b3-4f97-8478-8c7be970fba5",
+	"historyId": "СПР.Поставщики паспортов.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445446,
+	"stop": 1731468445446,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "СПР.Поставщики паспортов"
+		},
+		{
+			"name": "suite",
+			"value": "СПР.Поставщики паспортов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

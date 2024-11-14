@@ -1,0 +1,47 @@
+{
+	"uuid": "e5a06f08-46e3-4643-bcc7-d73daea86176",
+	"historyId": "Отчёты (Вхаиморасчёты с клиентами).<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445136,
+	"stop": 1731468445136,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Отчёты (Вхаиморасчёты с клиентами)"
+		},
+		{
+			"name": "suite",
+			"value": "Отчёты (Вхаиморасчёты с клиентами)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

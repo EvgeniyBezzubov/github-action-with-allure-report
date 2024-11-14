@@ -1,0 +1,47 @@
+{
+	"uuid": "b62a9491-4d9e-44b9-a986-f051cdc78c73",
+	"historyId": "док.Счёт на оплату, форма элемента.док.Счёт на оплату, форма элемента",
+	"name": "док.Счёт на оплату, форма элемента",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444885,
+	"stop": 1731468444885,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Счёт на оплату, форма элемента"
+		},
+		{
+			"name": "epic",
+			"value": "док.Счёт на оплату, форма элемента"
+		},
+		{
+			"name": "suite",
+			"value": "док.Счёт на оплату, форма элемента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

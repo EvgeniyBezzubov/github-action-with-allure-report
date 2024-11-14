@@ -1,0 +1,47 @@
+{
+	"uuid": "a54b7c93-2807-47ec-a901-b58fedb7fadd",
+	"historyId": "Док.Расходная накладная Кнопка изменить.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444511,
+	"stop": 1731468444511,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Расходная накладная Кнопка изменить"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Расходная накладная Кнопка изменить"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

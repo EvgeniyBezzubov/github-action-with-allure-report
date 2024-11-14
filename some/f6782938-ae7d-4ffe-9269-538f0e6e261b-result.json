@@ -1,0 +1,47 @@
+{
+	"uuid": "f6782938-ae7d-4ffe-9269-538f0e6e261b",
+	"historyId": "док. Зарплата платёжные ведомости.тест фильтрации",
+	"name": "тест фильтрации",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444981,
+	"stop": 1731468444981,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "тест фильтрации"
+		},
+		{
+			"name": "epic",
+			"value": "док. Зарплата платёжные ведомости"
+		},
+		{
+			"name": "suite",
+			"value": "док. Зарплата платёжные ведомости"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

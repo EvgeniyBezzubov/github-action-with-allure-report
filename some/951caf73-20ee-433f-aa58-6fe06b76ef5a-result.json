@@ -1,0 +1,43 @@
+{
+	"uuid": "951caf73-20ee-433f-aa58-6fe06b76ef5a",
+	"historyId": "Тест Кнопки Создать Вложение в Справочнике ОУ.",
+	"name": "",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444807,
+	"stop": 1731468444807,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "epic",
+			"value": "Тест Кнопки Создать Вложение в Справочнике ОУ"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Кнопки Создать Вложение в Справочнике ОУ"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

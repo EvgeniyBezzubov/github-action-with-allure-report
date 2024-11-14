@@ -1,0 +1,47 @@
+{
+	"uuid": "66f11c79-3492-4f2a-b023-f706a83f23d2",
+	"historyId": "док.Приём на работу.док.Приём на работу, создать элемент",
+	"name": "док.Приём на работу, создать элемент",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445020,
+	"stop": 1731468445020,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Приём на работу, создать элемент"
+		},
+		{
+			"name": "epic",
+			"value": "док.Приём на работу"
+		},
+		{
+			"name": "suite",
+			"value": "док.Приём на работу"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "d254efa5-0f57-4b14-8deb-bfb16d8165ae",
+	"historyId": "СПР.ОУ создание элементов.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445407,
+	"stop": 1731468445407,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "СПР.ОУ создание элементов"
+		},
+		{
+			"name": "suite",
+			"value": "СПР.ОУ создание элементов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "7859e55a-e42b-4538-9132-a6e83a43df49",
+	"historyId": "Спр.Пользователи сервиса, создать элемент.Спр.Пользователи сервиса, создать элемент",
+	"name": "Спр.Пользователи сервиса, создать элемент",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445433,
+	"stop": 1731468445433,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Пользователи сервиса, создать элемент"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "6dc938a1-05cf-49dd-9499-4b29965e59cb",
+	"historyId": "Тест Конпки Создать рассылку отчётов.Создание статуса Авто",
+	"name": "Создание статуса Авто",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445263,
+	"stop": 1731468445263,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание статуса Авто"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Конпки Создать рассылку отчётов"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Конпки Создать рассылку отчётов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

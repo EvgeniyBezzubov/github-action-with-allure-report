@@ -1,0 +1,47 @@
+{
+	"uuid": "05660653-58c4-4356-99fc-03a007d5810e",
+	"historyId": "Док. Приходная накладная > Печать > Приходная накладная(в розничных ценах).<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444477,
+	"stop": 1731468444477,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док. Приходная накладная > Печать > Приходная накладная(в розничных ценах)"
+		},
+		{
+			"name": "suite",
+			"value": "Док. Приходная накладная > Печать > Приходная накладная(в розничных ценах)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

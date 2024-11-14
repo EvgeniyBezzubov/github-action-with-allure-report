@@ -1,0 +1,47 @@
+{
+	"uuid": "8fe64247-5ea3-4011-a959-37906a7a4226",
+	"historyId": "док. Расходная накладная тест на сложение сумм.Док. расходная накладная, тест на сложение сумм",
+	"name": "Док. расходная накладная, тест на сложение сумм",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445052,
+	"stop": 1731468445052,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док. расходная накладная, тест на сложение сумм"
+		},
+		{
+			"name": "epic",
+			"value": "док. Расходная накладная тест на сложение сумм"
+		},
+		{
+			"name": "suite",
+			"value": "док. Расходная накладная тест на сложение сумм"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

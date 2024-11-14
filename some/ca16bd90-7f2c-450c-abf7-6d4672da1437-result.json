@@ -1,0 +1,47 @@
+{
+	"uuid": "ca16bd90-7f2c-450c-abf7-6d4672da1437",
+	"historyId": "Тест Кнопки выбора Кузова элемента справочника ИПА.Захожу в спавочник ИПА, нажимаю кнопку выбора кузова",
+	"name": "Захожу в спавочник ИПА, нажимаю кнопку выбора кузова",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444636,
+	"stop": 1731468444636,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Захожу в спавочник ИПА, нажимаю кнопку выбора кузова"
+		},
+		{
+			"name": "epic",
+			"value": "Тест Кнопки выбора Кузова элемента справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест Кнопки выбора Кузова элемента справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "46a4ad36-d617-4ee6-aa0b-30eaca85b916",
+	"historyId": "спр.Лаборатории.спр.Лаборатории",
+	"name": "спр.Лаборатории",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445355,
+	"stop": 1731468445355,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "спр.Лаборатории"
+		},
+		{
+			"name": "epic",
+			"value": "спр.Лаборатории"
+		},
+		{
+			"name": "suite",
+			"value": "спр.Лаборатории"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

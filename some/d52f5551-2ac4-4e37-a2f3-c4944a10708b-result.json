@@ -1,0 +1,47 @@
+{
+	"uuid": "d52f5551-2ac4-4e37-a2f3-c4944a10708b",
+	"historyId": "док.Приходная накладная форма списка.нажимаем \"Создать на основании расход со счёта\"",
+	"name": "нажимаем \"Создать на основании расход со счёта\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444491,
+	"stop": 1731468444491,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "нажимаем \"Создать на основании расход со счёта\""
+		},
+		{
+			"name": "epic",
+			"value": "док.Приходная накладная форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "док.Приходная накладная форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

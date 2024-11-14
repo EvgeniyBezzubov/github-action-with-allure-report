@@ -1,0 +1,47 @@
+{
+	"uuid": "2d2bc6f2-4994-45ed-8cbe-3530b001e727",
+	"historyId": "Отчёт Расход денег.Подсистема финансы> Денежные средства> Сформировать отчёт",
+	"name": "Подсистема финансы> Денежные средства> Сформировать отчёт",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445243,
+	"stop": 1731468445243,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Подсистема финансы> Денежные средства> Сформировать отчёт"
+		},
+		{
+			"name": "epic",
+			"value": "Отчёт Расход денег"
+		},
+		{
+			"name": "suite",
+			"value": "Отчёт Расход денег"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

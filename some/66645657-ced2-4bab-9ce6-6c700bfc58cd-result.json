@@ -1,0 +1,47 @@
+{
+	"uuid": "66645657-ced2-4bab-9ce6-6c700bfc58cd",
+	"historyId": "док. Документы по кадрам, открытие формы.док.Документы по кадрам открытие формы",
+	"name": "док.Документы по кадрам открытие формы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444405,
+	"stop": 1731468444405,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Документы по кадрам открытие формы"
+		},
+		{
+			"name": "epic",
+			"value": "док. Документы по кадрам, открытие формы"
+		},
+		{
+			"name": "suite",
+			"value": "док. Документы по кадрам, открытие формы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

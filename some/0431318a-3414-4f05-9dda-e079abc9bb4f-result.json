@@ -1,0 +1,47 @@
+{
+	"uuid": "0431318a-3414-4f05-9dda-e079abc9bb4f",
+	"historyId": "Спр.ОУ тест фильтрации.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445420,
+	"stop": 1731468445420,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.ОУ тест фильтрации"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.ОУ тест фильтрации"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

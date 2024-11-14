@@ -1,0 +1,47 @@
+{
+	"uuid": "3fa8fb6c-c7de-48ac-b67f-46e3ff0a5f7c",
+	"historyId": "Док.возвраты покупателей.Док.возвраты покупателей, сложение сумм",
+	"name": "Док.возвраты покупателей, сложение сумм",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444937,
+	"stop": 1731468444937,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.возвраты покупателей, сложение сумм"
+		},
+		{
+			"name": "epic",
+			"value": "Док.возвраты покупателей"
+		},
+		{
+			"name": "suite",
+			"value": "Док.возвраты покупателей"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

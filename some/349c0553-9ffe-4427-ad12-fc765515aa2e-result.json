@@ -1,0 +1,47 @@
+{
+	"uuid": "349c0553-9ffe-4427-ad12-fc765515aa2e",
+	"historyId": "подсисистема клиет > дополнительные отчёты >  форма выбора.подсисистема клиет > дополнительные отчёты >  форма выбора",
+	"name": "подсисистема клиет > дополнительные отчёты >  форма выбора",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445163,
+	"stop": 1731468445163,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "подсисистема клиет > дополнительные отчёты >  форма выбора"
+		},
+		{
+			"name": "epic",
+			"value": "подсисистема клиет > дополнительные отчёты >  форма выбора"
+		},
+		{
+			"name": "suite",
+			"value": "подсисистема клиет > дополнительные отчёты >  форма выбора"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

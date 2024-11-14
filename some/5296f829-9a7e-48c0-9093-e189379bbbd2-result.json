@@ -1,0 +1,47 @@
+{
+	"uuid": "5296f829-9a7e-48c0-9093-e189379bbbd2",
+	"historyId": "Документы > Заявка сбктс > Долполнительно > групповое Редактирование.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444584,
+	"stop": 1731468444584,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Документы > Заявка сбктс > Долполнительно > групповое Редактирование"
+		},
+		{
+			"name": "suite",
+			"value": "Документы > Заявка сбктс > Долполнительно > групповое Редактирование"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

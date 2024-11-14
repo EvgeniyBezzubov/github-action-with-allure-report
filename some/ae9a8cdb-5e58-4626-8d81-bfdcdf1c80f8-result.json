@@ -1,0 +1,47 @@
+{
+	"uuid": "ae9a8cdb-5e58-4626-8d81-bfdcdf1c80f8",
+	"historyId": "Док.Заказ покупателя.Док.Заказ покупателя, нажать  тч. установить цены по виду",
+	"name": "Док.Заказ покупателя, нажать  тч. установить цены по виду",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444431,
+	"stop": 1731468444431,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ покупателя, нажать  тч. установить цены по виду"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "a5b6e33f-1825-47df-91b2-0fadaa64dd61",
+	"historyId": "Док.Поступление на счёт форма списка.Док.Поступление на счёт форма списка, фильтрация",
+	"name": "Док.Поступление на счёт форма списка, фильтрация",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445013,
+	"stop": 1731468445013,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Поступление на счёт форма списка, фильтрация"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление на счёт форма списка"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

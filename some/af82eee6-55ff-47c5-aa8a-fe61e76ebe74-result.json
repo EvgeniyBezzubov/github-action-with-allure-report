@@ -1,0 +1,47 @@
+{
+	"uuid": "af82eee6-55ff-47c5-aa8a-fe61e76ebe74",
+	"historyId": "Тест отчёт ТП, открытие формы, кнопка сформировать.Тест формирования отчёта \"Отчёт ТП\"",
+	"name": "Тест формирования отчёта \"Отчёт ТП\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445236,
+	"stop": 1731468445236,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"Отчёт ТП\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт ТП, открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт ТП, открытие формы, кнопка сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

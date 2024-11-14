@@ -1,0 +1,47 @@
+{
+	"uuid": "2bfd6ef1-6db9-4d78-bb13-4c8d749ebd3a",
+	"historyId": "Тест отчёт Выпуски инпекторов, сформировать.Тест нажатия кнопки всех кнопочек отчёта Выпуски инпекторов",
+	"name": "Тест нажатия кнопки всех кнопочек отчёта Выпуски инпекторов",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444690,
+	"stop": 1731468444690,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест нажатия кнопки всех кнопочек отчёта Выпуски инпекторов"
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт Выпуски инпекторов, сформировать"
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт Выпуски инпекторов, сформировать"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

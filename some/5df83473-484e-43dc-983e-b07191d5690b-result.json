@@ -1,0 +1,47 @@
+{
+	"uuid": "5df83473-484e-43dc-983e-b07191d5690b",
+	"historyId": "Док.Заказы покупателей > Форма элемента > Возврат Поставщику.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444537,
+	"stop": 1731468444537,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказы покупателей > Форма элемента > Возврат Поставщику"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказы покупателей > Форма элемента > Возврат Поставщику"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "6d04d4cb-8853-4879-abe9-941b27119313",
+	"historyId": "Спр.Информация по авто  поле показать всё.Ввод поля клиент при создании авто",
+	"name": "Ввод поля клиент при создании авто",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444217,
+	"stop": 1731468444217,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Ввод поля клиент при создании авто"
+		},
+		{
+			"name": "epic",
+			"value": "Спр.Информация по авто  поле показать всё"
+		},
+		{
+			"name": "suite",
+			"value": "Спр.Информация по авто  поле показать всё"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

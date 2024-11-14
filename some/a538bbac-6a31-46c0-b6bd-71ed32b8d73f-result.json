@@ -1,0 +1,47 @@
+{
+	"uuid": "a538bbac-6a31-46c0-b6bd-71ed32b8d73f",
+	"historyId": "Тест отчёт Реестр Автоком.отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\"",
+	"name": "отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445210,
+	"stop": 1731468445210,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "отчёт реестр автоком, кнопка \"сформировать\", кнопка \"отправить\""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт Реестр Автоком"
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт Реестр Автоком"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

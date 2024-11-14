@@ -1,0 +1,47 @@
+{
+	"uuid": "5c95417f-6f60-446a-91c1-02bb23e194eb",
+	"historyId": "док.Групповое поступление.открыть групповое поступление, проверить кнопки подгруппы изменить",
+	"name": "открыть групповое поступление, проверить кнопки подгруппы изменить",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444250,
+	"stop": 1731468444250,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "открыть групповое поступление, проверить кнопки подгруппы изменить"
+		},
+		{
+			"name": "epic",
+			"value": "док.Групповое поступление"
+		},
+		{
+			"name": "suite",
+			"value": "док.Групповое поступление"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

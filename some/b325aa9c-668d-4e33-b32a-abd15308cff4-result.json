@@ -1,0 +1,47 @@
+{
+	"uuid": "b325aa9c-668d-4e33-b32a-abd15308cff4",
+	"historyId": "док.Расход из кассы(Зарплата сотруднику).док.Расход из кассы",
+	"name": "док.Расход из кассы",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445026,
+	"stop": 1731468445026,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Расход из кассы"
+		},
+		{
+			"name": "epic",
+			"value": "док.Расход из кассы(Зарплата сотруднику)"
+		},
+		{
+			"name": "suite",
+			"value": "док.Расход из кассы(Зарплата сотруднику)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

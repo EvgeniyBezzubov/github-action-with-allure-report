@@ -1,0 +1,47 @@
+{
+	"uuid": "9c0bb259-03dd-42e2-bec8-339895d006a4",
+	"historyId": "Док. Расход из кассы с контролем(Зарплата по ведомости).Док. Расход из кассы с контролем(Зарплата по ведомости)",
+	"name": "Док. Расход из кассы с контролем(Зарплата по ведомости)",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444505,
+	"stop": 1731468444505,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док. Расход из кассы с контролем(Зарплата по ведомости)"
+		},
+		{
+			"name": "epic",
+			"value": "Док. Расход из кассы с контролем(Зарплата по ведомости)"
+		},
+		{
+			"name": "suite",
+			"value": "Док. Расход из кассы с контролем(Зарплата по ведомости)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

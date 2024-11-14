@@ -1,0 +1,47 @@
+{
+	"uuid": "efaa19a9-ed44-4af3-81d4-f2c6ee46be92",
+	"historyId": "Док.расход со счёта форма списка, фильтрация.Док.расход со счёта форма списка, фильтрация",
+	"name": "Док.расход со счёта форма списка, фильтрация",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445065,
+	"stop": 1731468445065,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.расход со счёта форма списка, фильтрация"
+		},
+		{
+			"name": "epic",
+			"value": "Док.расход со счёта форма списка, фильтрация"
+		},
+		{
+			"name": "suite",
+			"value": "Док.расход со счёта форма списка, фильтрация"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

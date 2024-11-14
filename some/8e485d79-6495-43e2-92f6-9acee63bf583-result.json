@@ -1,0 +1,47 @@
+{
+	"uuid": "8e485d79-6495-43e2-92f6-9acee63bf583",
+	"historyId": "Док.Отчёт Агента> создание.Запонение шапки",
+	"name": "Запонение шапки",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444994,
+	"stop": 1731468444994,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Запонение шапки"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Отчёт Агента> создание"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Отчёт Агента> создание"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

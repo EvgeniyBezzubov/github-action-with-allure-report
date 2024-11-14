@@ -1,0 +1,47 @@
+{
+	"uuid": "06a434ff-16f6-4b5a-a2f7-ccd9d71c03ee",
+	"historyId": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \".Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \"",
+	"name": "Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445216,
+	"stop": 1731468445216,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Тест формирования отчёта \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "epic",
+			"value": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "suite",
+			"value": "Тест отчёт \"реестр Оформленных ТПО ООО Автоком \""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

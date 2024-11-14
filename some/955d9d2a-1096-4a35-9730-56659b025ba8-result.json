@@ -1,0 +1,47 @@
+{
+	"uuid": "955d9d2a-1096-4a35-9730-56659b025ba8",
+	"historyId": "док.ПриходнаяНакладная> форма списка > Кнопка возврат.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444471,
+	"stop": 1731468444471,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "док.ПриходнаяНакладная> форма списка > Кнопка возврат"
+		},
+		{
+			"name": "suite",
+			"value": "док.ПриходнаяНакладная> форма списка > Кнопка возврат"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

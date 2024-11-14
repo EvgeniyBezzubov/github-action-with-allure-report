@@ -1,0 +1,47 @@
+{
+	"uuid": "8bc71b36-442d-4979-8964-03682e64b28a",
+	"historyId": "Обработка.Обмен с банком.Обработка.Обмен с банком",
+	"name": "Обработка.Обмен с банком",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444663,
+	"stop": 1731468444663,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Обработка.Обмен с банком"
+		},
+		{
+			"name": "epic",
+			"value": "Обработка.Обмен с банком"
+		},
+		{
+			"name": "suite",
+			"value": "Обработка.Обмен с банком"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

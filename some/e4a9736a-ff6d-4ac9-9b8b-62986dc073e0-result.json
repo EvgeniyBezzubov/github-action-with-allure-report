@@ -1,0 +1,47 @@
+{
+	"uuid": "e4a9736a-ff6d-4ac9-9b8b-62986dc073e0",
+	"historyId": "Обработка Заполнение пропусков.заполнение пропуска на сайте",
+	"name": "заполнение пропуска на сайте",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444656,
+	"stop": 1731468444656,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "заполнение пропуска на сайте"
+		},
+		{
+			"name": "epic",
+			"value": "Обработка Заполнение пропусков"
+		},
+		{
+			"name": "suite",
+			"value": "Обработка Заполнение пропусков"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

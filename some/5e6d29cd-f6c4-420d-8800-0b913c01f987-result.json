@@ -1,0 +1,47 @@
+{
+	"uuid": "5e6d29cd-f6c4-420d-8800-0b913c01f987",
+	"historyId": "Док.Поступление на счет, отбор.док.Поступление на счёт, отбор",
+	"name": "док.Поступление на счёт, отбор",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445315,
+	"stop": 1731468445315,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "док.Поступление на счёт, отбор"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Поступление на счет, отбор"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Поступление на счет, отбор"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

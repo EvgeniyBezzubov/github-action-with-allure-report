@@ -1,0 +1,47 @@
+{
+	"uuid": "821fcf38-2beb-49d9-b358-108d15d0fe84",
+	"historyId": "Док.Расходная накладная Создать на основании.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444518,
+	"stop": 1731468444518,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Расходная накладная Создать на основании"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Расходная накладная Создать на основании"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

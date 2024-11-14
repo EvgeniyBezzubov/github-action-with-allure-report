@@ -1,0 +1,47 @@
+{
+	"uuid": "40b4d6f2-0405-41fb-b397-ace77d07ace6",
+	"historyId": "Док.Заказ покупателя.Док.Заказ покупателя, нажать  тч. заполнить по остаткам",
+	"name": "Док.Заказ покупателя, нажать  тч. заполнить по остаткам",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444418,
+	"stop": 1731468444418,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док.Заказ покупателя, нажать  тч. заполнить по остаткам"
+		},
+		{
+			"name": "epic",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "suite",
+			"value": "Док.Заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

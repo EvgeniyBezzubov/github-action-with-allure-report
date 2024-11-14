@@ -1,0 +1,47 @@
+{
+	"uuid": "27b9b398-3912-49b2-ab2a-96d1d13b0396",
+	"historyId": "Отчёт Себестоимость сотатков, все возможные кнопки.Формирую отчёт сво всевозможными настройками",
+	"name": "Формирую отчёт сво всевозможными настройками",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445176,
+	"stop": 1731468445176,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Формирую отчёт сво всевозможными настройками"
+		},
+		{
+			"name": "epic",
+			"value": "Отчёт Себестоимость сотатков, все возможные кнопки"
+		},
+		{
+			"name": "suite",
+			"value": "Отчёт Себестоимость сотатков, все возможные кнопки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

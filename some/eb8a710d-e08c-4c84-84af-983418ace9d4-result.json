@@ -1,0 +1,47 @@
+{
+	"uuid": "eb8a710d-e08c-4c84-84af-983418ace9d4",
+	"historyId": "Док. расходная Накладная >  кнопка Заполнить на основании.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444544,
+	"stop": 1731468444544,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Док. расходная Накладная >  кнопка Заполнить на основании"
+		},
+		{
+			"name": "suite",
+			"value": "Док. расходная Накладная >  кнопка Заполнить на основании"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,47 @@
+{
+	"uuid": "815cb1d7-d318-42f6-a964-cccb069f6dfe",
+	"historyId": "открыть отчёт расчёты с персоналом, сформировать с разными настройками.Открываю",
+	"name": "Открываю",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468445203,
+	"stop": 1731468445203,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открываю"
+		},
+		{
+			"name": "epic",
+			"value": "открыть отчёт расчёты с персоналом, сформировать с разными настройками"
+		},
+		{
+			"name": "suite",
+			"value": "открыть отчёт расчёты с персоналом, сформировать с разными настройками"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

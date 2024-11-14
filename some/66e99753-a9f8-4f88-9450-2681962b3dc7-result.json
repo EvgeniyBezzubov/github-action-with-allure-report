@@ -1,0 +1,47 @@
+{
+	"uuid": "66e99753-a9f8-4f88-9450-2681962b3dc7",
+	"historyId": "Тест всех кнопок вкладки Глонас/СБКТС Справочника ИПА.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444826,
+	"stop": 1731468444826,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "epic",
+			"value": "Тест всех кнопок вкладки Глонас/СБКТС Справочника ИПА"
+		},
+		{
+			"name": "suite",
+			"value": "Тест всех кнопок вкладки Глонас/СБКТС Справочника ИПА"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

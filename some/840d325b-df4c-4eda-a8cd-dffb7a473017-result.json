@@ -1,0 +1,47 @@
+{
+	"uuid": "840d325b-df4c-4eda-a8cd-dffb7a473017",
+	"historyId": "Открыть форму \"Ещё больше возможностей\".Открыть форму \"Ещё больше возможностей\"",
+	"name": "Открыть форму \"Ещё больше возможностей\"",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1731468444591,
+	"stop": 1731468444591,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открыть форму \"Ещё больше возможностей\""
+		},
+		{
+			"name": "epic",
+			"value": "Открыть форму \"Ещё больше возможностей\""
+		},
+		{
+			"name": "suite",
+			"value": "Открыть форму \"Ещё больше возможностей\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ТестыНеПрошедшие"
+		},
+		{
+			"name": "host",
+			"value": "autocom-dev"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
